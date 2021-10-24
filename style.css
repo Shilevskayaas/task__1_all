@@ -479,6 +479,26 @@ a, a:visited{
 .columns__about_4:hover, .columns__about_4:active{
    background: url("img/04h.svg") top/auto no-repeat;
 }
+
+
+
+.columns__requisites{
+   height: 624px;
+   margin: 99px 32px 100px 31px;
+   text-align: center;
+}
+.columns__requisites h2, h3{
+   font-family: "PF Din Text Comp Pro";
+   font-weight: normal;
+   font-size: 35px;
+   text-transform: uppercase;
+}
+.columns__requisites h3{
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+
 .columns__info{
    margin: 0 auto;
    height: 256px;
