@@ -487,15 +487,64 @@ a, a:visited{
    margin: 99px 32px 100px 31px;
    text-align: center;
 }
-.columns__requisites h2, h3{
+.columns__requisites h2, h3, .columns__upload p{
    font-family: "PF Din Text Comp Pro";
    font-weight: normal;
    font-size: 35px;
    text-transform: uppercase;
+   letter-spacing: 0.05em;
+   line-height: 48px;
+}
+.columns__requisites h2{
+   padding: 0px 0px 40px 0px;
 }
 .columns__requisites h3{
    font-size: 24px;
-   text-transform: uppercase;
+   line-height: 33px;
+}
+.columns__upload p{
+   padding: 0px 50px 0px 0px;
+   font-size: 21px;
+   line-height: 29px;
+}
+.columns__upload{
+   display: flex;
+   padding: 40px 0px 0px 0px;
+}
+.columns__button p{
+   padding: 6px 0px 0px 0px;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.5em;
+}
+.columns__property, .columns__legal{
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 30px;
+}
+.columns__property{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 0px 0px 0px;
+}
+.columns__legal{
+   padding: 30px 0px 0px 0px;
+   display: flex;
+   flex-direction: column;
+}
+.columns__string{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px 0px;
+}
+.columns__item{
+   width: 50%;
+   text-align: left;
+}
+.columns__item p{
+   font-weight: bold;
 }
 
 
