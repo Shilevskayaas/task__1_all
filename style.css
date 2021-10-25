@@ -196,21 +196,32 @@ a, a:visited{
    border-bottom: 2px solid #11305D;
    padding-bottom: 3px;
 }
+.header__app{
+   display: flex;
+   justify-content: space-between;
+}
 .header__name{
    display: flex;
    align-items: center;
    height: 50px;
-   background: url(img/app.svg) right no-repeat;
+   
    padding: 0px 42px 0px 0px;
    font-size: 19px;
 }
-.header__name:hover, .header__name:active{
+.header__name_1{
+   background: url(img/telegram.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+}
+.header__name_2{
+   background: url(img/whatsapp.svg) right no-repeat;
+}
+/*.header__name:hover, .header__name:active{
    display: flex;
    align-items: center;
    height: 50px;
    background: url(img/apph.svg) right no-repeat;
    padding: 0px 42px 0px 0px;
-}
+}*/
 .header__nav{
    width: 88%;
    color: #11305D;
@@ -517,7 +528,7 @@ a, a:visited{
    line-height: 33px;
 }
 .columns__upload p{
-   padding: 0px 50px 0px 0px;
+   padding: 25px 50px 0px 0px;
    font-size: 21px;
    line-height: 29px;
 }
@@ -530,6 +541,12 @@ a, a:visited{
    font-size: 12px;
    line-height: 16px;
    letter-spacing: 0.5em;
+}
+.columns__add p{
+   display: flex;
+   align-items: center;
+   background: url(img/download.svg) left no-repeat;
+   padding: 30px 0px 30px 70px;
 }
 .columns__property, .columns__legal{
    font-family: ALS Hauss;
