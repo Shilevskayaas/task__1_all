@@ -211,17 +211,21 @@ a, a:visited{
 .header__name_1{
    background: url(img/telegram.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
 }
 .header__name_2{
    background: url(img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
 }
-/*.header__name:hover, .header__name:active{
-   display: flex;
-   align-items: center;
-   height: 50px;
-   background: url(img/apph.svg) right no-repeat;
-   padding: 0px 42px 0px 0px;
-}*/
+.header__name_1:hover, .header__name:active{
+   background: url(img/telegramh.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+}
+.header__name_2:hover, .header__name:active{
+   background: url(img/whatsapph.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
 .header__nav{
    width: 88%;
    color: #11305D;
@@ -458,6 +462,25 @@ a, a:visited{
    letter-spacing: 0.05em;
    text-transform: uppercase;
 }
+.columns__about p:hover{
+   display: none;
+}
+.columns__about_2 p:hover, .columns__about_3 p:hover, .columns__about_4 p:hover, .columns__about_6 p:hover{
+   display: block;
+   background: url(img/order.svg) 50% 177px no-repeat;
+}
+.columns__about_1 p:hover, .columns__about_5 p:hover{
+   display: block;
+   background: url(img/order.svg) 50% 210px no-repeat;
+}
+.columns__about_2 p:active, .columns__about_3 p:active, .columns__about_4 p:active, .columns__about_6 p:active{
+   display: block;
+   background: url(img/orderh.svg) 50% 177px no-repeat;
+}
+.columns__about_1 p:active, .columns__about_5 p:active{
+   display: block;
+   background: url(img/orderh.svg) 50% 210px no-repeat;
+}
 .columns__about p{
    height: 100%;
    display: block;
@@ -546,6 +569,10 @@ a, a:visited{
    display: flex;
    align-items: center;
    background: url(img/download.svg) left no-repeat;
+   padding: 30px 0px 30px 70px;
+}
+.columns__add p:hover, .header__name:active{
+   background: url(img/downloadh.svg) left no-repeat;
    padding: 30px 0px 30px 70px;
 }
 .columns__property, .columns__legal{
