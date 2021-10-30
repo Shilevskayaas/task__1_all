@@ -107,11 +107,18 @@ body{
    margin: 0px auto;
    max-width: 1400px;
 }
+
 .header__text, .header__info, .header__list{
    text-transform: uppercase;
 }
 a, a:visited{
    color: #11305D;
+}
+.header__popup{
+   display: none;
+}
+.close{
+   display: none;
 }
 .header__row{
    display: flex;
@@ -369,35 +376,55 @@ a, a:visited{
    .header__list{
       display: none;
       position: absolute;
-      top: 150px;
+      top: 140px;
       left: 0;
       background: #fff;
       width: 100%;
-      height: 400px;
+      height: 600px;
       text-align: center;
+   }
+   .header__list::after{
+      content: "";
+      display: block;
+      width: 90vw;
+      height: 1px;
+      margin: 0 auto;
+      background-color: #1b4a91;
    }
    .header__list li{
       display: block;
       width: fit-content;
       margin: 0 auto;
-      line-height: 19px;
-      padding: 0px 0px 14px 0px;
+      letter-spacing: 0.1em;
+      height: 38.4px;
    }
    .header__list_hover:after, .header__list_active:after{
       display: none;
    }
-   .header__list li:after{
-      display: block;
-      content: "";
-      height: 5px;
-      margin-top: 3px;
-      width: 0%;
-      background-color: #11305D;
+   .header__list a:hover{
+      color: #96A9C6;
       transition: width 0.1s ease-in-out;
    }
-   .header__list li:hover:after, .header__list li:focus:after, .header__list li:active:after{
-      width: 114%;
-      margin-left: -7%;
+   .header__popup{
+      display: none;
+      position: absolute;
+      top: 370px;
+      right: 0%;
+      width: 100%;
+      font-size: 19px;
+   }
+   .header__popup .text{
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+   }
+   .header__popup .phone{
+      margin: -21px 0px -35px 0px;
+   }
+   .header__popup #dialog .columns__app {
+      position: absolute;
+      top: 110%;
+      left: 37.5%;
    }
 }
 
@@ -520,7 +547,11 @@ a, a:visited{
    background: url("img/06_144.svg") top/auto no-repeat;
 }
 
-
+.columns__popup{
+   position: relative !important;
+   top: 110%;
+   left: 37.5%;
+}
 .columns__popup .window {
    position:absolute;
    display:none;
@@ -556,21 +587,21 @@ a, a:visited{
    }
 .phone{
    font-family: PF Din Text Comp Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 76px;
-text-align: center;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 56px;
+   line-height: 76px;
+   text-align: center;
 }
 .app{
    font-family: ALS Hauss;
-font-style: normal;
-font-weight: normal;
-font-size: 21px;
-text-align: center;
-padding: 35px 0px 0px 0px;
-text-transform: none;
-}
+   font-style: normal;
+   font-weight: normal;
+   font-size: 21px;
+   text-align: center;
+   padding: 35px 0px 0px 0px;
+   text-transform: none;
+   }
 .close {
    position: absolute;
    top: 10px;
