@@ -365,7 +365,6 @@ a, a:visited{
       background: url(img/apph.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
    }
-   
    .header__toggle{
       display: block;
       padding: 0;
@@ -548,7 +547,6 @@ a, a:visited{
 }
 
 .columns__popup{
-   position: relative !important;
    top: 110%;
    left: 37.5%;
 }
@@ -603,6 +601,7 @@ a, a:visited{
    text-transform: none;
    }
 .close {
+   display: block;
    position: absolute;
    top: 10px;
    left: 695px;
@@ -919,9 +918,6 @@ a, a:visited{
       content: "\00a0"
    }
 
-   .columns__popup{
-      
-   }
    .columns__popup .window {
       position:absolute;
       display:none;
