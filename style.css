@@ -624,6 +624,14 @@ a, a:visited{
    background: url("img/close.svg") center no-repeat;
    padding: 20px 10px 20px 20px;
    }
+.close:hover {
+   display: block;
+   position: absolute;
+   top: 10px;
+   left: 695px;
+   background: url("img/closeh.svg") center no-repeat;
+   padding: 20px 10px 20px 20px;
+   }
    .columns__app{
       display: flex;
       justify-content: space-between;
@@ -998,13 +1006,13 @@ a, a:visited{
    padding: 35px 0px 0px 0px;
    text-transform: none;
    }
-   .close {
+   .close, .close:hover {
       position: absolute;
       top: 5px;
       left: 240px;
       background: url("img/closem.svg") center no-repeat;
       padding: 20px 10px 20px 20px;
-      }
+   }
    .columns__app{
       position: absolute;
       bottom: 14%;
