@@ -489,10 +489,10 @@ a, a:visited{
    display: flex;
    align-items: center;
    text-transform: uppercase;
-   height: 374px;
+   height: 454px;
 }
 .columns__icons{
-   flex: 0 1 25%;
+   flex: 0 1 16.6%;
 }
 .columns__line{
    width: 10px;
@@ -502,9 +502,9 @@ a, a:visited{
 }
 .columns__about{
    height: 100%;
-   margin: 69px 0px 69px 0px;
-   font-size: 24px;
-   line-height: 33px;
+   margin: 40px 0px 69px 0px;
+   font-size: 21px;
+   line-height: 29px;
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
@@ -531,7 +531,7 @@ a, a:visited{
 .columns__about p{
    height: 100%;
    display: block;
-   padding: 166px 0px 0px 0px;
+   padding: 175px 0px 0px 0px;
 }
 .columns__about_1{
    background: url("img/01_144.svg") top/auto no-repeat;
@@ -539,12 +539,15 @@ a, a:visited{
 }
 .columns__about_2{
    background: url("img/02_144.svg") top/auto no-repeat;
+   background-position-y:4px;
 }
 .columns__about_3{
    background: url("img/03_144.svg") top/auto no-repeat;
+   background-position-y:4px;
 }
 .columns__about_4{
    background: url("img/04_144.svg") top/auto no-repeat;
+   background-position-y:4px;
 }
 .columns__about_5{
    background: url("img/05_144.svg") top/auto no-repeat;
@@ -552,6 +555,7 @@ a, a:visited{
 }
 .columns__about_6{
    background: url("img/06_144.svg") top/auto no-repeat;
+   background-position-y:4px;
 }
 
 .columns__popup{
