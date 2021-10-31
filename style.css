@@ -1075,14 +1075,13 @@ a, a:visited{
       font-size: 15px;
       padding: 10px 0px 0px 0px;
    }
-   .columns__add p{
+   .columns__add p, .columns__add p:hover{
       font-family: "ALS Hauss";
       font-weight: 500;
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 25px 50px;
       background: url(img/downloadm.svg) left no-repeat;
-      
    }
    .columns__property{
       display: flex;
