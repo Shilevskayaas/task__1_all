@@ -657,7 +657,9 @@ a, a:visited{
 
 .columns__requisites{
    height: 624px;
-   margin: 99px 32px 100px 31px;
+   width: 89%;
+   margin: 99px 0px 100px 0px;
+   margin: 0 auto;
    text-align: center;
 }
 .columns__requisites h2, h3, .columns__upload p{
@@ -669,7 +671,7 @@ a, a:visited{
    line-height: 48px;
 }
 .columns__requisites h2{
-   padding: 0px 0px 40px 0px;
+   padding: 98px 0px 50px 0px;
 }
 .columns__requisites h3{
    font-size: 24px;
@@ -682,7 +684,7 @@ a, a:visited{
 }
 .columns__upload{
    display: flex;
-   padding: 40px 0px 0px 0px;
+   padding: 35px 0px 0px 0px;
 }
 .columns__button p{
    padding: 6px 0px 0px 0px;
@@ -706,13 +708,19 @@ a, a:visited{
    font-size: 14px;
    line-height: 30px;
 }
+.columns__lines{
+   content: "";
+   height: 1px;
+   background-color: #C4C4C4;
+}
+
 .columns__property{
    display: flex;
    justify-content: space-between;
-   padding: 30px 0px 0px 0px;
+   padding: 32px 0px 25px 0px;
 }
 .columns__legal{
-   padding: 30px 0px 0px 0px;
+   padding: 3px 0px 0px 0px;
    display: flex;
    flex-direction: column;
 }
@@ -720,7 +728,7 @@ a, a:visited{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: 20px 0px;
+   padding: 20px 0px 16px 0px;
 }
 .columns__item{
    width: 50%;
@@ -767,7 +775,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 111px 0px 111px 0px;
+   margin: 201px 0px 111px 0px;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
@@ -775,7 +783,7 @@ a, a:visited{
 }
 .columns__for{
    max-width: 454px;
-   padding: 69px 0 69px 0px;
+   padding: 62px 0 63px 0px;
    font-size: 35px;
    line-height: 35px;
    letter-spacing: 0.05em;
@@ -785,7 +793,7 @@ a, a:visited{
    flex-direction: column;
 }
 .columns__download p{
-   padding: 0px 0px 25px 0px;
+   padding: 0px 0px 22px 0px;
    font-size: 12px;
    letter-spacing: 0.5em;
    text-transform: uppercase;
@@ -802,13 +810,13 @@ a, a:visited{
    display: flex;
 }
 .columns__mobile img{
-   height: 425px;
+   height: 412px;
 }
 .columns__professional{
    width: 100%;
    font-size: 14px;
    line-height: 24px;
-   padding: 5.56vw 8vw 0px 6vw;
+   padding: 4.8vw 8vw 0px 6vw;
 }
 
 @media (max-width: 375px){
@@ -1027,7 +1035,7 @@ a, a:visited{
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 200px 16px 70px 20px;  
+      margin: 320px 16px 70px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
