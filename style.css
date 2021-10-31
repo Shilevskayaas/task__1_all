@@ -508,24 +508,28 @@ a, a:visited{
    letter-spacing: 0.05em;
    text-transform: uppercase;
 }
-.columns__about p:hover{
+.columns__about:hover .columns__about p{
+   opacity: 0;
    display: none;
 }
-.columns__about_2 p:hover, .columns__about_3 p:hover, .columns__about_4 p:hover, .columns__about_6 p:hover{
-   display: block;
-   background: url(img/order.svg) 50% 177px no-repeat;
+.columns__about p:hover{
+   opacity: 0;
 }
-.columns__about_1 p:hover, .columns__about_5 p:hover{
+.columns__icons_2:hover, .columns__icons_3:hover, .columns__icons_4:hover, .columns__icons_6:hover{
    display: block;
-   background: url(img/order.svg) 50% 210px no-repeat;
+   background: url(img/order.svg) 50% 221.5px no-repeat;
 }
-.columns__about_2 p:active, .columns__about_3 p:active, .columns__about_4 p:active, .columns__about_6 p:active{
+.columns__icons_1:hover, .columns__icons_5:hover{
    display: block;
-   background: url(img/orderh.svg) 50% 177px no-repeat;
+   background: url(img/order.svg) 50% 250px no-repeat;
 }
-.columns__about_1 p:active, .columns__about_5 p:active{
+.columns__icons_2:active, .columns__icons_3:active, .columns__icons_4:active, .columns__icons_6:active{
    display: block;
-   background: url(img/orderh.svg) 50% 210px no-repeat;
+   background: url(img/orderh.svg) 50% 221.5px no-repeat;
+}
+.columns__icons_1:active, .columns__icons_5:active{
+   display: block;
+   background: url(img/orderh.svg) 50% 250px no-repeat;
 }
 .columns__about p{
    height: 100%;
@@ -843,6 +847,9 @@ a, a:visited{
       flex-direction: column;
       height: 100%;
          }
+   .columns__about p:hover{
+      opacity: 999;
+   }
    .columns__icons{
       padding: 2px 0px 0px 0px;
          }
