@@ -313,7 +313,9 @@ a, a:visited{
 .header__burger:after {
    top: 7px;
 }
-
+.header__popup .windows{
+   display: none;
+}
 @media( max-width: 768px){
    .header{
       min-height: 114px;
@@ -411,6 +413,12 @@ a, a:visited{
       right: 0%;
       width: 100%;
       font-size: 19px;
+   }
+   .header__popup .windows{
+      display: block;
+   }
+   .windows .close{
+      display: none;
    }
    .header__popup .text{
       font-size: 14px;
@@ -919,18 +927,17 @@ a, a:visited{
    }
 
    .columns__popup .window {
-      position:absolute;
       display:none;
+      position:absolute;
       z-index:9999;
       overflow: hidden;
       border: 1px solid #11305D;
-      }  
-   .columns__popup .window {
       width: 280px;
       height: 328px;
       padding:10px;
       background-color:#ffffff;
       }  
+   
    .top {
       position:absolute;
       left:0;
