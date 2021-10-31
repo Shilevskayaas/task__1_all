@@ -335,7 +335,6 @@ a, a:visited{
    .header__img{
       width: 108.3px;
       height: 94px;
-      
    }
    .header__bar{
       flex: 0 0 65px;
@@ -732,11 +731,11 @@ a, a:visited{
    justify-content: space-between;
    padding: 20px 0px 16px 0px;
 }
-.columns__item{
+.columns__item, .columns__items{
    width: 50%;
    text-align: left;
 }
-.columns__item p{
+.columns__item p, .columns__items p{
    font-weight: bold;
 }
 
@@ -927,6 +926,7 @@ a, a:visited{
    
    .columns__about p{
       font-size: 18px;
+      font-weight: 500;
       letter-spacing: 0.05em;
       padding: 123px 0px 4px 0px;
       white-space: nowrap;
@@ -1004,59 +1004,7 @@ a, a:visited{
       align-items: center;
       height: 50px;
    }
-   .columns__lines_mobile{
-      display: block;
-      content: "";
-      height: 1px;
-      background-color: #C4C4C4;
-   }
-   .columns__requisites h2{
-      font-size: 23px;
-      letter-spacing: 0.05em;
-      padding: 60px 0px 5px 0px;
-   }
-   .columns__requisites h3{
-      font-size: 17px;
-      letter-spacing: 0.05em;
-      padding: 0px 0px 20px 0px;
-   }
-   .columns__property, .columns__legal{
-      font-size: 12px;
-      line-height: 19px;
-   }
-   .columns__upload p{
-      font-size: 15px;
-      padding: 10px 0px 0px 0px;
-   }
-   .columns__add p{
-      font-family: "ALS Hauss";
-      font-weight: normal;
-      font-size: 10px;
-      letter-spacing: 0.5em;
-      padding: 20px 0px 20px 50px;
-      background: url(img/downloadm.svg) left no-repeat;
-      
-   }
-   .columns__property{
-      display: flex;
-      flex-wrap:wrap;
-      text-align: left;
-   }
-   .columns__item{
-      flex: 0 1 50%;
-      padding: 0px 0px 10px 0px;
-   }
-   .columns__string{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-   }
-   .columns__upload{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-   }
-
+   
    .columns__information{
       width: 100%;
    }
@@ -1070,24 +1018,86 @@ a, a:visited{
    .columns__info h1{
       width: 224px;
       font-size: 23px;
+      font-weight: normal;
       padding: 0;
-      width: auto;
+      
    }   
    .columns__info p{
       width: 260px;
       font-size: 17px;
+      font-weight: 400;
       line-height: 25px;
       letter-spacing: 0.05em;
-      padding: 30px 0px 0px 0px;
+      padding: 17px 0px 0px 0px;
       height: 100%;
    }  
+   .columns__lines_mobile{
+      display: block;
+      content: "";
+      height: 1px;
+      background-color: #C4C4C4;
+   }
+   .columns__requisites h2{
+      font-size: 23px;
+      letter-spacing: 0.05em;
+      padding: 55px 0px 3px 0px;
+   }
+   .columns__requisites h3{
+      font-size: 17px;
+      letter-spacing: 0.05em;
+      padding: 0px 0px 18px 0px;
+   }
+   .columns__property, .columns__legal{
+      font-size: 12px;
+      line-height: 19px;
+      padding: 12px 0px 0px 0px;
+   }
+   .columns__upload p{
+      font-size: 15px;
+      padding: 10px 0px 0px 0px;
+   }
+   .columns__add p{
+      font-family: "ALS Hauss";
+      font-weight: 500;
+      font-size: 10px;
+      letter-spacing: 0.5em;
+      padding: 18px 0px 25px 50px;
+      background: url(img/downloadm.svg) left no-repeat;
+      
+   }
+   .columns__property{
+      display: flex;
+      flex-wrap:wrap;
+      text-align: left;
+   }
+   .columns__legal{
+      padding: 0;
+   }
+   .columns__string{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 15px 0px 0px 0px;
+   }
+   .columns__item{
+      flex: 0 1 50%;
+      padding: 0px 0px 10px 0px;
+   }
+   .columns__items{
+      width: 80%;
+      padding: 0px 0px 10px 0px;
+      word-wrap: normal;
+   }
    .columns__upload{
-      padding: 10px 0px 10px 0px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 10px 0px 11px 0px;
    }
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 320px 16px 70px 20px;  
+      margin: 130px 16px 88px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
@@ -1103,6 +1113,7 @@ a, a:visited{
       width: 96px;
       height: 169px;
       align-self: flex-end;
+      padding: 17px 0px 0px 0px;
    }
    .columns__mobile img{
       display: none;
@@ -1127,12 +1138,12 @@ a, a:visited{
    .columns__download p{
       font-size: 10px;
       line-height: 13px;
-      padding: 57px 0px 12px 0px;
+      padding: 58px 0px 8px 0px;
    }
    .columns__for{
       width: 251px;
       height: 75px;
-      font-size: 18px;
+      font-size: 17px;
       line-height: 25px;
       padding: 0;
    }
@@ -1324,14 +1335,14 @@ a, a:visited{
    }
    .footer__phone{
       font-size: 22px;
-      padding: 36px 0px 6px 0px;
+      padding: 38px 0px 7px 0px;
    }
    .footer__social{
       padding: 0px 0px 20px 0px;
    }
    .footer__copy{
       flex: 1 1 auto;
-      padding: 50px 0px 1px 0px;
+      padding: 47px 0px 1px 0px;
       text-align: center;
    }
 }
