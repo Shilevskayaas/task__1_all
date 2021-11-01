@@ -168,6 +168,7 @@ a, a:visited{
    height: 50px;
    background: url(img/lkh.svg) left no-repeat;
    padding: 0px 0px 0px 60px;
+   transition: width 0.1s ease-in-out;
 }
 .header__blind p{
    display: flex;
@@ -176,6 +177,7 @@ a, a:visited{
    line-height: 19px;
    background: url(img/version.svg) left no-repeat;
    padding: 0px 0px 0px 46px;
+   transition: width 0.1s ease-in-out;
 }
 .header__blind p:hover, .header__blind p:active{
    display: flex;
@@ -184,6 +186,7 @@ a, a:visited{
    line-height: 19px;
    background: url(img/versionh.svg) left no-repeat;
    padding: 0px 0px 0px 46px;
+   transition: width 0.1s ease-in-out;
 }
 .header__phone{
    font-family: "PF Din Text Comp Pro";
@@ -202,6 +205,7 @@ a, a:visited{
    width: 105px;
    border-bottom: 2px solid #11305D;
    padding-bottom: 3px;
+   transition: width 0.1s ease-in-out;
 }
 .header__app{
    display: flex;
@@ -228,10 +232,12 @@ a, a:visited{
    background: url(img/telegramh.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
 }
 .header__name_2:hover, .header__name:active{
    background: url(img/whatsapph.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
 }
 .header__nav{
    width: 88%;
@@ -262,6 +268,7 @@ a, a:visited{
 .header__list_hover:hover:after, .header__list_hover:focus:after, .header__list_hover:active:after, .header__list_active:after{
    width: 160%;
    margin-left: -30%;
+   transition: width 0.1s ease-in-out;
 }
 
 /*Меню-бургер*/
@@ -365,6 +372,7 @@ a, a:visited{
       height: 50px;
       background: url(img/apph.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
+      transition: width 0.1s ease-in-out;
    }
    .header__toggle{
       display: block;
@@ -400,6 +408,7 @@ a, a:visited{
    }
    .header__list_hover:after, .header__list_active:after{
       display: none;
+      transition: width 0.1s ease-in-out;
    }
    .header__list a:hover{
       color: #96A9C6;
@@ -508,28 +517,29 @@ a, a:visited{
    letter-spacing: 0.05em;
    text-transform: uppercase;
 }
-.columns__about:hover .columns__about p{
+.columns__icons:hover .columns__about p{
    opacity: 0;
-   display: none;
-}
-.columns__about p:hover{
-   opacity: 0;
+   transition: width 0.1s ease-in-out;
 }
 .columns__icons_2:hover, .columns__icons_3:hover, .columns__icons_4:hover, .columns__icons_6:hover{
    display: block;
    background: url(img/order.svg) 50% 221.5px no-repeat;
+   transition: width 0.1s ease-in-out;
 }
 .columns__icons_1:hover, .columns__icons_5:hover{
    display: block;
    background: url(img/order.svg) 50% 250px no-repeat;
+   transition: width 0.1s ease-in-out;
 }
 .columns__icons_2:active, .columns__icons_3:active, .columns__icons_4:active, .columns__icons_6:active{
    display: block;
    background: url(img/orderh.svg) 50% 221.5px no-repeat;
+   transition: width 0.1s ease-in-out;
 }
 .columns__icons_1:active, .columns__icons_5:active{
    display: block;
    background: url(img/orderh.svg) 50% 250px no-repeat;
+   transition: width 0.1s ease-in-out;
 }
 .columns__about p{
    height: 100%;
@@ -631,6 +641,7 @@ a, a:visited{
    left: 695px;
    background: url("img/closeh.svg") center no-repeat;
    padding: 20px 10px 20px 20px;
+   transition: width 0.1s ease-in-out;
    }
    .columns__app{
       display: flex;
@@ -654,17 +665,18 @@ a, a:visited{
       background: url(img/telegramh.svg) right no-repeat;
       margin: 0px 15px 0px 0px;
       padding: 0px 0px 0px 50px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__name_2:hover, .columns__name:active{
       background: url(img/whatsapph.svg) right no-repeat;
       padding: 0px 0px 0px 50px;
+      transition: width 0.1s ease-in-out;
    }
 .columns__app{
    position: absolute;
    bottom: 20%;
    left: 42%;
 }
-
 
 
 .columns__requisites{
@@ -713,6 +725,7 @@ a, a:visited{
 .columns__add p:hover, .header__name:active{
    background: url(img/downloadh.svg) left no-repeat;
    padding: 30px 0px 30px 70px;
+   transition: width 0.1s ease-in-out;
 }
 .columns__property, .columns__legal{
    font-family: ALS Hauss;
@@ -751,8 +764,6 @@ a, a:visited{
 .columns__item p, .columns__items p{
    font-weight: bold;
 }
-
-
 .columns__info{
    margin: 0 auto;
    height: 256px;
@@ -832,17 +843,6 @@ a, a:visited{
    line-height: 24px;
    padding: 4.8vw 8vw 0px 6vw;
 }
-
-@media (max-width: 375px){
-   .columns__phone{
-      width: 96px;
-      height: 169px;
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
-   }
-}
-
 @media (max-width: 768px) {
    .content:before{
       display: none;
@@ -854,9 +854,10 @@ a, a:visited{
       display: flex;
       flex-direction: column;
       height: 100%;
-         }
-   .columns__about p:hover{
+   }
+   .columns__icons:hover .columns__about p{
       opacity: 999;
+      transition: width 0.1s ease-in-out;
    }
    .columns__icons{
       padding: 2px 0px 0px 0px;
@@ -884,6 +885,7 @@ a, a:visited{
    }
    .columns__about:hover, .columns__about:active{
       background-size: 140px 140px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_1, .columns__about_2, .columns__about_3, .column__about_4{
       border: none;
@@ -898,6 +900,7 @@ a, a:visited{
    .columns__about_1:hover, .columns__about_1:active{
       background: url("img/01_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_2{
       background: url("img/02_92.svg") top/auto no-repeat;
@@ -906,6 +909,7 @@ a, a:visited{
    .columns__about_2:hover, .columns__about_2:active{
       background: url("img/02_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_3{
       background: url("img/03_92.svg") top/auto no-repeat;
@@ -914,6 +918,7 @@ a, a:visited{
    .columns__about_3:hover, .columns__about_3:active{
       background: url("img/03_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_4{
       background: url("img/04_92.svg") top/auto no-repeat;
@@ -922,6 +927,7 @@ a, a:visited{
    .columns__about_4:hover, .columns__about_4:active{
       background: url("img/04_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_5{
       background: url("img/05_92.svg") top/auto no-repeat;
@@ -930,6 +936,7 @@ a, a:visited{
    .columns__about_5:hover, .columns__about_5:active{
       background: url("img/05_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
    .columns__about_6{
       background: url("img/06_92.svg") top/auto no-repeat;
@@ -938,8 +945,8 @@ a, a:visited{
    .columns__about_6:hover, .columns__about_6:active{
       background: url("img/06_92.svg") top/auto no-repeat;
       background-position-y:33px;
+      transition: width 0.1s ease-in-out;
    }
-   
    .columns__about p{
       font-size: 18px;
       font-weight: 500;
@@ -953,7 +960,6 @@ a, a:visited{
    .columns__about p br:after {
       content: "\00a0"
    }
-
    .columns__popup .window {
       display:none;
       position:absolute;
@@ -968,7 +974,6 @@ a, a:visited{
       top: calc(50% - 25px); 
       left: calc(50% - 50px); 
       }  
-   
    .top {
       position:absolute;
       left:0;
@@ -1006,11 +1011,18 @@ a, a:visited{
    padding: 35px 0px 0px 0px;
    text-transform: none;
    }
-   .close, .close:hover {
+   .close{
       position: absolute;
       top: 5px;
       left: 240px;
       background: url("img/closem.svg") center no-repeat;
+      padding: 20px 10px 20px 20px;
+   }
+   .close:hover {
+      position: absolute;
+      top: 5px;
+      left: 240px;
+      background: url("img/closemh.svg") center no-repeat;
       padding: 20px 10px 20px 20px;
    }
    .columns__app{
@@ -1075,13 +1087,23 @@ a, a:visited{
       font-size: 15px;
       padding: 10px 0px 0px 0px;
    }
-   .columns__add p, .columns__add p:hover{
+   .columns__add p{
       font-family: "ALS Hauss";
       font-weight: 500;
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 25px 50px;
       background: url(img/downloadm.svg) left no-repeat;
+      transition: width 0.1s ease-in-out;
+   }
+   .columns__add p:hover{
+      font-family: "ALS Hauss";
+      font-weight: 500;
+      font-size: 10px;
+      letter-spacing: 0.5em;
+      padding: 18px 0px 25px 50px;
+      background: url(img/downloadmh.svg) left no-repeat;
+      transition: width 0.1s ease-in-out;
    }
    .columns__property{
       display: flex;
@@ -1115,7 +1137,7 @@ a, a:visited{
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 130px 16px 88px 20px;  
+      margin: 180px 16px 88px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
@@ -1166,7 +1188,18 @@ a, a:visited{
       padding: 0;
    }
 }
-
+@media (max-width: 375px){
+   .columns__about p{
+      font-size: 16px;
+   }
+   .columns__phone{
+      width: 96px;
+      height: 169px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+   }
+}
 @media (max-width: 800px) and (min-width: 769px){
    .columns__for{
       font-size: 22px;
@@ -1178,7 +1211,6 @@ a, a:visited{
       font-size: 26px;
    }
 }
-
 @media (max-width: 888px) and (min-width: 801px){
    .columns__for{
       font-size: 24px;
@@ -1190,7 +1222,6 @@ a, a:visited{
       font-size: 28px;
    }
 }
-
 @media (max-width: 960px) and (min-width: 889px){
    .columns__about p{
       font-size: 16px;
@@ -1205,7 +1236,6 @@ a, a:visited{
       font-style: 22px;
    }
 }
-
 @media (max-width: 1110px) and (min-width: 961px){
    .columns__about p{
       font-size: 20px;
@@ -1257,6 +1287,10 @@ a, a:visited{
 .footer a, .footer a:visited, .footer{
    color: #fff;
 }
+.footer__list a:hover{
+   color: #96A9C6;
+   transition: width 0.1s ease-in-out;
+}
 .footer__contact{
    line-height: 25px;
    height: 168px;
@@ -1285,6 +1319,7 @@ a, a:visited{
    height: 200px;
    background: url("img/fbh.svg") left no-repeat;
    padding: 1px 40px 90px 0px;
+   transition: width 0.1s ease-in-out;
 }
 .footer__in{
    background: url("img/in.svg") right no-repeat;
@@ -1293,6 +1328,7 @@ a, a:visited{
 .footer__in:hover, .footer__in:active{
    background: url("img/inh.svg") right no-repeat;
    padding: 1px 0px 90px 40px;
+   transition: width 0.1s ease-in-out;
 }
 .footer__info{
    font-size: 17px;
@@ -1312,8 +1348,8 @@ a, a:visited{
    color: #fff;
 }
 .footer span:hover, .footer span:active{
-   padding-bottom: 3px;
-   border-bottom: 2px solid #fff;
+   color: #96A9C6;
+   transition: width 0.1s ease-in-out;
 }
 .footer__copy{
    font-family: "ALS Hauss";
@@ -1364,7 +1400,6 @@ a, a:visited{
       text-align: center;
    }
 }
-
 @media (max-width: 888px) and (min-width: 769px) {
    .footer__logo{
       flex: 0 1 auto;
@@ -1389,7 +1424,6 @@ a, a:visited{
       padding: 0px 10px 0px 10px;
    }
 }
-
 @media (max-width: 960px) and (min-width: 889px){
    .footer__logo{
       flex: 0 1 auto;
