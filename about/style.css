@@ -1,0 +1,863 @@
+/*Обнуляющие стили*/
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{
+   outline: none;
+}
+a:focus,a:active{
+   outline: none;
+}
+nav,footer,header,aside{
+   display: block;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{
+   font-family: inherit;
+}
+input::-ms-clear{
+   display: none;
+}
+button{
+   cursor: pointer;
+}
+button::-moz-focus-inner{
+   padding: 0;
+   border: 0;
+}
+a,a:visited{
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+}
+ul li{
+   list-style: none;
+}
+img{
+   vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+   font-size: inherit;
+   font-weight: inherit;
+}
+/*--------------------*/
+
+@font-face{
+	font-family: "PF Din Text Comp Pro";
+	src: url("/fonts/pfdintextcomppro-bold.eot");
+	src: local("☺"), url("/fonts/pfdintextcomppro-bold.woff") format("woff"), url("/fonts/pfdintextcomppro-bold.ttf") format("truetype"), url("/fonts/pfdintextcomppro-bold.svg") format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face{
+	font-family: "PF Din Text Comp Pro";
+	src: url("/fonts/pfdintextcomppro-regular.eot");
+	src: local("☺"), url("/fonts/pfdintextcomppro-regular.woff") format("woff"), url("/fonts/pfdintextcomppro-regular.ttf") format("truetype"), url("/fonts/pfdintextcomppro-regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+   font-family: "ALS Hauss";
+   src: local("ALS Hauss Bold"), local("ALS-Hauss-Bold"),
+   url("/fonts/ALSHauss-Bold.woff2") format("woff2"),
+   url("/fonts/ALSHauss-Bold.woff") format("woff"),
+   url("/fonts/ALSHauss-Bold.ttf") format("truetype");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face{
+   font-family: "ALS Hauss";
+   src: local("ALS Hauss Regular"), local("ALS-Hauss-Regular"),
+   url("/fonts/ALSHauss-Regular.woff2") format("woff2"),
+   url("/fonts/ALSHauss-Regular.woff") format("woff"),
+   url("/fonts/ALSHauss-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+   font-family: "PF Din Text Comp Pro";
+   font-weight: normal;
+   color: #11305D;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+.container{
+   margin: 0px auto;
+   max-width: 1400px;
+}
+
+.header__text, .header__info, .header__list{
+   text-transform: uppercase;
+}
+a, a:visited{
+   color: #11305D;
+}
+.header__popup{
+   display: none;
+}
+.close{
+   display: none;
+}
+.header__row{
+   display: flex;
+   height: 182px;
+}
+.header__logo{
+   flex: 1 1 auto;
+   display: flex;
+   align-items: center;
+   background: url(/img/logo.svg) center no-repeat;
+}
+.header__bar{
+   flex: 1 1 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 40px 32px 2px 32px;
+}
+.header__icons{
+   width: 100%;
+   display: flex;
+   white-space: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__line{
+   width: 10px;
+   height: 52px;
+   background-color: #11305D;
+   background: url("/img/line.svg") center no-repeat;
+}
+.header__lk, .header__version{
+   font-size: 14px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;   
+}
+.header__profile p{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   background: url(/img/lk.svg) left no-repeat;
+   padding: 0px 0px 0px 60px;
+}
+.header__profile p:hover, .header__profile p:active{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   background: url(/img/lkh.svg) left no-repeat;
+   padding: 0px 0px 0px 60px;
+   transition: width 0.1s ease-in-out;
+}
+.header__blind p{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   line-height: 19px;
+   background: url(/img/version.svg) left no-repeat;
+   padding: 0px 0px 0px 46px;
+   transition: width 0.1s ease-in-out;
+}
+.header__blind p:hover, .header__blind p:active{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   line-height: 19px;
+   background: url(/img/versionh.svg) left no-repeat;
+   padding: 0px 0px 0px 46px;
+   transition: width 0.1s ease-in-out;
+}
+.header__phone{
+   font-family: "PF Din Text Comp Pro";
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: 0.05em;
+}
+.header__mail{
+   font-size: 22px;
+   font-weight: normal;
+   line-height: 28px;
+   padding: 0px 0px 5px 0px;
+}
+.header__mail:hover, .header__mail:active{
+   width: 105px;
+   border-bottom: 2px solid #11305D;
+   padding-bottom: 3px;
+   transition: width 0.1s ease-in-out;
+}
+.header__app{
+   display: flex;
+   justify-content: space-between;
+}
+.header__name{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   
+   padding: 0px 42px 0px 0px;
+   font-size: 19px;
+}
+.header__name_1{
+   background: url(/img/telegram.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+}
+.header__name_2{
+   background: url(/img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.header__name_1:hover, .header__name:active{
+   background: url(/img/telegramh.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+}
+.header__name_2:hover, .header__name:active{
+   background: url(/img/whatsapph.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+}
+.header__nav{
+   width: 88%;
+   color: #11305D;
+}
+.header__list{
+   font-family: "ALS Hauss";
+   font-weight: bold;
+   font-size: 14px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-between; 
+   white-space: nowrap;
+}
+.header__list li{
+   height: 39.6px;
+} 
+.header__list_hover:after, .header__list_active:after{
+   display: block;
+   content: "";
+   height: 8px;
+   margin-top: 20px;
+   width: 0%;
+   background-color: #11305D;
+   transition: width 0.1s ease-in-out;
+}
+.header__list_hover:hover:after, .header__list_hover:focus:after, .header__list_hover:active:after, .header__list_active:after{
+   width: 160%;
+   margin-left: -30%;
+   transition: width 0.1s ease-in-out;
+}
+
+/*Меню-бургер*/
+
+.header__list li{
+   display: inline-block;
+}
+.header__list li a{
+   display: block;
+   color: #11305D;
+   text-decoration: none;
+}
+.header__menu{
+   width: 100%;
+}
+.header__toggle{  
+   color: #11305D;
+   cursor: pointer;
+   display: none;
+   width: 25px;
+   height: 25px;
+}
+.header__toggle_icon {
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+.header__burger {
+   width: 32px;
+   height: 2px;
+   transform: translate(-50%, -50%);
+   background: #11305D;
+   transition: 0.5s;
+   display: inline-block;
+   margin-left: 12px;
+}
+.header__burger:before,
+.header__burger:after {
+   content: "";
+   width: 32px;
+   height: 2px;
+   position: absolute;
+   background: #11305D;
+   transition: 0.5s;
+}
+.header__burger:before {
+   top: -7px;
+}
+.header__burger:after {
+   top: 7px;
+}
+.header__popup .windows{
+   display: none;
+}
+@media( max-width: 768px){
+   .header{
+      min-height: 114px;
+   }
+   .header__row{
+      height: 114px;
+      flex-direction: row-reverse;
+      padding: 0;
+      margin-right: 65px;
+   }
+   .header__logo{
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      background: url("/img/logohm.svg") center no-repeat;
+   }
+   .header__img{
+      width: 108.3px;
+      height: 94px;
+   }
+   .header__bar{
+      flex: 0 0 65px;
+      flex-direction: row-reverse;
+   }
+   .header__line{
+      display: none;
+   }
+   .header__lk, .header__version, .header__contacts, .header__p{
+      display: none;
+   }
+   .header__name{
+      display: none;
+   }
+   .header__app{
+      position: absolute;
+      top: 7px;
+      right: 23px;
+      height: 50px;
+      background: url(/img/app.svg) right no-repeat;
+      padding: 0px 42px 0px 0px;
+      font-size: 19px;
+   }
+   .header__app:hover, .header__app:active{
+      position: absolute;
+      top: 7px;
+      right: 23px;
+      height: 50px;
+      background: url(/img/apph.svg) right no-repeat;
+      padding: 0px 42px 0px 0px;
+      transition: width 0.1s ease-in-out;
+   }
+   .header__toggle{
+      display: block;
+      padding: 0;
+      position: absolute;
+      top: 23px;
+      left: 20px;
+   }
+   .header__list{
+      display: none;
+      position: absolute;
+      top: 140px;
+      left: 0;
+      background: #fff;
+      width: 100%;
+      height: 600px;
+      text-align: center;
+   }
+   .header__list::after{
+      content: "";
+      display: block;
+      width: 90vw;
+      height: 1px;
+      margin: 0 auto;
+      background-color: #1b4a91;
+   }
+   .header__list li{
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+      letter-spacing: 0.1em;
+      height: 38.4px;
+   }
+   .header__list_hover:after, .header__list_active:after{
+      display: none;
+      transition: width 0.1s ease-in-out;
+   }
+   .header__list a:hover{
+      color: #96A9C6;
+      transition: width 0.1s ease-in-out;
+   }
+   .header__popup{
+      display: none;
+      position: absolute;
+      top: 370px;
+      right: 0%;
+      width: 100%;
+      font-size: 19px;
+   }
+   .header__popup .windows{
+      display: block;
+   }
+   .header .windows .close{
+      display: none;
+   }
+   .header__popup .text{
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+   }
+   .header__popup .phone{
+      margin: -21px 0px -35px 0px;
+   }
+   .header__popup #dialog .columns__app {
+      position: absolute;
+      top: 110%;
+      left: 37.5%;
+   }
+}
+
+@media (max-width: 960px) and (min-width: 769px){
+   .header__logo{
+      flex: 0 1 auto;
+      display: flex;
+      align-items: center;
+      background: url("/img/logohm.svg") center no-repeat;
+      padding: 0px 10px 0px 10px;
+   }
+   .header__img{
+      width: 108.3px;
+      height: 94px;
+   }
+   .header__profile, .header__blind{
+      font-size: 12px;
+   }
+   .header__phone, .header__mail, .header__name{
+      font-size: 20px;
+   }
+   .header__name{
+      font-size: 17px;
+   }
+   .header__list{
+      font-size: 12px;
+      letter-spacing: 0em;
+   }
+}
+
+.header__toggle_icon.active .header__burger {
+   background: rgba(0, 0, 0, 0);
+}
+.header__toggle_icon.active .header__burger:before {
+   top: 0;
+   transform: rotate(45deg);
+}
+.header__toggle_icon.active .header__burger:after {
+   top: 0;
+   transform: rotate(135deg);
+}
+/*-----------------*/
+
+.content{
+   flex: 1 1 auto;
+}
+.content::before{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 1px;
+   background-color: #11305D;
+}
+
+.columns__app{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 20%;
+   left: 42%;
+}
+.columns__name{
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
+.columns__name_1{
+   background: url(/img/telegram.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+}
+.columns__name_2{
+   background: url(/img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.columns__name_1:hover, .columns__name:active{
+   background: url(/img/telegramh.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+}
+.columns__name_2:hover, .columns__name:active{
+   background: url(/img/whatsapph.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+}
+
+.columns__full{
+   line-height: 0;
+}
+.columns__image img{
+   object-fit: cover;
+   width: 100%;
+}
+
+.columns__download, .columns__professional{
+   font-family: "ALS Hauss";
+   font-weight: normal;
+}
+.columns__application{
+   display: flex;
+   justify-content: space-between;
+   margin: 201px 0px 111px 0px;
+}
+.columns__load{
+   margin: 0px 10px 0px 32px;
+   flex: 0 1 50%;
+}
+.columns__for{
+   max-width: 454px;
+   padding: 62px 0 63px 0px;
+   font-size: 35px;
+   line-height: 35px;
+   letter-spacing: 0.05em;
+}
+.columns__download{
+   display: flex;
+   flex-direction: column;
+}
+.columns__download p{
+   padding: 0px 0px 22px 0px;
+   font-size: 12px;
+   letter-spacing: 0.5em;
+   text-transform: uppercase;
+}
+.columns__download img{
+   width: 191px;
+   height: 57px;
+}
+.columns__store{
+   padding: 10px 0px 0px 0px;
+}
+.columns__phone{
+   flex: 0 1 50%;
+   display: flex;
+}
+.columns__mobile img{
+   height: 412px;
+}
+.columns__professional{
+   width: 100%;
+   font-size: 14px;
+   line-height: 24px;
+   padding: 4.8vw 8vw 0px 6vw;
+}
+@media (max-width: 768px) {
+   .content:before{
+      display: none;
+   }
+   .container{
+      min-width: 320px;
+   }
+   .columns__application{
+      position: relative;
+      padding: 0;
+      margin: 180px 16px 88px 20px;  
+      justify-content: flex-start; 
+   }
+   .columns__professional{
+      display: none;
+   }
+   .columns__load{
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   margin: 0;
+   }
+   .columns__phone{
+      width: 96px;
+      height: 169px;
+      align-self: flex-end;
+      padding: 17px 0px 0px 0px;
+   }
+   .columns__mobile img{
+      display: none;
+   }
+   .columns__mobile{
+      background: url("/img/tel.png") top/auto 169px no-repeat;
+      width: 96px;
+      height: 169px;
+   }
+   .columns__download{
+      display: flex;
+      flex-direction: column;
+   }
+   .columns__store{
+      padding: 7px 0px 0px 0px;
+   }
+   .columns__download img{
+      width: 125px;
+      height: 37px;
+      padding: 0;
+   }
+   .columns__download p{
+      font-size: 10px;
+      line-height: 13px;
+      padding: 58px 0px 8px 0px;
+   }
+   .columns__for{
+      width: 251px;
+      height: 75px;
+      font-size: 17px;
+      line-height: 25px;
+      padding: 0;
+   }
+}
+@media (max-width: 375px){
+   .columns__phone{
+      width: 96px;
+      height: 169px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+   }
+}
+@media (max-width: 800px) and (min-width: 769px){
+   .columns__for{
+      font-size: 22px;
+   }
+}
+@media (max-width: 888px) and (min-width: 801px){
+   .columns__for{
+      font-size: 24px;
+   }
+}
+@media (max-width: 960px) and (min-width: 889px){
+   .columns__for{
+      font-size: 28px;
+   }
+}
+
+.footer{
+   background-color: #11305D;
+   color: #fff;
+   height: 253px;
+}
+.footer__row{
+   display: flex;
+   align-items:center;
+   margin: 0px -5px;
+   padding: 30px 10px 0px 10px;
+}
+.footer__logo{
+   flex: 0 1 36%;
+}
+.footer__nav{
+   flex: 0 1 30%;
+}
+.footer__contact{
+   flex: 0 1 33%;
+}
+.footer__info{
+   flex: 0 1 45%;
+   padding: 0px 40px 0px 10px;
+}
+.footer__img{
+   background: url("/img/logof.svg") center no-repeat;
+   padding: 200px 0px 0px 10px;
+}
+.footer__list{
+   font-family: "ALS Hauss";
+   font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 14px;
+   line-height: 22px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+}
+.footer a, .footer a:visited, .footer{
+   color: #fff;
+}
+.footer__list a:hover{
+   color: #96A9C6;
+   transition: width 0.1s ease-in-out;
+}
+.footer__contact{
+   line-height: 25px;
+   height: 168px;
+   font-weight: normal;
+   border-left: 1px solid #fff;
+   padding: 0px 0px 0px 32px;
+}
+.footer__phone{
+   font-family: "PF Din Text Comp Pro";
+   font-weight: bold;
+   font-size: 22px;
+   letter-spacing: 0.05em;
+   padding: 10px 0;
+}
+.footer__mail{
+   font-size: 17px;
+   line-height: 23px;
+   letter-spacing: 0.05em;
+}
+.footer__fb{
+   width: 200px;
+   background: url("/img/fb.svg") left no-repeat;
+   padding: 1px 40px 90px 0px;
+}
+.footer__fb:hover, .footer__fb:active{
+   height: 200px;
+   background: url("/img/fbh.svg") left no-repeat;
+   padding: 1px 40px 90px 0px;
+   transition: width 0.1s ease-in-out;
+}
+.footer__in{
+   background: url("/img/in.svg") right no-repeat;
+   padding: 1px 0px 90px 40px;
+}
+.footer__in:hover, .footer__in:active{
+   background: url("/img/inh.svg") right no-repeat;
+   padding: 1px 0px 90px 40px;
+   transition: width 0.1s ease-in-out;
+}
+.footer__info{
+   font-size: 17px;
+   line-height: 23px;
+   letter-spacing: 0.05em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.footer__info a{
+   font-weight: bold;
+}
+.footer span{
+   font-weight: bold;
+   line-height: 23px;
+   letter-spacing: 0.05em;
+   color: #fff;
+}
+.footer span:hover, .footer span:active{
+   color: #96A9C6;
+   transition: width 0.1s ease-in-out;
+}
+.footer__copy{
+   font-family: "ALS Hauss";
+   padding: 0 53px 15px 0;
+   text-align: right;
+   font-size: 10px;
+   font-weight: normal;
+   letter-spacing: 0.1em;
+   line-height: 22px;
+   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+   .footer{
+      min-height: 375px;
+   }
+   .footer__nav, .footer__info{
+      display: none
+   }
+   .footer__contact{
+      border: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+   }
+   .footer__row{
+      display: flex;
+      flex-direction: column;
+      padding: 44px 0px 0px 0px;
+   }
+   .footer__img{
+      background: url("/img/logofm.svg") top no-repeat;
+      width: 108.3px;
+      height: 94px;
+      padding: 0;
+   }
+   .footer__phone{
+      font-size: 22px;
+      padding: 38px 0px 7px 0px;
+   }
+   .footer__social{
+      padding: 0px 0px 20px 0px;
+   }
+   .footer__copy{
+      flex: 1 1 auto;
+      padding: 47px 0px 1px 0px;
+      text-align: center;
+   }
+}
+@media (max-width: 888px) and (min-width: 769px) {
+   .footer__logo{
+      flex: 0 1 auto;
+      padding: 0px 20px 0px 20px;
+   }
+   .footer__img{
+      background: url("/img/logofm.svg") center/auto no-repeat;
+      width: 108.3px;
+      height: 94px;
+   }
+   .footer__list{
+      font-size: 12px;
+   }
+   .footer__phone{
+      font-size: 18px;
+   }
+   .footer__mail{
+      font-size: 15px;
+   }
+   .footer__info{
+      font-size: 15px;
+      padding: 0px 10px 0px 10px;
+   }
+}
+@media (max-width: 960px) and (min-width: 889px){
+   .footer__logo{
+      flex: 0 1 auto;
+      padding: 0px 20px 0px 20px;
+   }
+   .footer__img{
+      background: url("/img/logofm.svg") center/auto no-repeat;
+      width: 108.3px;
+      height: 94px;
+   }
+}
