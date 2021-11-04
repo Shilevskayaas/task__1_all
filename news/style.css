@@ -535,6 +535,62 @@ a, a:visited{
    width: 100%;
 }
 
+
+.columns__news{
+   width: 100%;
+}
+.columns__news h1{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 59px 0px 57px 0px;
+}
+.columns__window{
+   background-color: #11305D;
+   display: flex;
+   justify-content: space-between;
+}
+.columns__text{
+   padding: 66px 0px 0px 32px;
+}
+.columns__date{
+   padding: 0px 0px 24px 0px;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.columns__instruction{
+   width: 460px;
+   font-family: ALS Hauss;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 24px;
+   color: #FFFFFF;
+   padding: 0px 0px 55px 0px;
+}
+.columns__detailed{
+   background: url(../img/button1__news.svg) left no-repeat;
+   padding: 50px 0px 0px 0px;
+}
+.columns__detailed:hover{
+   background: url(../img/button1h__news.svg) left no-repeat;
+   padding: 50px 0px 0px 0px;
+}
+.columns__picture{
+   
+}
+.columns__picture img{
+   
+}
+
+
+
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
    font-weight: normal;
