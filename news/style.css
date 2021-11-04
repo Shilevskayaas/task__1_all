@@ -576,10 +576,12 @@ a, a:visited{
    padding: 0px 0px 55px 0px;
 }
 .columns__detailed{
+   width: 160px;
    background: url(../img/button1__news.svg) left no-repeat;
    padding: 50px 0px 0px 0px;
 }
 .columns__detailed:hover{
+   width: 160px;
    background: url(../img/button1h__news.svg) left no-repeat;
    padding: 50px 0px 0px 0px;
 }
@@ -612,11 +614,13 @@ a, a:visited{
    padding: 2px 0px 48px 0px;
 }
 .columns__all{
+   width: 100px;
    margin: 0px 0px 0px 32px;
    background: url(../img/button2__news.svg) left no-repeat;
    padding: 50px 0px 1px 0px;
 }
 .columns__all:hover{
+   width: 100px;
    margin: 0px 0px 0px 32px;
    background: url(../img/button2h__news.svg) left no-repeat;
    padding: 50px 0px 1px 0px;
