@@ -546,15 +546,16 @@ a, a:visited{
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 59px 0px 57px 0px;
+   padding: 65px 0px 62px 0px;
 }
 .columns__window{
    background-color: #11305D;
    display: flex;
    justify-content: space-between;
+   padding: 0px 0px 0px 32px;
 }
 .columns__text{
-   padding: 66px 0px 0px 32px;
+   padding: 66px 0px 0px 0px;
 }
 .columns__date{
    padding: 0px 0px 24px 0px;
@@ -591,6 +592,38 @@ a, a:visited{
 
 
 
+.columns__events{
+   display: flex;
+   padding: 68px 32px 0px 32px;
+}
+.columns__event{
+   flex: 1 1 auto;
+   
+}
+.columns__event .columns__date, .columns__event .columns__instruction{
+   color: #11305D;
+}
+.columns__event .columns__instruction{
+   font-family: ALS Hauss;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 21px;
+   width: 90%;
+   padding: 2px 0px 48px 0px;
+}
+.columns__all{
+   margin: 0px 0px 0px 32px;
+   background: url(../img/button2__news.svg) left no-repeat;
+   padding: 50px 0px 1px 0px;
+}
+.columns__all:hover{
+   margin: 0px 0px 0px 32px;
+   background: url(../img/button2h__news.svg) left no-repeat;
+   padding: 50px 0px 1px 0px;
+}
+
+
+
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
    font-weight: normal;
@@ -598,7 +631,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 201px 0px 111px 0px;
+   margin: 90px 0px 111px 0px;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
