@@ -535,6 +535,72 @@ a, a:visited{
    width: 100%;
 }
 
+
+.columns__documents h1{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 65px 0px 62px 0px;
+}
+.columns__links{
+   padding: 0px 30px 0px 20px;
+}
+.columns__link{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.columns__text{
+   font-family: ALS Hauss;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+}
+.columns__lines{
+   content: "";
+   width: 70%;
+   height: 1px;
+   background-color: #C4C4C4;
+}
+.columns__lines_mobile{
+   display: none;
+}
+.columns__button p{
+   padding: 6px 0px 0px 0px;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.5em;
+   text-transform: uppercase;
+}
+.columns__add p{
+   display: flex;
+   align-items: center;
+   background: url(img/download.svg) left no-repeat;
+   padding: 30px 140px 30px 70px;
+}
+.columns__add p:hover, .header__name:active{
+   background: url(img/downloadh.svg) left no-repeat;
+   padding: 30px 140px 30px 70px;
+   transition: width 0.1s ease-in-out;
+}
+.columns__all{
+   width: 130px;
+   margin: 50px 0px 0px 20px;
+   background: url(../img/button1__documents.svg) left no-repeat;
+   padding: 30px 0px 0px 0px;
+}
+.columns__all:hover{
+   width: 130px;
+   margin: 30px 0px 0px 20px;
+   background: url(../img/button1h__documents.svg) left no-repeat;
+   padding: 30px 0px 0px 0px;
+}
+
+
+
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
    font-weight: normal;
@@ -542,7 +608,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 201px 0px 111px 0px;
+   margin: 90px 0px 111px 0px;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
@@ -592,6 +658,52 @@ a, a:visited{
    .container{
       min-width: 320px;
    }
+
+
+
+   .columns__documents h1{
+      font-size: 23px;
+      padding: 20px 0px 26px 0px;
+   }
+   .columns__lines_mobile{
+      display: block;
+      content: "";
+      height: 1px;
+      background-color: #C4C4C4;
+   }
+   .columns__add p{
+      font-family: "ALS Hauss";
+      font-weight: 500;
+      font-size: 10px;
+      letter-spacing: 0.5em;
+      padding: 18px 0px 25px 50px;
+      background: url(img/downloadm.svg) left no-repeat;
+      transition: width 0.1s ease-in-out;
+   }
+   .columns__add p:hover{
+      font-family: "ALS Hauss";
+      font-weight: 500;
+      font-size: 10px;
+      letter-spacing: 0.5em;
+      padding: 18px 0px 25px 50px;
+      background: url(img/downloadmh.svg) left no-repeat;
+      transition: width 0.1s ease-in-out;
+   }
+   .columns__all{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(../img/button1m__documents.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+   .columns__all:hover{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(../img/button1mh__documents.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+
+
+
    .columns__application{
       position: relative;
       padding: 0;
