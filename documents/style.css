@@ -600,6 +600,7 @@ a, a:visited{
    align-items: center;
 }
 .columns__text{
+   width: 55%;
    font-family: ALS Hauss;
    font-weight: 500;
    font-size: 14px;
@@ -733,6 +734,7 @@ a, a:visited{
       align-items: start;
    }
    .columns__text{
+      width: 100%;
       font-family: ALS Hauss;
       font-style: normal;
       font-weight: 500;
@@ -843,15 +845,29 @@ a, a:visited{
    .columns__for{
       font-size: 22px;
    }
+   .columns__lines{
+      width: 59%;
+   }
 }
 @media (max-width: 888px) and (min-width: 801px){
    .columns__for{
       font-size: 24px;
    }
+   .columns__lines{
+      width: 63%;
+   }
 }
 @media (max-width: 960px) and (min-width: 889px){
    .columns__for{
       font-size: 28px;
+   }
+   .columns__lines{
+      width: 65%;
+   }
+}
+@media (max-width: 1150px) and (min-width: 961px){
+   .columns__lines{
+      width: 70%;
    }
 }
 
