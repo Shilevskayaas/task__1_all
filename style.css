@@ -511,6 +511,7 @@ a, a:visited{
 .columns__about{
    height: 100%;
    margin: 40px 0px 69px 0px;
+   font-weight: 500;
    font-size: 21px;
    line-height: 29px;
    text-align: center;
