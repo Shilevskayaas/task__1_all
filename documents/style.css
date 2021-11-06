@@ -66,6 +66,13 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: "PF Din Text Comp Pro";
+	src: url("../fonts/PFDinTextCompPro-Medium.eot");
+	src: local("☺"), url("../fonts/PFDinTextCompPro-Medium.woff") format("woff"), url("../fonts/PFDinTextCompPro-Medium.ttf") format("truetype"), url("../fonts/PFDinTextCompPro-Medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
 @font-face{
 	font-family: "PF Din Text Comp Pro";
 	src: url("../fonts/pfdintextcomppro-regular.eot");
@@ -81,6 +88,14 @@ h1,h2,h3,h4,h5,h6{
    url("../fonts/ALSHauss-Bold.ttf") format("truetype");
    font-weight: bold;
    font-style: normal;
+}
+@font-face {
+	font-family: "ALS Hauss";
+   src: local("ALS Hauss Medium"), local("ALS-Hauss-Medium"),
+   url("../fonts/ALSHauss-Medium.woff") format("woff"),
+   url("../fonts/ALSHauss-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
 }
 @font-face{
    font-family: "ALS Hauss";
@@ -618,8 +633,8 @@ a, a:visited{
 
 .columns__button p{
    padding: 6px 0px 0px 0px;
-   
    font-size: 12px;
+   font-weight: 500;
    line-height: 16px;
    letter-spacing: 0.5em;
    text-transform: uppercase;
@@ -677,6 +692,7 @@ a, a:visited{
 .columns__download p{
    padding: 0px 0px 22px 0px;
    font-size: 12px;
+   font-weight: 500;
    letter-spacing: 0.5em;
    text-transform: uppercase;
 }

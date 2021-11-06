@@ -729,6 +729,7 @@ a, a:visited{
 .columns__button p{
    padding: 6px 0px 0px 0px;
    font-size: 12px;
+   font-weight: 500;
    line-height: 16px;
    letter-spacing: 0.5em;
 }
@@ -836,6 +837,7 @@ a, a:visited{
 .columns__download p{
    padding: 0px 0px 22px 0px;
    font-size: 12px;
+   font-weight: 500;
    letter-spacing: 0.5em;
    text-transform: uppercase;
 }
