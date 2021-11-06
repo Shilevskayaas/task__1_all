@@ -640,12 +640,14 @@ a, a:visited{
    text-transform: uppercase;
 }
 .columns__add p{
+   width: 100px;
    display: flex;
    align-items: center;
    background: url(../img/download.svg) left no-repeat;
    padding: 30px 125px 30px 70px;
 }
 .columns__add p:hover, .header__name:active{
+   width: 100px;
    background: url(../img/downloadh.svg) left no-repeat;
    padding: 30px 125px 30px 70px;
    transition: width 0.1s ease-in-out;
