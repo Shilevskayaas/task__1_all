@@ -546,7 +546,7 @@ a, a:visited{
    padding: 65px 0px 62px 0px;
 }
 .columns__links{
-   padding: 0px 30px 0px 20px;
+   padding: 0px 32px 0px 32px;
 }
 .columns__link{
    display: flex;
@@ -561,15 +561,17 @@ a, a:visited{
 }
 .columns__lines{
    content: "";
-   width: 70%;
+   width: 74.5%;
    height: 1px;
    background-color: #C4C4C4;
 }
 .columns__lines_mobile{
    display: none;
 }
+
 .columns__button p{
    padding: 6px 0px 0px 0px;
+   
    font-size: 12px;
    line-height: 16px;
    letter-spacing: 0.5em;
@@ -578,25 +580,25 @@ a, a:visited{
 .columns__add p{
    display: flex;
    align-items: center;
-   background: url(img/download.svg) left no-repeat;
-   padding: 30px 140px 30px 70px;
+   background: url(../img/download.svg) left no-repeat;
+   padding: 30px 125px 30px 70px;
 }
 .columns__add p:hover, .header__name:active{
-   background: url(img/downloadh.svg) left no-repeat;
-   padding: 30px 140px 30px 70px;
+   background: url(../img/downloadh.svg) left no-repeat;
+   padding: 30px 125px 30px 70px;
    transition: width 0.1s ease-in-out;
 }
 .columns__all{
    width: 130px;
-   margin: 50px 0px 0px 20px;
+   margin: 50px 0px 0px 32px;
    background: url(../img/button1__documents.svg) left no-repeat;
-   padding: 30px 0px 0px 0px;
+   padding: 55px 0px 0px 0px;
 }
 .columns__all:hover{
    width: 130px;
-   margin: 30px 0px 0px 20px;
+   margin: 50px 0px 0px 32px;
    background: url(../img/button1h__documents.svg) left no-repeat;
-   padding: 30px 0px 0px 0px;
+   padding: 55px 0px 0px 0px;
 }
 
 
@@ -677,7 +679,7 @@ a, a:visited{
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 25px 50px;
-      background: url(img/downloadm.svg) left no-repeat;
+      background: url(../img/downloadm.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
    .columns__add p:hover{
@@ -686,7 +688,7 @@ a, a:visited{
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 25px 50px;
-      background: url(img/downloadmh.svg) left no-repeat;
+      background: url(../img/downloadmh.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
    .columns__all{
