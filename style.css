@@ -340,13 +340,14 @@ a, a:visited{
 }
 @media( max-width: 768px){
    .header{
-      min-height: 114px;
+      min-height: 110px;
    }
    .header__row{
-      height: 114px;
+      height: 110px;
       flex-direction: row-reverse;
       padding: 0;
       margin-right: 65px;
+      padding-top: 4px;
    }
    .header__logo{
       margin: 0 auto;
@@ -432,13 +433,14 @@ a, a:visited{
    .header__popup{
       display: none;
       position: absolute;
-      top: 370px;
+      top: 372px;
       right: 0%;
       width: 100%;
       font-size: 19px;
    }
    .header__popup .windows{
       display: block;
+      text-align: center;
    }
    .windows .close{
       display: none;
@@ -449,14 +451,18 @@ a, a:visited{
       letter-spacing: 0.05em;
    }
    .header__popup .phone{
-      margin: -21px 0px -35px 0px;
+      margin: -24px 0px -34px 0px;
    }
    .header__popup #dialog .columns__app {
-      position: absolute;
-      top: 110%;
-      left: 37.5%;
+      display: inline-flex;
+      position: static;
+      padding: 12px 0px 0px 0px;
+   }
+   .header__popup #dialog .columns__name_1 {
+      margin: 0px 7px 0px 0px;
    }
 }
+
 
 @media (max-width: 960px) and (min-width: 769px){
    .header__logo{
