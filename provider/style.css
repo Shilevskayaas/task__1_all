@@ -607,14 +607,26 @@ a, a:visited{
 }
 
 
-.columns__documents h1{
+.columns__documents h1, h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 35px;
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 65px 0px 62px 0px;
+   padding: 65px 0px 30px 0px;
+}
+.columns__documents p{
+   width: 80%;
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 33px;
+   margin: 0 auto;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 0px 0px 60px 0px;
 }
 .columns__links{
    padding: 0px 32px 0px 32px;
@@ -623,55 +635,72 @@ a, a:visited{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   width: 90%;
 }
 .columns__text{
    width: 55%;
    font-family: ALS Hauss;
    font-weight: 500;
-   font-size: 14px;
-   line-height: 21px;
+   font-size: 17px;
+   line-height: 24px;
+   margin-left: 145px;
 }
 .columns__lines{
    content: "";
-   width: 74.5%;
+   width: 70.5%;
    height: 1px;
    background-color: #C4C4C4;
+   margin-left: 145px;
 }
 .columns__lines_mobile{
    display: none;
 }
+.columns__add{
+   background: url(../img/open_link.svg) left no-repeat;
+   padding: 40px 0px 40px 45px;
+}
 
-.columns__button p{
+
+
+
+.columns__documents p .columns__uploads p{
+   padding: 25px 50px 0px 0px;
+   font-size: 21px;
+   line-height: 29px;
+}
+.columns__uploads{
+   display: flex;
+   padding: 35px 0px 0px 0px;
+}
+.columns__buttons p{
    padding: 6px 0px 0px 0px;
    font-size: 12px;
    font-weight: 500;
    line-height: 16px;
    letter-spacing: 0.5em;
-   text-transform: uppercase;
 }
-.columns__add p{
+.columns__adds p{
    display: flex;
    align-items: center;
-   background: url(../img/download.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
+   background: url(img/download.svg) left no-repeat;
+   padding: 30px 0px 30px 70px;
 }
-.columns__add p:hover, .header__name:active{
-   background: url(../img/downloadh.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
+.columns__adds p:hover{
+   background: url(img/downloadh.svg) left no-repeat;
+   padding: 30px 0px 30px 70px;
    transition: width 0.1s ease-in-out;
 }
-.columns__all{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
+.columns__row{
+   display: flex;
 }
-.columns__all:hover{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1h__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
+.columns__icons{
+   flex: 0 1 33.333%;
 }
+.columns__apps img{
+   width: 151px;
+   height: 98px;
+}
+
 
 
 
