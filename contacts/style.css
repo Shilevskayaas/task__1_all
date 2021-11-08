@@ -340,13 +340,14 @@ a, a:visited{
 }
 @media( max-width: 768px){
    .header{
-      min-height: 114px;
+      min-height: 110px;
    }
    .header__row{
-      height: 114px;
+      height: 110px;
       flex-direction: row-reverse;
       padding: 0;
       margin-right: 65px;
+      padding-top: 4px;
    }
    .header__logo{
       margin: 0 auto;
@@ -465,7 +466,7 @@ a, a:visited{
       padding: 15px 0px 10px 0px;
    }
    .header__popup .phone{
-      margin: -21px 0px -35px 0px;
+      margin: -24px 0px -34px 0px;
       margin: 0 auto;
       text-align: center;
       font-family: PF Din Text Comp Pro;

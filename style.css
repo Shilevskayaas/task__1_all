@@ -400,7 +400,7 @@ a, a:visited{
    .header__list{
       display: none;
       position: absolute;
-      top: 140px;
+      top: 141px;
       left: 0;
       background: #fff;
       width: 100%;
@@ -420,7 +420,7 @@ a, a:visited{
       width: fit-content;
       margin: 0 auto;
       letter-spacing: 0.1em;
-      height: 38.4px;
+      height: 38.1px;
    }
    .header__list_hover:after, .header__list_active:after{
       display: none;
@@ -433,7 +433,7 @@ a, a:visited{
    .header__popup{
       display: none;
       position: absolute;
-      top: 372px;
+      top: 370px;
       right: 0%;
       width: 100%;
       font-size: 19px;
@@ -451,7 +451,7 @@ a, a:visited{
       letter-spacing: 0.05em;
    }
    .header__popup .phone{
-      margin: -24px 0px -34px 0px;
+      margin: -22px 0px -35px 0px;
    }
    .header__popup #dialog .columns__app {
       display: inline-flex;
