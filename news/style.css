@@ -824,6 +824,9 @@ a, a:visited{
       font-size: 12px;
       line-height: 19px;
    }
+   .columns__news .columns__all {
+      margin: 0px 0px 0px 20px;
+   }
    .columns__all{
       width: 71px;
       margin: 0px 0px 0px 20px;
