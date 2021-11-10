@@ -120,7 +120,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1400px;
+   max-width: 1464px;
 }
 
 .header__text, .header__info, .header__list{
@@ -607,6 +607,18 @@ a, a:visited{
 .columns__news{
    width: 100%;
 }
+.columns__news .columns__text{
+   margin: 0px auto;
+   max-width: 1464px;
+   padding: 66px 0px 69px 32px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+}
+.columns__news .columns__all{
+   margin: 0px auto;
+   max-width: 1464px;
+}
 .columns__news h1{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
@@ -620,11 +632,7 @@ a, a:visited{
    background-color: #11305D;
    display: flex;
    justify-content: space-between;
-   padding: 0px 0px 0px 32px;
-}
-.columns__text{
-   max-width: 52%;
-   padding: 66px 0px 69px 0px;
+   padding: 0px 0px 0px 0px;
 }
 .columns__date{
    padding: 0px 0px 24px 0px;
@@ -636,8 +644,6 @@ a, a:visited{
    color: #FFFFFF;
 }
 .columns__instruction{
-   width: 460px;
-   max-width: 100%;
    font-family: ALS Hauss;
    font-weight: 500;
    font-size: 22px;
@@ -669,6 +675,8 @@ a, a:visited{
 .columns__events{
    display: flex;
    padding: 68px 32px 0px 32px;
+   margin: 0px auto;
+   max-width: 1464px;
 }
 .columns__event{
    flex: 1 1 auto;
@@ -686,15 +694,13 @@ a, a:visited{
    padding: 2px 0px 48px 0px;
 }
 .columns__all{
-   width: 100px;
-   margin: 0px 0px 0px 32px;
    background: url(../img/button2__news.svg) left no-repeat;
+   background-position-x:32px;
    padding: 50px 0px 1px 0px;
 }
 .columns__all:hover{
-   width: 100px;
-   margin: 0px 0px 0px 32px;
    background: url(../img/button2h__news.svg) left no-repeat;
+   background-position-x:32px;
    padding: 50px 0px 1px 0px;
 }
 
@@ -766,7 +772,10 @@ a, a:visited{
       padding: 0px 0px 0px 0px;
       flex-direction: column-reverse;
    }
-   .columns__text{
+   .columns__news .columns__text {
+      padding: 0px 0px 0px 20px;
+   }
+   .columns__news .columns__text{
       max-width: 100%;
       margin: 0px 5px 0px 20px;
       padding: 25px 0px 35px 0px;
@@ -917,6 +926,10 @@ a, a:visited{
    background-color: #11305D;
    color: #fff;
    height: 253px;
+}
+.footer .container{
+   margin: 0px auto;
+   max-width: 1464px;
 }
 .footer__row{
    display: flex;

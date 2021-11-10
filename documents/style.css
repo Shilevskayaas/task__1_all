@@ -120,7 +120,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1400px;
+   max-width: 1464px;
 }
 
 .header__text, .header__info, .header__list{
@@ -606,7 +606,10 @@ a, a:visited{
    width: 100%;
 }
 
-
+.columns__documents{
+   margin: 0px auto;
+   max-width: 1464px;
+}
 .columns__documents h1{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;

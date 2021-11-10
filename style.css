@@ -120,7 +120,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1400px;
+   max-width: 1464px;
 }
 
 .header__text, .header__info, .header__list{
@@ -703,7 +703,7 @@ a, a:visited{
 
 .columns__requisites{
    height: 624px;
-   width: 89%;
+   padding: 0px 32px 0px 32px;
    margin: 99px 0px 100px 0px;
    margin: 0 auto;
    text-align: center;
@@ -1091,6 +1091,9 @@ a, a:visited{
       content: "";
       height: 1px;
       background-color: #C4C4C4;
+   }
+   .columns__requisites{
+      padding: 0px 20px 0px 20px;
    }
    .columns__requisites h2{
       font-size: 23px;
