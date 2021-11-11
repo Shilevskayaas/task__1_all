@@ -607,14 +607,26 @@ a, a:visited{
 }
 
 
-.columns__documents h1{
+.columns__faq h1, h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 35px;
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 65px 0px 62px 0px;
+   padding: 65px 0px 30px 0px;
+}
+.columns__faq p{
+   width: 80%;
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 33px;
+   margin: 0 auto;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 0px 0px 60px 0px;
 }
 .columns__links{
    padding: 0px 32px 0px 32px;
@@ -623,54 +635,26 @@ a, a:visited{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   width: 90%;
 }
 .columns__text{
    width: 55%;
    font-family: ALS Hauss;
    font-weight: 500;
-   font-size: 14px;
-   line-height: 21px;
+   font-size: 17px;
+   line-height: 24px;
+   margin-left: 145px;
 }
 .columns__lines{
    content: "";
-   width: 74.5%;
+   width: 70.5%;
    height: 1px;
    background-color: #C4C4C4;
+   margin-left: 145px;
 }
-.columns__lines_mobile{
-   display: none;
-}
-
-.columns__button p{
-   padding: 6px 0px 0px 0px;
-   font-size: 12px;
-   font-weight: 500;
-   line-height: 16px;
-   letter-spacing: 0.5em;
-   text-transform: uppercase;
-}
-.columns__add p{
-   display: flex;
-   align-items: center;
-   background: url(../img/download.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
-}
-.columns__add p:hover, .header__name:active{
-   background: url(../img/downloadh.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__all{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
-}
-.columns__all:hover{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1h__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
+.columns__add{
+   background: url(../img/open_link.svg) left no-repeat;
+   padding: 40px 0px 39px 45px;
 }
 
 
@@ -738,26 +722,22 @@ a, a:visited{
    }
 
 
-   .columns__documents h1{
+   .columns__faq h1{
       font-size: 23px;
       padding: 20px 0px 26px 0px;
-   }
-   .columns__lines_mobile{
-      display: block;
-      content: "";
-      height: 1px;
-      background-color: #C4C4C4;
    }
    .columns__links {
       padding: 0px 20px 0px 20px;
    }
    .columns__lines{
-      width: 100%;
+      width: 84%;
+      margin: 0;
    }
    .columns__link {
       display: flex;
-      flex-direction: column;
-      align-items: start;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
    }
    .columns__text{
       width: 100%;
@@ -766,42 +746,19 @@ a, a:visited{
       font-weight: 500;
       font-size: 12px;
       line-height: 19px;
-      padding: 15px 0px 0px 0px;
+      padding: 20px 0px 19px 0px;
+      margin: 0;
    }
    .columns__upload{
-      width: 100%;
+      
    }
-   .columns__add p{
-      font-family: "ALS Hauss";
-      font-weight: 500;
-      font-size: 10px;
-      letter-spacing: 0.5em;
-      padding: 18px 0px 20px 50px;
-      background: url(../img/downloadm.svg) left no-repeat;
-      transition: width 0.1s ease-in-out;
+   .columns__add{
+      background: url(../img/open_linkm.svg) right no-repeat;
+      padding: 20px 0px 20px 30px;
    }
-   .columns__add p:hover{
-      font-family: "ALS Hauss";
-      font-weight: 500;
-      font-size: 10px;
-      letter-spacing: 0.5em;
-      padding: 18px 0px 20px 50px;
-      background: url(../img/downloadmh.svg) left no-repeat;
-      transition: width 0.1s ease-in-out;
+   .columns__link_5, .columns__link_6, .columns__link_7, .columns__link_8, .columns__lines_none{
+      display: none;
    }
-   .columns__all{
-      width: 90px;
-      margin: 20px 0px 0px 20px;
-      background: url(../img/button1m__documents.svg) left no-repeat;
-      padding: 25px 0px 1px 0px;
-   }
-   .columns__all:hover{
-      width: 90px;
-      margin: 20px 0px 0px 20px;
-      background: url(../img/button1mh__documents.svg) left no-repeat;
-      padding: 25px 0px 1px 0px;
-   }
-
 
 
    .columns__application{

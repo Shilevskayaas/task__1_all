@@ -607,7 +607,7 @@ a, a:visited{
 }
 
 
-.columns__documents h1, h2{
+.columns__provider h1, h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 35px;
@@ -616,7 +616,7 @@ a, a:visited{
    text-transform: uppercase;
    padding: 65px 0px 30px 0px;
 }
-.columns__documents p{
+.columns__provider p{
    width: 80%;
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
@@ -663,7 +663,7 @@ a, a:visited{
 
 
 
-.columns__documents p .columns__uploads p{
+.columns__provider p .columns__uploads p{
    padding: 25px 50px 0px 0px;
    font-size: 21px;
    line-height: 29px;
@@ -699,6 +699,16 @@ a, a:visited{
 .columns__apps img{
    width: 151px;
    height: 98px;
+}
+.columns__all{
+   background: url(../img/button2__provider.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 50px 0px 1px 0px;
+}
+.columns__all:hover{
+   background: url(../img/button2h__provider.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 50px 0px 1px 0px;
 }
 
 
@@ -767,7 +777,7 @@ a, a:visited{
    }
 
 
-   .columns__documents h1{
+   .columns__provider h1{
       font-size: 23px;
       padding: 20px 0px 26px 0px;
    }
