@@ -639,11 +639,43 @@ a, a:visited{
 }
 .columns__text{
    width: 55%;
+   margin-left: 145px;
+}
+.columns__text h2{
    font-family: ALS Hauss;
    font-weight: 500;
    font-size: 17px;
    line-height: 24px;
-   margin-left: 145px;
+   text-align: left;
+   letter-spacing: 0;
+   text-transform: none;
+   padding: 0;
+}
+
+
+.columns__hide{
+   display: none;
+}
+.columns__text.hide{
+   padding: 25px 0px 20px 0px;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+}
+.columns__text.hide ol{
+   padding: 0px 0px 0px 15px;
+}
+.columns__text.hide h3{
+   margin-left: -15px;
+   padding: 20px 0px 20px 0px;
+}
+.columns__text.hide li{
+   padding: 0px 0px 5px 0px;
+}
+.columns__text.hide .columns__hide{
+   display: block;
+   height: 100%;
 }
 .columns__lines{
    content: "";
@@ -656,6 +688,12 @@ a, a:visited{
    background: url(../img/open_link.svg) left no-repeat;
    padding: 40px 0px 39px 45px;
 }
+.columns__add.hide{
+   background: url(../img/close_link.svg) left no-repeat;
+   padding: 40px 0px 39px 45px;
+}
+
+
 
 
 
@@ -740,14 +778,16 @@ a, a:visited{
       width: 100%;
    }
    .columns__text{
-      width: 100%;
+      width: 80%;
+      padding: 20px 0px 19px 0px;
+      margin: 0;
+   }
+   .columns__text h2{
       font-family: ALS Hauss;
       font-style: normal;
       font-weight: 500;
       font-size: 12px;
       line-height: 19px;
-      padding: 20px 0px 19px 0px;
-      margin: 0;
    }
    .columns__upload{
       

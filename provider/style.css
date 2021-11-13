@@ -659,6 +659,10 @@ a, a:visited{
    background: url(../img/open_link.svg) left no-repeat;
    padding: 40px 0px 40px 45px;
 }
+.columns__add:active{
+   background: url(../img/close_link.svg) left no-repeat;
+   padding: 40px 0px 40px 45px;
+}
 
 
 

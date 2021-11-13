@@ -23,3 +23,14 @@ $(document).ready(function() {
     $('.window').hide();
     }); 
    });  
+$(document).ready(function(){
+   $('.columns__add').click(function(){
+      $('.columns__text').toggleClass('hide');	
+      if ($('.columns__text').hasClass('hide')) {
+         $('.columns__add').addClass('hide');
+      } else {
+         $('.columns__add').removeClass('hide');
+      }		
+      return false;
+   });				
+});
