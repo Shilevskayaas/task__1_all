@@ -569,7 +569,7 @@ a, a:visited{
    flex-direction: column;
    align-items: center;
 }
-h1, h2{
+h1{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 35px;
@@ -577,20 +577,34 @@ h1, h2{
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 30px 0px 30px 0px;
+   padding: 57px 0px 52px 0px;
 }
 .columns__contacts{
    text-align: center;
 }
 
-.columns__contacts p{
+.columns__contacts p, h5{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 22px;
    line-height: 30px;
    text-align: center;
    letter-spacing: 0.05em;
-   padding: 0px 0px 0px 0px;
+}
+.columns__detailed{
+   width: 310px;
+   margin: 0 auto;
+   background: url(../img/button1__contacts.svg) center no-repeat;
+   padding: 0px 0px 111px 0px;
+}
+.columns__detailed:hover{
+   width: 310px;
+   margin: 0 auto;
+   background: url(../img/button1h__contacts.svg) center no-repeat;
+   padding: 0px 0px 111px 0px;
+}
+.columns__contacts h5{
+   padding: 30px 0px 0px 0px;
 }
 .columns__phones{
    font-family: PF Din Text Comp Pro;
@@ -598,40 +612,25 @@ h1, h2{
    font-size: 35px;
    line-height: 48px;
    letter-spacing: 0.05em;
-   padding: 20px 0px 30px 0px;
+   padding: 3px 0px 27px 0px;
    text-align: center;
 }
 .columns__social{
    display: inline-flex;
-
    position: static;
-   padding: 20px 0px 50px 0px;
+   padding: 4px 0px 35px 0px;
 }
 .columns__fb{
-   
    background: url("../img/fb_blue.svg") right no-repeat;
    padding: 1px 40px 90px 0px;
-   margin-right: 7px;
+   margin-right: 6px;
 }
 .columns__in{
-   
    background: url("../img/in_blue.svg") right no-repeat;
    padding: 1px 0px 90px 40px;
 }
-.columns__detailed{
-   width: 310px;
-   margin: 0 auto;
-   background: url(../img/button1__contacts.svg) center no-repeat;
-   padding: 0px 0px 120px 0px;
-}
-.columns__detailed:hover{
-   width: 310px;
-   margin: 0 auto;
-   background: url(../img/button1h__contacts.svg) center no-repeat;
-   padding: 0px 0px 120px 0px;
-}
 .columns__road{
-   padding: 60px 0px 60px 0px;
+   padding: 0px 0px 60px 0px;
 }
 .columns__road h3{
    font-family: ALS Hauss;
@@ -644,10 +643,14 @@ h1, h2{
    padding: 0px 0px 30px 0px;
 }
 .columns__list{
+   width: 57%;
    display: flex;
    justify-content: space-between;
    margin: 0 auto;
-   width: 60%;
+}
+.columns__list_active{
+   border-bottom: 2px solid #11305D;
+   padding-bottom: 5px;
 }
 .columns__list li{
    font-family: PF Din Text Comp Pro;
@@ -662,9 +665,13 @@ h1, h2{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 50px 100px 0px 0px;
+   padding: 61px 100px 10px 0px;
 }
 .columns__texts{
+   height: 188px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    font-family: ALS Hauss;
    font-weight: normal;
    font-size: 14px;
@@ -673,28 +680,36 @@ h1, h2{
 
 .columns__texts li{
    list-style: none;
-   margin-left: 20px;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   margin-left: 35px;
+   padding: 0px 0px 0px 48px;
 }
 .columns__marker_1{
-   padding: 18px 0px 20px 50px;
    background: url(../img/marker_1.svg) left no-repeat;
 }
 .columns__marker_2{
-   padding: 18px 0px 20px 50px;
    background: url(../img/marker_2.svg) left no-repeat;
 }
 .columns__marker_3{
-   padding: 18px 0px 20px 50px;
    background: url(../img/marker_3.svg) left no-repeat;
 }
-
-
-
+h2{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   line-height: 48px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
 .columns__info{
-   padding: 30px 0px 30px 0px;
+   padding: 30px 0px 0px 0px;
 }
 .columns__info h2{
-   padding: 0px 0px 20px 0px;
+   padding: 0px 0px 47px 0px;
 }
 .columns__services{
    display: flex;
@@ -711,8 +726,11 @@ h1, h2{
 }
 .columns__service{
    flex: 0 1 33.333%;
-   padding: 0px 0px 20px 0px;
+   padding: 0px 0px 36px 0px;
    text-align: left;
+}
+.columns__service a{
+   border-bottom: 1px solid #11305D;
 }
 
 
@@ -725,7 +743,7 @@ h1, h2{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 90px 0px 111px 0px;
+   margin: 76px 0px 111px 0px;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
