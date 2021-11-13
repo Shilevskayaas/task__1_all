@@ -564,114 +564,157 @@ a, a:visited{
    height: 1px;
    background-color: #11305D;
 }
-
-.columns__app{
+.columns{
    display: flex;
-   justify-content: space-between;
-   position: absolute;
-   bottom: 20%;
-   left: 42%;
-}
-.columns__name{
-   display: flex;
+   flex-direction: column;
    align-items: center;
-   height: 50px;
 }
-.columns__name_1{
-   background: url(../img/telegram.svg) right no-repeat;
-   margin: 0px 15px 0px 0px;
-   padding: 0px 0px 0px 50px;
-}
-.columns__name_2{
-   background: url(../img/whatsapp.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-}
-.columns__name_1:hover, .columns__name:active{
-   background: url(../img/telegramh.svg) right no-repeat;
-   margin: 0px 15px 0px 0px;
-   padding: 0px 0px 0px 50px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__name_2:hover, .columns__name:active{
-   background: url(.../img/whatsapph.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-   transition: width 0.1s ease-in-out;
-}
-
-.columns__full{
-   line-height: 0;
-}
-.columns__image img{
-   object-fit: cover;
-   width: 100%;
-}
-
-
-.columns__documents h1{
+h1, h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 35px;
+   line-height: 48px;
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 65px 0px 62px 0px;
+   padding: 30px 0px 30px 0px;
 }
-.columns__links{
-   padding: 0px 32px 0px 32px;
+.columns__contacts{
+   text-align: center;
 }
-.columns__link{
+
+.columns__contacts p{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 30px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   padding: 0px 0px 0px 0px;
+}
+.columns__phones{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   line-height: 48px;
+   letter-spacing: 0.05em;
+   padding: 20px 0px 30px 0px;
+   text-align: center;
+}
+.columns__social{
+   display: inline-flex;
+
+   position: static;
+   padding: 20px 0px 50px 0px;
+}
+.columns__fb{
+   
+   background: url("../img/fb_blue.svg") right no-repeat;
+   padding: 1px 40px 90px 0px;
+   margin-right: 7px;
+}
+.columns__in{
+   
+   background: url("../img/in_blue.svg") right no-repeat;
+   padding: 1px 0px 90px 40px;
+}
+.columns__detailed{
+   width: 310px;
+   margin: 0 auto;
+   background: url(../img/button1__contacts.svg) center no-repeat;
+   padding: 0px 0px 120px 0px;
+}
+.columns__detailed:hover{
+   width: 310px;
+   margin: 0 auto;
+   background: url(../img/button1h__contacts.svg) center no-repeat;
+   padding: 0px 0px 120px 0px;
+}
+.columns__road{
+   padding: 60px 0px 60px 0px;
+}
+.columns__road h3{
+   font-family: ALS Hauss;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 24px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   text-align: center;
+   padding: 0px 0px 30px 0px;
+}
+.columns__list{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   width: 60%;
+}
+.columns__list li{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
+.columns__window{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 50px 100px 0px 0px;
 }
-.columns__text{
-   width: 55%;
+.columns__texts{
    font-family: ALS Hauss;
-   font-weight: 500;
+   font-weight: normal;
    font-size: 14px;
-   line-height: 21px;
-}
-.columns__lines{
-   content: "";
-   width: 74.5%;
-   height: 1px;
-   background-color: #C4C4C4;
-}
-.columns__lines_mobile{
-   display: none;
+   line-height: 24px;
 }
 
-.columns__button p{
-   padding: 6px 0px 0px 0px;
-   font-size: 12px;
-   font-weight: 500;
-   line-height: 16px;
-   letter-spacing: 0.5em;
-   text-transform: uppercase;
+.columns__texts li{
+   list-style: none;
+   margin-left: 20px;
 }
-.columns__add p{
+.columns__marker_1{
+   padding: 18px 0px 20px 50px;
+   background: url(../img/marker_1.svg) left no-repeat;
+}
+.columns__marker_2{
+   padding: 18px 0px 20px 50px;
+   background: url(../img/marker_2.svg) left no-repeat;
+}
+.columns__marker_3{
+   padding: 18px 0px 20px 50px;
+   background: url(../img/marker_3.svg) left no-repeat;
+}
+
+
+
+.columns__info{
+   padding: 30px 0px 30px 0px;
+}
+.columns__info h2{
+   padding: 0px 0px 20px 0px;
+}
+.columns__services{
    display: flex;
-   align-items: center;
-   background: url(../img/download.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
+   flex-wrap: wrap;
+   width: 70%;
+   margin: 0 auto;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
 }
-.columns__add p:hover, .header__name:active{
-   background: url(../img/downloadh.svg) left no-repeat;
-   padding: 30px 125px 30px 70px;
-   transition: width 0.1s ease-in-out;
+.columns__services h4{
+   font-weight: bold;
 }
-.columns__all{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
+.columns__service{
+   flex: 0 1 33.333%;
+   padding: 0px 0px 20px 0px;
+   text-align: left;
 }
-.columns__all:hover{
-   width: 130px;
-   margin: 50px 0px 0px 32px;
-   background: url(../img/button1h__documents.svg) left no-repeat;
-   padding: 55px 0px 0px 0px;
-}
+
 
 
 
