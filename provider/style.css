@@ -599,6 +599,8 @@ a, a:visited{
 }
 
 .columns__full{
+   max-width: 1400px;
+   margin: 0 auto;
    line-height: 0;
 }
 .columns__image img{
@@ -606,7 +608,11 @@ a, a:visited{
    width: 100%;
 }
 
-
+.columns__provider{
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 0px 32px 0px 32px;
+}
 .columns__provider h1, h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;

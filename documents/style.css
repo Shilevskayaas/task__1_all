@@ -600,6 +600,8 @@ a, a:visited{
 }
 
 .columns__full{
+   max-width: 1400px;
+   margin: 0 auto;
    line-height: 0;
 }
 .columns__image img{

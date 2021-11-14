@@ -596,6 +596,8 @@ a, a:visited{
 }
 
 .columns__full{
+   max-width: 1400px;
+   margin: 0 auto;
    line-height: 0;
 }
 .columns__image img{
@@ -608,7 +610,7 @@ a, a:visited{
    width: 100%;
 }
 .columns__news .columns__text{
-   padding: 66px 0px 69px 32px;
+   padding: 0;
    display: flex;
    flex-direction: column;
    align-self: center;
@@ -636,9 +638,13 @@ a, a:visited{
 }
 .columns__window{
    background-color: #11305D;
+}
+.columns__fix{
+   max-width: 1464px;
+   margin: 0 auto;
    display: flex;
    justify-content: space-between;
-   padding: 0px 0px 0px 0px;
+   padding: 0px 32px 0px 32px;
 }
 .columns__date{
    padding: 0px 0px 24px 0px;
@@ -770,7 +776,7 @@ a, a:visited{
       font-size: 23px;
       padding: 20px 0px 26px 0px;
    }
-   .columns__window{
+   .columns__fix{
       padding: 0px 0px 0px 0px;
       flex-direction: column-reverse;
    }
@@ -924,21 +930,12 @@ a, a:visited{
       font-size: 28px;
    }
 }
-@media (max-width: 1599px) and (min-width: 1465px){
-   .columns__news .columns__text{
-      padding: 66px 0px 69px 32px;
+@media (max-width: 1400px) and (min-width: 769px){
+   .columns__fix{
+      padding: 0px 0px 0px 32px;
    }
 }
-@media (max-width: 1919px) and (min-width: 1600px){
-   .columns__news .columns__text{
-      padding: 66px 0px 69px 101px;
-   }
-}
-@media (max-width: 2500px) and (min-width: 1920px){
-   .columns__news .columns__text{
-      padding: 66px 0px 69px 262px;
-   }
-}
+
 
 .footer{
    background-color: #11305D;
