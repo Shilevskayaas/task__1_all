@@ -780,6 +780,11 @@ a, a:visited{
    .columns__upload{
       width: 100%;
    }
+   .columns__add{
+      padding: 1px 0px 1px 1px;
+   }
+
+
    .columns__add p{
       font-family: "ALS Hauss";
       font-weight: 500;

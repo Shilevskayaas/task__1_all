@@ -1116,6 +1116,9 @@ a, a:visited{
       font-size: 15px;
       padding: 10px 0px 0px 0px;
    }
+   .columns__add{
+      padding: 0px 0px 0px 1px;
+   }
    .columns__add p{
       font-family: "ALS Hauss";
       font-weight: 500;
