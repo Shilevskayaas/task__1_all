@@ -667,17 +667,15 @@ h1{
    align-items: center;
    padding: 61px 100px 10px 0px;
 }
+.columns__picture_mobile{
+   display: none;
+}
 .columns__texts{
    height: 188px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   font-family: ALS Hauss;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 24px;
 }
-
 .columns__texts li{
    list-style: none;
    font-family: ALS Hauss;
@@ -799,73 +797,129 @@ h2{
    .container{
       min-width: 320px;
    }
-   .columns__full{
+
+   .columns__contacts h1{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   .columns__contacts p{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 25px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   .columns__detailed{
+      width: 310px;
+      margin: 0 auto;
+      background: url(../img/button1m__contacts.svg) center no-repeat;
+      padding: 0px 0px 111px 0px;
+   }
+   .columns__detailed:hover{
+      width: 310px;
+      margin: 0 auto;
+      background: url(../img/button1mh__contacts.svg) center no-repeat;
+      padding: 0px 0px 111px 0px;
+   }
+   .columns__contacts h5{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 23px;
+      letter-spacing: 0.05em;
+   }
+   .columns__phones{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 31px;
+      letter-spacing: 0.05em;
+   }
+   .columns__mail p{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: none;
+      width: 50%;
+      margin: 0 auto;
+      padding: 0px 0px 20px 0px;
+   }
+   .columns__road h3{
+      font-family: ALS Hauss;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+   }
+   .columns__list{
+      flex-wrap: wrap;
+      width: 75%;
+   }
+   .columns__list li{
+      flex: 0 1 50%;
+      font-family: PF Din Text Comp Pro;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0px 0px 20px 0px;
+   }
+   .columns__window{
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+   }
+   .columns__picture{
       display: none;
    }
-
-
-   .columns__documents h1{
-      font-size: 23px;
-      padding: 20px 0px 26px 0px;
-   }
-   .columns__lines_mobile{
+   .columns__picture_mobile{
       display: block;
-      content: "";
-      height: 1px;
-      background-color: #C4C4C4;
    }
-   .columns__links {
-      padding: 0px 20px 0px 20px;
+   .columns__marker_1{
+      background: url(../img/marker_1m.svg) left no-repeat;
    }
-   .columns__lines{
-      width: 100%;
+   .columns__marker_2{
+      background: url(../img/marker_2m.svg) left no-repeat;
    }
-   .columns__link {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
+   .columns__marker_3{
+      background: url(../img/marker_3m.svg) left no-repeat;
    }
-   .columns__text{
-      width: 100%;
+   .columns__texts li{
       font-family: ALS Hauss;
-      font-style: normal;
-      font-weight: 500;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 15px;
+   }
+   .columns__info h2{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   .columns__services{
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      font-family: ALS Hauss;
       font-size: 12px;
       line-height: 19px;
-      padding: 15px 0px 0px 0px;
    }
-   .columns__upload{
-      width: 100%;
-   }
-   .columns__add p{
-      font-family: "ALS Hauss";
-      font-weight: 500;
-      font-size: 10px;
-      letter-spacing: 0.5em;
-      padding: 18px 0px 20px 50px;
-      background: url(../img/downloadm.svg) left no-repeat;
-      transition: width 0.1s ease-in-out;
-   }
-   .columns__add p:hover{
-      font-family: "ALS Hauss";
-      font-weight: 500;
-      font-size: 10px;
-      letter-spacing: 0.5em;
-      padding: 18px 0px 20px 50px;
-      background: url(../img/downloadmh.svg) left no-repeat;
-      transition: width 0.1s ease-in-out;
-   }
-   .columns__all{
-      width: 90px;
-      margin: 20px 0px 0px 20px;
-      background: url(../img/button1m__documents.svg) left no-repeat;
-      padding: 25px 0px 1px 0px;
-   }
-   .columns__all:hover{
-      width: 90px;
-      margin: 20px 0px 0px 20px;
-      background: url(../img/button1mh__documents.svg) left no-repeat;
-      padding: 25px 0px 1px 0px;
+   .columns__service_none{
+      display: none;
    }
 
 
