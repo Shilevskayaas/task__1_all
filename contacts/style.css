@@ -798,7 +798,7 @@ h2{
       min-width: 320px;
    }
 
-   .columns__contacts h1{
+   h1{
       font-family: PF Din Text Comp Pro;
       font-weight: normal;
       font-size: 23px;
@@ -806,6 +806,7 @@ h2{
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+      padding: 23px 0px 13px 0px;
    }
    .columns__contacts p{
       font-family: PF Din Text Comp Pro;
@@ -819,13 +820,13 @@ h2{
       width: 310px;
       margin: 0 auto;
       background: url(../img/button1m__contacts.svg) center no-repeat;
-      padding: 0px 0px 111px 0px;
+      padding: 0px 0px 76px 0px;
    }
    .columns__detailed:hover{
       width: 310px;
       margin: 0 auto;
       background: url(../img/button1mh__contacts.svg) center no-repeat;
-      padding: 0px 0px 111px 0px;
+      padding: 0px 0px 76px 0px;
    }
    .columns__contacts h5{
       font-family: PF Din Text Comp Pro;
@@ -833,6 +834,7 @@ h2{
       font-size: 17px;
       line-height: 23px;
       letter-spacing: 0.05em;
+      padding: 17px 0px 0px 0px;
    }
    .columns__phones{
       font-family: PF Din Text Comp Pro;
@@ -840,6 +842,7 @@ h2{
       font-size: 23px;
       line-height: 31px;
       letter-spacing: 0.05em;
+      padding: 2px 0px 16px 0px;
    }
    .columns__mail p{
       font-family: PF Din Text Comp Pro;
@@ -849,9 +852,21 @@ h2{
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: none;
-      width: 50%;
+      width: 60%;
       margin: 0 auto;
-      padding: 0px 0px 20px 0px;
+      padding: 0px 0px 17px 0px;
+   }
+   .columns__social{
+      padding: 18px 0px 0px 0px;
+   }
+   .columns__fb {
+      padding: 20px 0px 20px 35px;
+   }
+   .columns__in {
+      padding: 20px 0px 20px 35px;
+   }
+   .columns__road{
+      padding: 56px 0px 0px 0px;
    }
    .columns__road h3{
       font-family: ALS Hauss;
@@ -860,10 +875,16 @@ h2{
       line-height: 24px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
+      padding: 0px 0px 17px 0px;
+   }
+   .columns__list_active{
+      border-bottom: 1px solid #11305D;
+      padding-bottom: 2px;
    }
    .columns__list{
       flex-wrap: wrap;
       width: 75%;
+      padding: 0px 0px 4px 0px;
    }
    .columns__list li{
       flex: 0 1 50%;
@@ -873,7 +894,7 @@ h2{
       line-height: 20px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      padding: 0px 0px 20px 0px;
+      padding: 0px 0px 19px 0px;
    }
    .columns__window{
       flex-direction: column;
@@ -895,11 +916,27 @@ h2{
    .columns__marker_3{
       background: url(../img/marker_3m.svg) left no-repeat;
    }
+   .columns__texts{
+      height: 100%;
+      padding: 18px 0px 0px 0px;
+   }
    .columns__texts li{
       font-family: ALS Hauss;
       font-weight: normal;
       font-size: 10px;
       line-height: 15px;
+      margin-left: 18px;
+      padding: 9px 0px 9px 40px;
+   }
+   .columns__marker_1 br, .columns__marker_2 br, .columns__marker_3 br{
+      content: "";
+   }
+   .columns__marker_1 br:after, .columns__marker_2 br:after, .columns__marker_3 br:after{
+      content: "\00a0";
+   }
+   .columns__info{
+      width: 100%;
+      padding: 50px 20px 0px 20px;
    }
    .columns__info h2{
       font-family: PF Din Text Comp Pro;
@@ -909,6 +946,7 @@ h2{
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+      padding: 0px 0px 33px 0px;
    }
    .columns__services{
       width: 100%;
@@ -921,13 +959,18 @@ h2{
    .columns__service_none{
       display: none;
    }
-
+   .columns__service{
+      padding: 0px 0px 14px 0px;
+   }
+   .columns__service a{
+      padding-bottom: 1px;
+   }
 
 
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 55px 16px 88px 20px;  
+      margin: 44px 16px 88px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
