@@ -404,7 +404,7 @@ a, a:visited{
       left: 0;
       background: #fff;
       width: 100%;
-      height: 600px;
+      height: 100%;
       text-align: center;
    }
    .header__list::after{
@@ -816,6 +816,8 @@ a, a:visited{
    text-transform: uppercase;
    padding: 10px;
 }
+
+
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
    font-weight: normal;

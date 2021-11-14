@@ -1,10 +1,14 @@
 $(document).ready(function() {
    $(".header__toggle").click(function() {
      $(this).toggleClass("active");
-     $('.header__list, .header__popup').slideToggle(300, function(){
+     $('.columns__container').removeClass('hide');
+     $('.header__list, .header__popup').slideToggle(100, function(){
        if($(this).css('display') === "none"){
          $(this).removeAttr('style');
-       }
+       } else {
+         $('.columns__container').addClass('hide');
+      }		
+      return false;
      });
    });
  });
