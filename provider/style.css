@@ -618,7 +618,7 @@ a, a:visited{
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 65px 0px 30px 0px;
+   padding: 57px 0px 24px 0px;
 }
 .columns__provider p{
    width: 100%;
@@ -640,7 +640,14 @@ a, a:visited{
 .columns__link{
    display: flex;
    justify-content: space-between;
+   align-items: center;
    width: 90%;
+}
+.columns__link_hide{
+   align-items: flex-start;
+}
+.columns__link_hide .columns__upload{
+   padding: 16px 0px 0px 0px;
 }
 .columns__text{
    width: 100%;
@@ -648,6 +655,10 @@ a, a:visited{
    flex-direction: column;
    align-items: flex-start;
    justify-content:center;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
 }
 .columns__text h2{
    width: 55%;
@@ -659,36 +670,32 @@ a, a:visited{
    text-transform: none;
    text-align: left;
    word-wrap: none;
-   padding: 40px 0px 40px 0px;
-}
-
-
-
-.columns__text.hide{
-   padding: 1px 0px 1px 0px;
-   font-family: ALS Hauss;
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 24px;
+   padding: 27px 0px 26px 0px;
 }
 .columns__hide{
    width: 90%;
-   margin: 55px 0px 55px 135px;
+   margin: 0px 0px 0px 145px;
    display: flex;
    justify-content: space-between;
 }
 .columns__tables{
+   height: 375px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    flex: 0 0 auto;
 }
 .columns__tables li{
-   padding: 0px 3px 5px 3px;
+   padding: 0px 3px 0px 3px;
    font-family: ALS Hauss;
    font-weight: normal;
    font-size: 14px;
    line-height: 24px;
+   height: 10px;
+   flex: 1 1 auto;
+}
+.columns__tables h5{
+   padding: 25px 0px 20px 0px;
 }
 .columns__line_hide{
    width: 10px;
@@ -700,11 +707,13 @@ a, a:visited{
 }
 .columns__all{
    background: url(../img/button1__provider.svg) left no-repeat;
-   padding: 50px 45px 50px 70px;
+   padding: 40px 45px 37px 70px;
+   margin-left: 145px;
 }
 .columns__all:hover{
    background: url(../img/button1h__provider.svg) left no-repeat;
    padding: 50px 45px 50px 70px;
+   margin-left: 145px;
 }
 .columns__lines{
    content: "";
@@ -718,11 +727,11 @@ a, a:visited{
 }
 .columns__add{
    background: url(../img/open_link.svg) left no-repeat;
-   padding: 40px 0px 40px 45px;
+   padding: 24px 0px 24px 45px;
 }
-.columns__add.hide{
+.columns__add_hide{
    background: url(../img/close_link.svg) left no-repeat;
-   padding: 40px 0px 40px 45px;
+   padding: 24px 0px 24px 45px;
 }
 
 
@@ -739,7 +748,7 @@ a, a:visited{
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   padding: 35px 32px 70px 32px;
+   padding: 50px 32px 85px 32px;
 }
 .columns__uploads p{
    text-align: left;
@@ -773,6 +782,7 @@ a, a:visited{
 }
 .columns__row{
    max-width: 1464px;
+   width: 80%;
    margin: 0 auto;
    display: flex;
    padding: 0px 32px 0px 32px;
@@ -789,6 +799,7 @@ a, a:visited{
    background-color: #11305D;
    color: #fff;
    height: 672px;
+   margin-top: 10px;
 }
 .columns__info h2{
    font-family: PF Din Text Comp Pro;
@@ -801,7 +812,7 @@ a, a:visited{
 }
 .columns__about p{
    color: #fff;
-   padding: 230px 0px 30px 0px;
+   padding: 210px 0px 0px 0px;
    font-family: PF Din Text Comp Pro;
    font-weight: 500;
    font-size: 21px;
@@ -823,20 +834,23 @@ a, a:visited{
    letter-spacing: 0.5em;
    text-transform: uppercase;
    color: #fff;
-   padding: 0px 0px 10px 0px;
+   padding: 0px 0px 17px 0px;
 }
 .columns__about_1{
    background: url("../img/icon1__provider.svg") center/auto no-repeat;
-   margin-bottom: 10px;
+   background-position-y: 65px;
+   margin-bottom: 49px;
    
 }
 .columns__about_2{
    background: url("../img/icon2__provider.svg") center/auto no-repeat;
-   margin-bottom: 10px;
+   background-position-y: 65px;
+   margin-bottom: 49px;
 }
 .columns__about_3{
    background: url("../img/icon3__provider.svg") center/auto no-repeat;
-   margin-bottom: 25px;
+   background-position-y: 65px;
+   margin-bottom: 73px;
 }
 .columns__essential{
    background: url("../img/load.svg") bottom/auto no-repeat;
@@ -851,6 +865,7 @@ a, a:visited{
    padding: 50px 100px 50px 100px;
 }
 .columns__line{
+   margin-top: 32px;
    width: 10px;
    height: 262px;
    background-color: #fff;
@@ -863,20 +878,27 @@ a, a:visited{
    margin: 0 auto;
    padding: 0px 32px 0px 32px;
 }
+.columns__penalty h2{
+   padding: 100px 0px 17px 0px;
+}
 .columns__all_penalty{
       background: url(../img/button2__provider.svg) left no-repeat;
-      padding: 50px 45px 50px 70px;
+      padding: 50px 45px 40px 70px;
    }
 .columns__all_penalty:hover{
       background: url(../img/button2h__provider.svg) left no-repeat;
-      padding: 50px 45px 50px 70px;
+      padding: 50px 45px 40px 70px;
    }
 .columns__table{
    width: 80%;
    display: flex;
    justify-content: space-between;
+   align-items: center;
    margin: 0 auto;
    padding: 50px 0px 50px 0px;
+}
+.columns__table_1{
+   padding: 25px 0px 0px 0px;
 }
 .columns__table h4{
    font-family: ALS Hauss;
@@ -894,7 +916,7 @@ a, a:visited{
    text-transform: none;
    font-size: 17px;
    line-height: 24px;
-   padding: 35px 0px 0px 0px;
+   padding: 50px 0px 0px 0px;
    text-align: left;
    margin: 0;
 }
@@ -918,12 +940,6 @@ a, a:visited{
 }
 
 
-.columns__container{
-   opacity: 1;
-}
-.columns__container.hide{
-   opacity: 0;
-}
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
    font-weight: normal;
@@ -931,7 +947,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 90px 0px 111px 0px;
+   margin: 70px 0px 111px 0px;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
