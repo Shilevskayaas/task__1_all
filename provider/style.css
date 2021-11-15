@@ -1200,36 +1200,12 @@ a, a:visited{
       right: 0px;
    }
 }
-@media (max-width: 800px) and (min-width: 769px){
-   .columns__for{
-      font-size: 22px;
-   }
-   .columns__lines{
-      width: 59%;
-   }
-}
-@media (max-width: 888px) and (min-width: 801px){
-   .columns__for{
-      font-size: 24px;
-   }
-   .columns__lines{
-      width: 63%;
-   }
-}
-@media (max-width: 960px) and (min-width: 889px){
-   .columns__for{
-      font-size: 28px;
-   }
-   .columns__lines{
-      width: 65%;
-   }
-}
 @media (max-width: 1150px) and (min-width: 961px){
    .columns__lines{
       width: 70%;
    }
 }
-@media (max-width: 1091px) and (min-width: 769px){
+@media (max-width: 1096px) and (min-width: 769px){
    .columns__link{
       width: 100%;
    }
@@ -1257,6 +1233,45 @@ a, a:visited{
    }
    .columns__tables li{
       padding: 5px 0px 70px 0px;
+   }
+   .columns__row{
+      width: 90%;
+   }
+   .columns__about p{
+      font-size: 19px;
+   }
+}
+@media (max-width: 960px) and (min-width: 889px){
+   .columns__for{
+      font-size: 28px;
+   }
+   .columns__lines{
+      width: 65%;
+   }
+   .columns__row{
+      width: 100%;
+   }
+}
+@media (max-width: 888px) and (min-width: 801px){
+   .columns__for{
+      font-size: 24px;
+   }
+   .columns__lines{
+      width: 63%;
+   }
+   .columns__about p{
+      font-size: 15px;
+   }
+}
+@media (max-width: 800px) and (min-width: 769px){
+   .columns__for{
+      font-size: 22px;
+   }
+   .columns__lines{
+      width: 59%;
+   }
+   .columns__about p{
+      font-size: 14px;
    }
 }
 
