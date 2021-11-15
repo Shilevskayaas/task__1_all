@@ -630,7 +630,7 @@ a, a:visited{
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   padding: 0px 0px 60px 0px;
+   padding: 0px 10px 60px 10px;
 }
 .columns__links{
    max-width: 1400px;
@@ -859,8 +859,16 @@ a, a:visited{
    background: url("../img/load.svg") bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
+.columns__essential:hover{
+   background: url("../img/loadh.svg") bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+}
 .columns__personal{
    background: url("../img/enter.svg") bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+}
+.columns__personal:hover{
+   background: url("../img/enterh.svg") bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
 .columns__pay{
@@ -1221,6 +1229,37 @@ a, a:visited{
       width: 70%;
    }
 }
+@media (max-width: 1091px) and (min-width: 769px){
+   .columns__link{
+      width: 100%;
+   }
+   .columns__hide{
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+   }
+   .columns__tables{
+      height: 100%;
+   }
+   .columns__tables h5{
+      padding: 0px 0px 5px 0px;
+   }
+   .columns__tables_2{
+      flex: 1 1 auto;
+   }
+   .columns__tables br {
+      content: "";
+   }
+   .columns__tables br:after{
+      content: "\00a0";
+   }
+   .columns__tables li{
+      padding: 5px 0px 70px 0px;
+   }
+}
+
 
 .footer{
    background-color: #11305D;

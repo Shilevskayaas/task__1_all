@@ -610,7 +610,7 @@ a, a:visited{
    width: 100%;
 }
 .columns__news .columns__text{
-   padding: 0;
+   padding: 10px 0px 10px 0px;
    display: flex;
    flex-direction: column;
    align-self: center;
