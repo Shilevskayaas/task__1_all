@@ -816,6 +816,9 @@ h2{
    .container{
       min-width: 320px;
    }
+   .columns{
+      display: block;
+   }
 
    h1{
       font-family: PF Din Text Comp Pro;
@@ -990,7 +993,6 @@ h2{
       padding-bottom: 1px;
    }
 
-
    .columns__application{
       position: relative;
       padding: 0;
@@ -1052,6 +1054,11 @@ h2{
       position: absolute;
       bottom: 0px;
       right: 0px;
+   }
+}
+@media (max-width: 768px) and (min-width: 566px){
+   .columns__list{
+      width: 40%;
    }
 }
 @media (max-width: 800px) and (min-width: 769px){

@@ -672,6 +672,9 @@ a, a:visited{
    word-wrap: none;
    padding: 27px 0px 26px 0px;
 }
+.columns__hide_mobile{
+   display: none;
+}
 .columns__hide{
    width: 90%;
    margin: 0px 0px 0px 145px;
@@ -1007,6 +1010,31 @@ a, a:visited{
       font-size: 23px;
       padding: 20px 0px 26px 0px;
    }
+   .columns__provider p{
+      width: 100%;
+      padding: 0px 20px 0px 20px;
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   br {
+      content: "";
+   }
+   br:after{
+      content: "\00a0";
+   }
+   .columns__text h2{
+      width: 95%;
+      font-family: ALS Hauss;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+      margin: 0;
+   }
    .columns__lines_mobile{
       display: block;
       content: "";
@@ -1015,14 +1043,19 @@ a, a:visited{
    }
    .columns__links {
       padding: 0px 20px 0px 20px;
+      align-items: center;
    }
    .columns__lines{
-      width: 100%;
+      width: 95%;
+      margin: 0 auto;
    }
    .columns__link {
+      width: 100%;
       display: flex;
-      flex-direction: column;
-      align-items: start;
+      align-items: center;
+   }
+   .columns__link_6, .columns__link_7, .columns__link_8, .columns__link_9, .columns__link_10, .columns__link_11, .columns__link_12, .columns__link_13{
+      display: none;
    }
    .columns__text{
       width: 100%;
@@ -1031,11 +1064,24 @@ a, a:visited{
       font-weight: 500;
       font-size: 12px;
       line-height: 19px;
-      padding: 15px 0px 0px 0px;
    }
    .columns__upload{
-      width: 100%;
    }
+   .columns__add{
+      background: url(../img/open_linkm.svg) left no-repeat;
+      padding: 15px 0px 15px 28px;
+   }
+   .columns__add_hide{
+      background: url(../img/close_linkm.svg) left no-repeat;
+      padding: 24px 0px 24px 45px;
+   }
+   .columns__hide{
+      display: none;
+   }
+   .columns__hide_mobile{
+      display: block;
+   }
+   
    .columns__add p{
       font-family: "ALS Hauss";
       font-weight: 500;
@@ -1057,14 +1103,28 @@ a, a:visited{
    .columns__all{
       width: 90px;
       margin: 20px 0px 0px 20px;
-      background: url(../img/button1m__documents.svg) left no-repeat;
+      background: url(../img/button1m__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
    }
    .columns__all:hover{
       width: 90px;
       margin: 20px 0px 0px 20px;
-      background: url(../img/button1mh__documents.svg) left no-repeat;
+      background: url(../img/button1mh__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
+   }
+   .columns__info h2{
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   .columns__row{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
    }
 
 
