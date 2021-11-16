@@ -770,7 +770,7 @@ a, a:visited{
    display: flex;
    align-items: center;
    background: url(../img/download.svg) left no-repeat;
-   padding: 16px 0px 16px 70px;
+   padding: 13px 0px 14px 70px;
    font-family: ALS Hauss;
    font-weight: 500;
    font-size: 12px;
@@ -1029,9 +1029,6 @@ a, a:visited{
       letter-spacing: 0.05em;
       text-transform: uppercase;
    }
-   br {
-      content: "";
-   }
    br:after{
       content: "\00a0";
    }
@@ -1057,12 +1054,19 @@ a, a:visited{
       width: 95%;
       margin: 0 auto;
    }
+   .columns__lines_short{
+      content: "";
+      width: 70%;
+      height: 1px;
+      background-color: #C4C4C4;
+      margin-left: 17%;
+         }
    .columns__link {
       width: 100%;
       display: flex;
-      align-items: center;
+      
    }
-   .columns__link_6, .columns__link_7, .columns__link_8, .columns__link_9, .columns__link_10, .columns__link_11, .columns__link_12, .columns__link_13{
+   .columns__link_6, .columns__link_7, .columns__link_8, .columns__link_9, .columns__link_10, .columns__link_11{
       display: none;
    }
    .columns__text{
@@ -1075,19 +1079,62 @@ a, a:visited{
    }
    .columns__upload{
    }
+   .columns__provider p .columns__uploads p{
+      padding: 25px 50px 0px 0px;
+      font-size: 21px;
+      line-height: 29px;
+   }
+   .columns__uploads{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 50px 32px 25px 32px;
+   }
+   .columns__uploads p{
+      text-align: left;
+      width: auto;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+   }
+   .columns__buttons p{
+      padding: 6px 0px 0px 0px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.5em;
+   }
    .columns__add{
       background: url(../img/open_linkm.svg) left no-repeat;
       padding: 15px 0px 15px 28px;
    }
    .columns__add_hide{
       background: url(../img/close_linkm.svg) left no-repeat;
-      padding: 24px 0px 24px 45px;
+      padding: 24px 0px 24px 28px;
    }
    .columns__hide{
       display: none;
    }
    .columns__hide_mobile{
       display: block;
+      padding: 10px 0px 10px 0px;
+   }
+   .columns__tables h5{
+      font-family: ALS Hauss;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 11px;
+      padding: 7px 0px 2px 0px;
+   }
+   .columns__tables li{
+      font-family: ALS Hauss;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 11px;
+      padding: 0px;
+      height: 20px;
+      flex: 1 1 auto;
+      padding: 0px 0px 0px 0px;
    }
    
    .columns__add p{
@@ -1113,12 +1160,52 @@ a, a:visited{
       margin: 20px 0px 0px 20px;
       background: url(../img/button1m__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
+      margin-top: 25px;
+      margin-bottom: 25px;
    }
    .columns__all:hover{
       width: 90px;
       margin: 20px 0px 0px 20px;
       background: url(../img/button1mh__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+   }
+   .columns__adds p{
+      display: flex;
+      align-items: center;
+      background: url(../img/downloadm.svg) left no-repeat;
+      padding: 13px 0px 14px 45px;
+      font-family: ALS Hauss;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+   }
+   .columns__adds p:hover{
+      background: url(../img/downloadmh.svg) left no-repeat;
+      padding: 16px 0px 16px 45px;
+      transition: width 0.1s ease-in-out;
+   }
+   
+
+.columns__uploads p{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
+   .columns__line_hide, .columns__line{
+      display: none;
+   }
+   .columns__info{
+      background-color: #11305D;
+      color: #fff;
+      height: auto;
+      margin-top: 10px;
    }
    .columns__info h2{
       font-family: PF Din Text Comp Pro;
@@ -1128,12 +1215,159 @@ a, a:visited{
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: uppercase;
+      padding: 40px 0px 0px 0px;
    }
    .columns__row{
       display: flex;
       flex-direction: column;
       height: 100%;
    }
+   .columns__about p{
+      color: #fff;
+      padding: 135px 0px 0px 0px;
+      font-family: PF Din Text Comp Pro;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+   }
+   .columns__icons{
+      display: flex;
+      flex-direction: column;
+   }
+   .columns__icons h5{
+      font-family: ALS Hauss;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 13px;
+      text-align: center;
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+      padding: 15px 0px 5px 0px;
+   }
+   .columns__about_1{
+      background: url("../img/icon1m__provider.svg") top/auto no-repeat;
+      background-position-y:33px;
+      margin-bottom: 0px;
+      
+   }
+   .columns__about_2{
+      background: url("../img/icon2m__provider.svg") top/auto no-repeat;
+      background-position-y:33px;
+      margin-bottom: 0px;
+   }
+   .columns__about_3{
+      background: url("../img/icon3m__provider.svg") top/auto no-repeat;
+      background-position-y:33px;
+      margin-bottom: 0px;
+   }
+   .columns__essential{
+      background: url("../img/loadm.svg") bottom/auto no-repeat;
+      padding: 25px 100px 25px 100px;
+   }
+   .columns__essential:hover{
+      background: url("../img/loadmh.svg") bottom/auto no-repeat;
+      padding: 25px 100px 25px 100px;
+   }
+   .columns__personal{
+      background: url("../img/enterm.svg") bottom/auto no-repeat;
+      padding: 25px 100px 25px 100px;
+   }
+   .columns__personal:hover{
+      background: url("../img/entermh.svg") bottom/auto no-repeat;
+      padding: 25px 100px 25px 100px;
+   }
+   .columns__pay{
+      background: url("../img/paym.png") bottom/auto no-repeat;
+      padding: 50px 100px 50px 100px;
+      margin-bottom: 50px;
+   }
+
+   .columns__hide_mobile{
+      display: flex;
+   }
+   .columns__tables{
+      height: 100%;
+   }
+   .columns__tables_2{
+      padding: 0px 0px 0px 20px;
+   }
+
+
+
+
+   .columns__penalty{
+     
+      padding: 0px 20px 0px 20px;
+   }
+   .columns__penalty h2{
+      width: 80%;
+      margin: 0 auto;
+      font-family: PF Din Text Comp Pro;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 50px 0px 10px 0px;
+   }
+   .columns__all_penalty{
+         background: url(../img/button2m__provider.svg) left no-repeat;
+         padding: 50px 45px 40px 70px;
+      }
+   .columns__all_penalty:hover{
+         background: url(../img/button2mh__provider.svg) left no-repeat;
+         padding: 50px 45px 40px 70px;
+      }
+   .columns__table{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+      margin: 0;
+      padding: 0px 0px 15px 0px;
+   }
+   .columns__table_1{
+      padding: 25px 0px 15px 0px;
+      display: flex;
+      align-items: center;
+   }
+   .columns__table_2, .columns__table_3{
+      padding: 0px 0px 15px 0px;
+   }
+   .columns__table h4{
+      font-family: ALS Hauss;
+      font-size: 8px;
+      line-height: 11px;
+      text-transform: none;
+   }
+   .columns__table p{
+      font-family: ALS Hauss;
+      font-size: 10px;
+      line-height: 11px;
+      text-transform: none;
+      text-align: left;
+      letter-spacing: 0em;
+      padding: 0;
+   }
+   .columns__table_1 p{
+      font-family: ALS Hauss;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+   }
+   .columns__table br:after{
+      content: "\00a0";
+   }
+   .columns__line_penalty{
+      display: none;
+   }
+
 
 
 
@@ -1232,7 +1466,7 @@ a, a:visited{
       content: "\00a0";
    }
    .columns__tables li{
-      padding: 5px 0px 70px 0px;
+      padding: 0px 0px 70px 0px;
    }
    .columns__row{
       width: 90%;

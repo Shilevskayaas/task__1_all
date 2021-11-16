@@ -610,7 +610,7 @@ a, a:visited{
    width: 100%;
 }
 .columns__news .columns__text{
-   padding: 10px 0px 10px 0px;
+   padding: 25px 0px 20px 0px;
    display: flex;
    flex-direction: column;
    align-self: center;
@@ -781,10 +781,9 @@ a, a:visited{
       flex-direction: column-reverse;
    }
    .columns__news .columns__text {
-      padding: 0px 0px 0px 20px;
+      padding: 25px 0px 15px 20px;
       max-width: 100%;
       width: 100%;
-      padding: 25px 0px 35px 20px;
    }
    .columns__date{
       font-size: 10px;
