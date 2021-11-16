@@ -780,7 +780,7 @@ a, a:visited{
 }
 .columns__adds p:hover{
    background: url(../img/downloadh.svg) left no-repeat;
-   padding: 16px 0px 16px 70px;
+   padding: 13px 0px 14px 70px;
    transition: width 0.1s ease-in-out;
 }
 .columns__row{
@@ -888,6 +888,9 @@ a, a:visited{
    max-width: 1400px;
    margin: 0 auto;
    padding: 0px 32px 0px 32px;
+}
+.columns__penalty .columns__lines{
+   display: none;
 }
 .columns__penalty h2{
    padding: 100px 0px 17px 0px;
@@ -1013,14 +1016,16 @@ a, a:visited{
       display: none;
    }
 
-
+   .columns__lines_none_mobile{
+      display: none;
+   }
    .columns__provider h1{
       font-size: 23px;
-      padding: 20px 0px 26px 0px;
+      padding: 15px 0px 5px 0px;
    }
    .columns__provider p{
       width: 100%;
-      padding: 0px 20px 0px 20px;
+      padding: 0px 20px 21px 20px;
       font-family: PF Din Text Comp Pro;
       font-weight: normal;
       font-size: 17px;
@@ -1029,7 +1034,10 @@ a, a:visited{
       letter-spacing: 0.05em;
       text-transform: uppercase;
    }
-   br:after{
+   .columns__provider p br{
+      content: "";
+   }
+   .columns__provider br:after{
       content: "\00a0";
    }
    .columns__text h2{
@@ -1038,6 +1046,8 @@ a, a:visited{
       font-weight: 500;
       font-size: 12px;
       line-height: 19px;
+      letter-spacing: 0em;
+      padding: 25px 0px 24px 0px;
       margin: 0;
    }
    .columns__lines_mobile{
@@ -1051,8 +1061,8 @@ a, a:visited{
       align-items: center;
    }
    .columns__lines{
-      width: 95%;
-      margin: 0 auto;
+      width: 83%;
+      margin: 0;
    }
    .columns__lines_short{
       content: "";
@@ -1089,12 +1099,12 @@ a, a:visited{
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      padding: 50px 32px 25px 32px;
+      padding: 25px 32px 45px 32px;
    }
    .columns__uploads p{
       text-align: left;
       width: auto;
-      margin: 0px 0px 0px 0px;
+      margin: 0px 0px 8px 0px;
       padding: 0;
    }
    .columns__buttons p{
@@ -1115,21 +1125,27 @@ a, a:visited{
    .columns__hide{
       display: none;
    }
+   .columns__tables{
+      height: 100%;
+   }
+   .columns__tables_2{
+      padding: 0px 0px 0px 18px;
+   }
    .columns__hide_mobile{
-      display: block;
-      padding: 10px 0px 10px 0px;
+      display: flex;
+      padding: 10px 0px 7px 0px;
    }
    .columns__tables h5{
       font-family: ALS Hauss;
       font-weight: normal;
-      font-size: 10px;
+      font-size: 8px;
       line-height: 11px;
-      padding: 7px 0px 2px 0px;
+      padding: 5px 0px 2px 0px;
    }
    .columns__tables li{
       font-family: ALS Hauss;
       font-weight: normal;
-      font-size: 8px;
+      font-size: 10px;
       line-height: 11px;
       padding: 0px;
       height: 20px;
@@ -1157,19 +1173,19 @@ a, a:visited{
    }
    .columns__all{
       width: 90px;
-      margin: 20px 0px 0px 20px;
+      margin: 15px 0px 0px 0px;
       background: url(../img/button1m__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
       margin-top: 25px;
-      margin-bottom: 25px;
+      margin-bottom: 18px;
    }
    .columns__all:hover{
       width: 90px;
-      margin: 20px 0px 0px 20px;
+      margin: 15px 0px 0px 0px;
       background: url(../img/button1mh__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
       margin-top: 25px;
-      margin-bottom: 25px;
+      margin-bottom: 18px;
    }
    .columns__adds p{
       display: flex;
@@ -1236,6 +1252,7 @@ a, a:visited{
    .columns__icons{
       display: flex;
       flex-direction: column;
+      margin-bottom: 10px;
    }
    .columns__icons h5{
       font-family: ALS Hauss;
@@ -1249,7 +1266,7 @@ a, a:visited{
    }
    .columns__about_1{
       background: url("../img/icon1m__provider.svg") top/auto no-repeat;
-      background-position-y:33px;
+      background-position-y:30px;
       margin-bottom: 0px;
       
    }
@@ -1282,17 +1299,7 @@ a, a:visited{
    .columns__pay{
       background: url("../img/paym.png") bottom/auto no-repeat;
       padding: 50px 100px 50px 100px;
-      margin-bottom: 50px;
-   }
-
-   .columns__hide_mobile{
-      display: flex;
-   }
-   .columns__tables{
-      height: 100%;
-   }
-   .columns__tables_2{
-      padding: 0px 0px 0px 20px;
+      margin-bottom: 35px;
    }
 
 
@@ -1301,6 +1308,9 @@ a, a:visited{
    .columns__penalty{
      
       padding: 0px 20px 0px 20px;
+   }
+   .columns__penalty .columns__lines{
+      display: block;
    }
    .columns__penalty h2{
       width: 80%;
@@ -1312,15 +1322,15 @@ a, a:visited{
       text-align: center;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      padding: 50px 0px 10px 0px;
+      padding: 60px 0px 25px 0px;
    }
    .columns__all_penalty{
          background: url(../img/button2m__provider.svg) left no-repeat;
-         padding: 50px 45px 40px 70px;
+         padding: 32px 45px 40px 70px;
       }
    .columns__all_penalty:hover{
          background: url(../img/button2mh__provider.svg) left no-repeat;
-         padding: 50px 45px 40px 70px;
+         padding: 32px 45px 40px 70px;
       }
    .columns__table{
       width: 80%;
@@ -1333,7 +1343,7 @@ a, a:visited{
       padding: 0px 0px 15px 0px;
    }
    .columns__table_1{
-      padding: 25px 0px 15px 0px;
+      padding: 15px 0px 15px 0px;
       display: flex;
       align-items: center;
    }
@@ -1345,6 +1355,7 @@ a, a:visited{
       font-size: 8px;
       line-height: 11px;
       text-transform: none;
+      margin-bottom: -3px;
    }
    .columns__table p{
       font-family: ALS Hauss;
@@ -1356,6 +1367,7 @@ a, a:visited{
       padding: 0;
    }
    .columns__table_1 p{
+      display: block;
       font-family: ALS Hauss;
       font-weight: 500;
       font-size: 12px;
