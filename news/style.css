@@ -629,15 +629,18 @@ a, a:visited{
    text-transform: uppercase;
    padding: 65px 0px 62px 0px;
 }
-.columns__window{
-   background-color: #11305D;
-}
 .columns__fix{
-   max-width: 1464px;
+   background-color: #11305D;
+   max-width: 1400px;
    margin: 0 auto;
+   
    display: flex;
    justify-content: space-between;
-   padding: 0px 32px 0px 32px;
+   padding: 0px 0px 0px 32px;
+}
+.columns__picture img{
+   display: flex;
+   justify-content: flex-end;
 }
 .columns__date{
    padding: 0px 0px 24px 0px;
