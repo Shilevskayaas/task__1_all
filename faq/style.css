@@ -139,7 +139,7 @@ a, a:visited{
    display: flex;
    height: 182px;
 }
-.header__logo{
+.header__row>a:first-child{
    flex: 1 1 auto;
    display: flex;
    align-items: center;
@@ -349,7 +349,7 @@ a, a:visited{
       margin-right: 65px;
       padding-top: 4px;
    }
-   .header__logo{
+   .header__row>a:first-child{
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -516,7 +516,7 @@ a, a:visited{
 }
 
 @media (max-width: 960px) and (min-width: 769px){
-   .header__logo{
+   .header__row>a:first-child{
       flex: 0 1 auto;
       display: flex;
       align-items: center;
