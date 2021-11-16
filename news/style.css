@@ -558,13 +558,6 @@ a, a:visited{
 .content{
    flex: 1 1 auto;
 }
-.content::before{
-   content: "";
-   display: block;
-   width: 100%;
-   height: 1px;
-   background-color: #11305D;
-}
 
 .columns__app{
    display: flex;
