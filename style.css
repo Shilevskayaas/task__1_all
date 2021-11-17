@@ -136,21 +136,24 @@ a, a:visited{
    display: none;
 }
 .header__row{
+   max-width: 1400px;
+   margin: 0 auto;
    display: flex;
    height: 182px;
+   padding: 0px 32px 0px 0px;
 }
-.header__logo{
+.header__row>a:first-child{
    flex: 1 1 auto;
    display: flex;
    align-items: center;
-   background: url(img/logo.svg) center no-repeat;
+   background: url(../img/logo.svg) center no-repeat;
 }
 .header__bar{
-   flex: 1 1 auto;
+   flex: 1 0 70%;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   padding: 40px 32px 2px 32px;
+   padding: 40px 0px 2px 82px;
 }
 .header__icons{
    width: 100%;
