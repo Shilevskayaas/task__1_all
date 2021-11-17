@@ -12,6 +12,8 @@ $(document).ready(function() {
      });
    });
  });
+
+
 $(document).ready(function() {   
     $('a[name=modal]').click(function(e) {
     e.preventDefault();
@@ -27,3 +29,23 @@ $(document).ready(function() {
     $('.window').hide();
     }); 
    });  
+
+
+   $(document).ready(function(){
+      $('.columns__add_hide').click(function(){
+         $('.columns__text_hide').toggleClass('hide');	
+         if ($('.columns__text_hide').hasClass('hide')) {
+            $('.columns__add_hide').addClass('hide');
+            $('.columns__all_hide').addClass('hide');
+            $('.columns__upload_hide').addClass('hide');
+            $('.columns__link_hide').addClass('hide');
+            $('.columns__lines_short').addClass('hide');
+         } else {
+            $('.columns__add_hide').removeClass('hide');
+            $('.columns__all_hide').removeClass('hide');
+            $('.columns__upload_hide').removeClass('hide');
+            $('.columns__lines_short').removeClass('hide');
+         }		
+         return false;
+      });				
+   });
