@@ -352,11 +352,11 @@ a, a:visited{
       margin-right: 65px;
       padding-top: 4px;
    }
-   .header__logo{
+   .header__row>a:first-child{
       margin: 0 auto;
       display: flex;
       align-items: center;
-      background: url("img/logohm.svg") center no-repeat;
+      background: url("../img/logohm.svg") center no-repeat;
    }
    .header__img{
       width: 108.3px;
