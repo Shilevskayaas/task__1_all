@@ -242,17 +242,17 @@ a, a:visited{
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
 }
-.header__name_2{
-   background: url(../img/whatsapp.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-}
-.header__name_1:hover, .header__name:active{
+.header__name_1:hover, .header__name_1:active{
    background: url(../img/telegramh.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
-.header__name_2:hover, .header__name:active{
+.header__name_2{
+   background: url(../img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.header__name_2:hover, .header__name_2:active{
    background: url(../img/whatsapph.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
@@ -486,18 +486,15 @@ a, a:visited{
    .header__popup #dialog .columns__app {
       position: absolute;
       top: 110%;
-      
       margin: 0 auto;
+      display: inline-flex;
+      position: static;
+      padding: 12px 0px 0px 0px;
    }
    .header__popup #dialog .columns__app .columns__name{
       padding: 0;
       margin: 0;
       width: 50px;     
-   }
-   .header__popup #dialog .columns__app {
-      display: inline-flex;
-      position: static;
-      padding: 12px 0px 0px 0px;
    }
    .header__popup #dialog .columns__app .columns__name_1{
       margin: 0px 7px 0px 0px;
@@ -505,7 +502,7 @@ a, a:visited{
    .columns__name_1{
       background: url("../img/telegram.svg") center no-repeat;
    }
-   .columns__name_1:hover, .columns__name_1:active{
+   .columns__name_1:hover,.columns__name_1:active{
       background: url("../img/telegramh.svg") center no-repeat;
       transition: width 0.1s ease-in-out;
    }
@@ -579,18 +576,18 @@ a, a:visited{
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
 }
-.columns__name_2{
-   background: url(../img/whatsapp.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-}
-.columns__name_1:hover, .columns__name:active{
+.columns__name_1:hover, .columns__name_1:active{
    background: url(../img/telegramh.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
-.columns__name_2:hover, .columns__name:active{
-   background: url(.../img/whatsapph.svg) right no-repeat;
+.columns__name_2{
+   background: url(../img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.columns__name_2:hover, .columns__name_2:active{
+   background: url(../img/whatsapph.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
@@ -843,7 +840,6 @@ a, a:visited{
       display: flex;
       align-items: flex-start;
    }
-   
    .columns__add{
       background: url(../img/open_linkm.svg) right no-repeat;
       padding: 20px 0px 20px 30px;

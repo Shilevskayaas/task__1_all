@@ -242,17 +242,17 @@ a, a:visited{
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
 }
-.header__name_2{
-   background: url(../img/whatsapp.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-}
-.header__name_1:hover, .header__name:active{
+.header__name_1:hover, .header__name_1:active{
    background: url(../img/telegramh.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
-.header__name_2:hover, .header__name:active{
+.header__name_2{
+   background: url(../img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.header__name_2:hover, .header__name_2:active{
    background: url(../img/whatsapph.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
@@ -580,18 +580,18 @@ a, a:visited{
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
 }
-.columns__name_2{
-   background: url(../img/whatsapp.svg) right no-repeat;
-   padding: 0px 0px 0px 50px;
-}
-.columns__name_1:hover, .columns__name:active{
+.columns__name_1:hover, .columns__name_1:active{
    background: url(../img/telegramh.svg) right no-repeat;
    margin: 0px 15px 0px 0px;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
-.columns__name_2:hover, .columns__name:active{
-   background: url(.../img/whatsapph.svg) right no-repeat;
+.columns__name_2{
+   background: url(../img/whatsapp.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+}
+.columns__name_2:hover, .columns__name_2:active{
+   background: url(../img/whatsapph.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
 }
@@ -659,7 +659,7 @@ a, a:visited{
    background: url(../img/download.svg) left no-repeat;
    padding: 30px 125px 30px 70px;
 }
-.columns__add p:hover, .header__name:active{
+.columns__add p:hover, .columns__add p:active{
    width: 100px;
    background: url(../img/downloadh.svg) left no-repeat;
    padding: 30px 125px 30px 70px;
