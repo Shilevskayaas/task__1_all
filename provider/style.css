@@ -944,7 +944,11 @@ a, a:visited{
    padding: 50px 0px 50px 0px;
 }
 .columns__table_1{
+   flex: 0 0 50%;
    padding: 25px 0px 0px 0px;
+}
+.columns__table_2, .columns__table_3, .columns__table_4{
+   flex: 0 0 10%;
 }
 .columns__table h4{
    font-family: ALS Hauss;
@@ -1178,6 +1182,12 @@ a, a:visited{
    }
    .columns__tables_2{
       padding: 0px 0px 0px 18px;
+   }
+   .columns__table_1{
+      flex: auto;
+   }
+   .columns__table_2, .columns__table_3, .columns__table_4{
+      flex: auto;
    }
    
    .columns__tables h5{
