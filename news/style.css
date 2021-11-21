@@ -678,13 +678,19 @@ a, a:visited{
 
 .columns__events{
    display: flex;
+   flex-wrap: wrap;
    padding: 68px 32px 0px 32px;
    margin: 0px auto;
    max-width: 1464px;
 }
-.columns__event{
-   flex: 1 1 auto;
-   
+.columns__events a{
+   flex: 0 1 25%;
+}
+.columns__event_hide{
+   display: none;
+}
+.columns__event_hide.hide{
+   display: block;
 }
 .columns__event .columns__date, .columns__event .columns__instruction{
    color: #11305D;
@@ -703,6 +709,11 @@ a, a:visited{
    padding: 50px 0px 1px 0px;
 }
 .columns__all:hover{
+   background: url(../img/button2h__news.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 50px 0px 1px 0px;
+}
+.columns__all.hide{
    background: url(../img/button2h__news.svg) left no-repeat;
    background-position-x:32px;
    padding: 50px 0px 1px 0px;
@@ -841,6 +852,12 @@ a, a:visited{
       padding: 20px 0px 1px 0px;
    }
    .columns__all:hover{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(../img/button2mh__news.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+   .columns__all.hide{
       width: 71px;
       margin: 0px 0px 0px 20px;
       background: url(../img/button2mh__news.svg) left no-repeat;

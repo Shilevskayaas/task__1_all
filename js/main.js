@@ -49,3 +49,16 @@ $(document).ready(function() {
          return false;
       });				
    });
+
+   $(document).ready(function(){
+      $('.columns__all').click(function(){
+         $('.columns__event_hide').toggleClass('hide');	
+         if ($('.columns__event_hide').hasClass('hide')) {
+            $('.columns__all').addClass('hide');
+         } else {
+            $('.columns__event_hide').removeClass('hide');
+            $('.columns__all').removeClass('hide');
+         }		
+         return false;
+      });				
+   });
