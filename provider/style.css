@@ -998,6 +998,7 @@ a, a:visited{
    display: flex;
    justify-content: space-between;
    margin: 70px 0px 111px 0px;
+   color: #11305D;
 }
 .columns__load{
    margin: 0px 10px 0px 32px;
