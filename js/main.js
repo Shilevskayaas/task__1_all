@@ -50,6 +50,22 @@ $(document).ready(function() {
       });				
    });
 
+   (function($) {
+      $(function() {
+        $("ul.columns__list").on("click", "li:not(.active)", function() {
+          $(this)
+            .addClass("active")
+            .siblings()
+            .removeClass("active")
+            .closest("div.columns__road")
+            .find("div.columns__window")
+            .removeClass("active")
+            .eq($(this).index())
+            .addClass("active");
+        });
+      });
+    })(jQuery);
+
    $(document).ready(function(){
       $('.columns__all').click(function(){
          $('.columns__event_hide').toggleClass('hide');	

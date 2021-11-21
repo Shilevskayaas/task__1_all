@@ -663,9 +663,18 @@ h1{
    justify-content: space-between;
    margin: 0 auto;
 }
-.columns__list_active, .columns__list_hover:hover{
+.columns__list span{
+   cursor: pointer;
+}
+.columns__list_hover{
+   padding-bottom: 4px;
+}
+.columns__list li.active, .columns__list_hover:hover{
    border-bottom: 2px solid #11305D;
-   padding-bottom: 5px;
+   
+}
+.columns__list li:not(.active):hover {
+   border-bottom: none;
 }
 .columns__list li{
    font-family: PF Din Text Comp Pro;
@@ -677,9 +686,13 @@ h1{
    text-transform: uppercase;
 }
 .columns__window{
+   display: none;
    margin: 0 auto;
    padding: 0px 32px 0px 32px;
    margin-top: 62px;
+}
+.columns__window.active{
+   display: block;
 }
 .columns__fix{
    max-width: 1464px;
@@ -921,17 +934,23 @@ h2{
       text-transform: uppercase;
       padding: 0px 0px 17px 0px;
    }
-   .columns__list_active{
-      border-bottom: 1px solid #11305D;
+   .columns__list_hover{
       padding-bottom: 2px;
    }
-   .columns__list_hover:hover{
+   .columns__list li.active, .columns__list_hover:hover{
+      border-bottom: none;
+   }
+   .columns__list li.active span, .columns__list_hover:hover{
       border-bottom: 1px solid #11305D;
-      padding-bottom: 2px;
+   }
+   .columns__list li:not(.active):hover {
+      border-bottom: none;
    }
    .columns__list{
       flex-wrap: wrap;
       width: 75%;
+      height: 65px;
+      justify-content: space-between;
       padding: 0px 0px 4px 0px;
    }
    .columns__list li{
@@ -942,7 +961,6 @@ h2{
       line-height: 20px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      padding: 0px 0px 19px 0px;
    }
    .columns__window{
       padding: 0;
