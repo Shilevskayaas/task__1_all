@@ -382,21 +382,21 @@ a, a:visited{
    .header__name{
       display: none;
    }
-   .header__app{
+   .header__call{
       position: absolute;
       top: 7px;
       right: 23px;
       height: 50px;
-      background: url(../../img/app.svg) right no-repeat;
+      background: url(../img/app.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
       font-size: 19px;
    }
-   .header__app:hover, .header__app:active{
+   .header__call:hover, .header__call:active{
       position: absolute;
       top: 7px;
       right: 23px;
       height: 50px;
-      background: url(../../img/apph.svg) right no-repeat;
+      background: url(../img/apph.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
       transition: width 0.1s ease-in-out;
    }
