@@ -146,7 +146,7 @@ a, a:visited{
    flex: 1 1 auto;
    display: flex;
    align-items: center;
-   background: url(../img/logo.svg) center no-repeat;
+   background: url(img/logo.svg) center no-repeat;
 }
 .header__bar{
    flex: 1 0 70%;
@@ -356,7 +356,7 @@ a, a:visited{
       margin: 0 auto;
       display: flex;
       align-items: center;
-      background: url("../img/logohm.svg") center no-repeat;
+      background: url("img/logohm.svg") center no-repeat;
    }
    .header__img{
       width: 108.3px;
