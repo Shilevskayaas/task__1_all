@@ -1569,6 +1569,11 @@ a, a:visited{
       flex: 0 0 65px;
    }
 }
+@media (max-width: 815px) and (min-width: 769px){
+   .columns__text h2, .columns__all_hide.hide, .columns__all_hide.hide:hover, .columns__text_hide.hide .columns__hide, .columns__lines{
+      margin-left: 100px;
+   }
+}
 @media (max-width: 800px) and (min-width: 769px){
    .columns__for{
       font-size: 22px;
