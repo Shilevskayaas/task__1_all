@@ -560,7 +560,9 @@ a, a:visited{
 .content{
    flex: 1 1 auto;
 }
-
+.columns{
+   flex: 1 0 auto;
+}
 .columns__app{
    display: flex;
    justify-content: space-between;
@@ -1363,7 +1365,6 @@ a, a:visited{
 
 
    .columns__penalty{
-     
       padding: 0px 20px 0px 20px;
    }
    .columns__penalty .columns__lines{
@@ -1582,6 +1583,9 @@ a, a:visited{
 
 
 .footer{
+   flex: 0 0 auto;
+}
+.container__footer{
    background-color: #11305D;
    color: #fff;
    height: 253px;
@@ -1701,6 +1705,9 @@ a, a:visited{
 @media (max-width: 768px) {
    .footer{
       min-height: 375px;
+   }
+   .container__footer{
+      height: auto;
    }
    .footer__nav, .footer__info{
       display: none
