@@ -380,7 +380,7 @@ a, a:visited{
       top: 7px;
       right: 23px;
       height: 50px;
-      background: url(../img/app.svg) right no-repeat;
+      background: url(img/app.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
       font-size: 19px;
    }
@@ -389,7 +389,7 @@ a, a:visited{
       top: 7px;
       right: 23px;
       height: 50px;
-      background: url(../img/apph.svg) right no-repeat;
+      background: url(img/apph.svg) right no-repeat;
       padding: 0px 42px 0px 0px;
       transition: width 0.1s ease-in-out;
    }
