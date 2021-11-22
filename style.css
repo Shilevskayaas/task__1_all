@@ -878,6 +878,9 @@ a, a:visited{
    padding: 4.8vw 8vw 0px 6vw;
 }
 @media (max-width: 768px) {
+   .content{
+      padding-bottom: 150px;
+   }
    .content:before{
       display: none;
    }
@@ -1177,7 +1180,7 @@ a, a:visited{
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 180px 16px 88px 20px;  
+      margin: 0px 16px 88px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
