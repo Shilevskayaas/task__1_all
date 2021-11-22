@@ -375,7 +375,7 @@ a, a:visited{
    .header__name{
       display: none;
    }
-   .header__call{
+   .columns__call{
       position: absolute;
       top: 7px;
       right: 23px;
@@ -384,7 +384,7 @@ a, a:visited{
       padding: 0px 42px 0px 0px;
       font-size: 19px;
    }
-   .header__call:hover, .header__call:active{
+   .columns__call:hover, .columns__call:active{
       position: absolute;
       top: 7px;
       right: 23px;

@@ -497,7 +497,7 @@ a, a:visited{
       margin: 0 auto;
    }
    .header__popup #dialog .columns__app .columns__name{
-      padding: 0;
+      padding: 25px 0px 25px 0px;
       margin: 0;
       width: 50px;     
    }
@@ -571,6 +571,13 @@ a, a:visited{
 .columns{
    flex: 1 0 auto;
 }
+.columns__app{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   bottom: 20%;
+   left: 42%;
+}
 .columns__news{
    width: 100%;
 }
@@ -596,12 +603,12 @@ a, a:visited{
    padding: 65px 0px 62px 0px;
 }
 .columns__fix{
-   max-width: 1400px;
+   max-width: 1464px;
    margin: 0 auto;
    display: flex;
    flex-direction: row-reverse;
    justify-content: flex-end;
-   padding: 0px 0px 60px 0px;
+   padding: 0px 32px 60px 0px;
 }
 .columns__picture img{
    display: flex;
@@ -869,11 +876,7 @@ a, a:visited{
       font-size: 28px;
    }
 }
-@media (max-width: 1400px) and (min-width: 769px){
-   .columns__fix{
-      padding: 0px 0px 0px 32px;
-   }
-}
+
 
 
 .footer{
