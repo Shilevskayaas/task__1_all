@@ -954,6 +954,7 @@ a, a:visited{
    flex: 0 0 auto;
 }
 .container__footer{
+   max-width: 100%;
    background-color: #11305D;
    color: #fff;
    height: 253px;

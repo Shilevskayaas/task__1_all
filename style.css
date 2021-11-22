@@ -509,6 +509,7 @@ a, a:visited{
 
 .content{
    flex: 1 1 auto;
+   padding-bottom: 200px;
 }
 .content::before{
    content: "";
@@ -831,7 +832,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   margin: 201px 0px 111px 0px;
+   padding: 0px 0px 111px 0px;
    color: #11305D;
 }
 .columns__load{
@@ -1288,6 +1289,7 @@ a, a:visited{
    flex: 0 0 auto;
 }
 .container__footer{
+   max-width: 100%;
    background-color: #11305D;
    color: #fff;
    height: 253px;
