@@ -120,7 +120,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1400px;
+   max-width: 1464px;
 }
 
 .header__text, .header__info, .header__list{
@@ -631,7 +631,7 @@ a, a:visited{
    padding: 0px 10px 60px 10px;
 }
 .columns__links{
-   max-width: 1400px;
+   max-width: 1464px;
    margin: 0 auto;
    padding: 0px 32px 0px 32px;
 }
@@ -778,7 +778,7 @@ a, a:visited{
    line-height: 29px;
 }
 .columns__uploads{
-   max-width: 1400px;
+   max-width: 1464px;
    margin: 0 auto;
    display: flex;
    justify-content: flex-start;
@@ -917,7 +917,7 @@ a, a:visited{
    background: url("../img/columns__line.svg") center no-repeat;
 }
 .columns__penalty{
-   max-width: 1400px;
+   max-width: 1464px;
    margin: 0 auto;
    padding: 0px 32px 0px 32px;
 }
@@ -1134,7 +1134,7 @@ a, a:visited{
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      padding: 25px 32px 45px 32px;
+      padding: 25px 20px 45px 20px;
    }
    .columns__uploads p{
       text-align: left;
@@ -1597,10 +1597,11 @@ a, a:visited{
    height: 253px;
 }
 .footer__row{
+   max-width: 1400px;
    display: flex;
    align-items:center;
-   margin: 0px -5px;
-   padding: 30px 10px 0px 10px;
+   margin: 0 auto;
+   padding: 30px 0px 0px 0px;
 }
 .footer__logo{
    flex: 0 1 36%;
@@ -1698,6 +1699,8 @@ a, a:visited{
    transition: width 0.1s ease-in-out;
 }
 .footer__copy{
+   max-width: 1400px;
+   margin: 0 auto;
    font-family: "ALS Hauss";
    padding: 0 53px 15px 0;
    text-align: right;

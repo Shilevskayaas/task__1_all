@@ -120,7 +120,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1400px;
+   max-width: 1464px;
 }
 
 .header__text, .header__info, .header__list{
@@ -644,7 +644,7 @@ h1{
 }
 .columns__road{
    width: 100%;
-   max-width: 1400px;
+   max-width: 1464px;
    padding: 0px 0px 60px 0px;
 }
 .columns__road h3{
@@ -746,7 +746,7 @@ h2{
    text-transform: uppercase;
 }
 .columns__info{
-   max-width: 1400px;
+   max-width: 1464px;
    margin: 0 auto;
    padding: 30px 0px 0px 0px;
 }
@@ -1153,10 +1153,11 @@ h2{
    height: 253px;
 }
 .footer__row{
+   max-width: 1400px;
    display: flex;
    align-items:center;
-   margin: 0px -5px;
-   padding: 30px 10px 0px 10px;
+   margin: 0 auto;
+   padding: 30px 0px 0px 0px;
 }
 .footer__logo{
    flex: 0 1 36%;
@@ -1254,6 +1255,8 @@ h2{
    transition: width 0.1s ease-in-out;
 }
 .footer__copy{
+   max-width: 1400px;
+   margin: 0 auto;
    font-family: "ALS Hauss";
    padding: 0 53px 15px 0;
    text-align: right;
