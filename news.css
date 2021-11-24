@@ -1,0 +1,190 @@
+
+
+.columns__news .columns__text{
+   padding: 25px 0px 20px 0px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+}
+.columns__picture{
+   flex: 0 1 48%;
+}
+.columns__picture img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: flex;
+   justify-content: flex-end;
+}
+.columns__news .columns__all{
+   margin: 0px auto;
+   max-width: 1464px;
+}
+
+.columns__fix{
+   background-color: #11305D;
+   max-width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 0px 0px 32px;
+}
+.columns__date{
+   padding: 0px 0px 24px 0px;
+   font-family: ALS Hauss;
+   font-weight: normal;
+   font-size: 14px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.columns__instruction{
+   font-family: ALS Hauss;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 24px;
+   color: #FFFFFF;
+   padding: 0px 50px 55px 0px;
+}
+.columns__detailed{
+   width: 160px;
+   background: url(/img/button1__news.svg) left no-repeat;
+   padding: 50px 0px 0px 0px;
+}
+.columns__detailed:hover{
+   width: 160px;
+   background: url(/img/button1h__news.svg) left no-repeat;
+   padding: 50px 0px 0px 0px;
+}
+.columns__events{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 68px 32px 0px 32px;
+   margin: 0px auto;
+   max-width: 1464px;
+}
+.columns__events a{
+   flex: 0 1 25%;
+}
+.columns__event_hide{
+   display: none;
+}
+.columns__event_hide.hide{
+   display: block;
+}
+.columns__event .columns__date, .columns__event .columns__instruction{
+   color: #11305D;
+}
+.columns__event .columns__instruction{
+   font-family: ALS Hauss;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   width: 90%;
+   padding: 2px 0px 48px 0px;
+}
+.columns__all{
+   background: url(/img/button2__news.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 17px 0px 17px 0px;
+}
+.columns__all:hover{
+   background: url(/img/button2h__news.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 17px 0px 17px 0px;
+}
+.columns__all.hide{
+   background: url(/img/button2h__news.svg) left no-repeat;
+   background-position-x:32px;
+   padding: 17px 0px 17px 0px;
+}
+.columns__container{
+   opacity: 1;
+}
+.columns__container.hide{
+   opacity: 0;
+}
+.columns__download, .columns__professional{
+   font-family: "ALS Hauss";
+   font-weight: normal;
+}
+@media (max-width: 768px) {
+   .columns__fix{
+      padding: 0px 0px 0px 0px;
+      flex-direction: column-reverse;
+   }
+   .columns__news .columns__text {
+      padding: 25px 0px 15px 20px;
+      max-width: 100%;
+      width: 100%;
+   }
+   .columns__date{
+      font-size: 10px;
+      font-weight: 400;
+      padding: 1px 0px 13px 0px;
+   }
+   .columns__instruction{
+      width: 100%;
+      font-size: 17px;
+      line-height: 25px;
+      padding: 0px 0px 10px 0px;
+   }
+   .columns__detailed{
+      width: 160px;
+      background: url(/img/button1m__news.svg) left no-repeat;
+      padding: 50px 0px 0px 0px;
+   }
+   .columns__detailed:hover{
+      width: 160px;
+      background: url(/img/button1mh__news.svg) left no-repeat;
+      padding: 50px 0px 0px 0px;
+   }
+   .columns__picture{
+      flex: 1 1 auto;
+      height: 100%;
+   }
+   .columns__picture img{
+      object-fit: cover;
+   }
+   .columns__events{
+      flex-direction: column;
+      padding: 42px 0px 0px 20px;
+   }
+   .columns__event_4{
+      display: none;
+   }
+   .columns__event .columns__date{
+      padding: 0px 0px 12px 0px;
+   }
+   .columns__event .columns__instruction{
+      padding: 0px 0px 22px 0px;
+      font-size: 12px;
+      line-height: 19px;
+   }
+   .columns__news .columns__all {
+      margin: 0px 0px 0px 20px;
+   }
+   .columns__all{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(/img/button2m__news.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+   .columns__all:hover{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(/img/button2mh__news.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+   .columns__all.hide{
+      width: 71px;
+      margin: 0px 0px 0px 20px;
+      background: url(/img/button2mh__news.svg) left no-repeat;
+      padding: 20px 0px 1px 0px;
+   }
+}
+@media (max-width: 1400px) and (min-width: 769px){
+   .columns__fix{
+      padding: 0px 0px 0px 32px;
+   }
+}

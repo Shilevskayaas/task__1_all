@@ -2,11 +2,15 @@ $(document).ready(function() {
    $(".header__toggle").click(function() {
      $(this).toggleClass("active");
      $('.columns__container').removeClass('hide');
+     $('.header').removeClass('toggle');
+     $('.columns__icons_1').removeClass('toggle');
      $('.header__list, .header__popup').slideToggle(100, function(){
        if($(this).css('display') === "none"){
          $(this).removeAttr('style');
        } else {
          $('.columns__container').addClass('hide');
+         $('.header').addClass('toggle');
+         $('.columns__icons_1').addClass('toggle');
       }		
       return false;
      });
@@ -44,6 +48,7 @@ $(document).ready(function() {
             $('.columns__add_hide').removeClass('hide');
             $('.columns__all_hide').removeClass('hide');
             $('.columns__upload_hide').removeClass('hide');
+            $('.columns__link_hide').removeClass('hide');
             $('.columns__lines_short').removeClass('hide');
          }		
          return false;

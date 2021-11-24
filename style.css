@@ -61,48 +61,48 @@ h1,h2,h3,h4,h5,h6{
 
 @font-face{
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/pfdintextcomppro-bold.eot");
-	src: local("☺"), url("fonts/pfdintextcomppro-bold.woff") format("woff"), url("fonts/pfdintextcomppro-bold.ttf") format("truetype"), url("fonts/pfdintextcomppro-bold.svg") format("svg");
+	src: url("/fonts/pfdintextcomppro-bold.eot");
+	src: local("☺"), url("/fonts/pfdintextcomppro-bold.woff") format("woff"), url("/fonts/pfdintextcomppro-bold.ttf") format("truetype"), url("/fonts/pfdintextcomppro-bold.svg") format("svg");
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/PFDinTextCompPro-Medium.eot");
-	src: local("☺"), url("fonts/PFDinTextCompPro-Medium.woff") format("woff"), url("fonts/PFDinTextCompPro-Medium.ttf") format("truetype"), url("fonts/PFDinTextCompPro-Medium.svg") format("svg");
+	src: url("/fonts/PFDinTextCompPro-Medium.eot");
+	src: local("☺"), url("/fonts/PFDinTextCompPro-Medium.woff") format("woff"), url("/fonts/PFDinTextCompPro-Medium.ttf") format("truetype"), url("/fonts/PFDinTextCompPro-Medium.svg") format("svg");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face{
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/pfdintextcomppro-regular.eot");
-	src: local("☺"), url("fonts/pfdintextcomppro-regular.woff") format("woff"), url("fonts/pfdintextcomppro-regular.ttf") format("truetype"), url("fonts/pfdintextcomppro-regular.svg") format("svg");
+	src: url("/fonts/pfdintextcomppro-regular.eot");
+	src: local("☺"), url("/fonts/pfdintextcomppro-regular.woff") format("woff"), url("/fonts/pfdintextcomppro-regular.ttf") format("truetype"), url("/fonts/pfdintextcomppro-regular.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
    font-family: "ALS Hauss";
    src: local("ALS Hauss Bold"), local("ALS-Hauss-Bold"),
-   url("fonts/ALSHauss-Bold.woff2") format("woff2"),
-   url("fonts/ALSHauss-Bold.woff") format("woff"),
-   url("fonts/ALSHauss-Bold.ttf") format("truetype");
+   url("/fonts/ALSHauss-Bold.woff2") format("woff2"),
+   url("/fonts/ALSHauss-Bold.woff") format("woff"),
+   url("/fonts/ALSHauss-Bold.ttf") format("truetype");
    font-weight: bold;
    font-style: normal;
 }
 @font-face {
 	font-family: "ALS Hauss";
    src: local("ALS Hauss Medium"), local("ALS-Hauss-Medium"),
-   url("fonts/ALSHauss-Medium.woff") format("woff"),
-   url("fonts/ALSHauss-Medium.ttf") format("truetype");
+   url("/fonts/ALSHauss-Medium.woff") format("woff"),
+   url("/fonts/ALSHauss-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face{
    font-family: "ALS Hauss";
    src: local("ALS Hauss Regular"), local("ALS-Hauss-Regular"),
-   url("fonts/ALSHauss-Regular.woff2") format("woff2"),
-   url("fonts/ALSHauss-Regular.woff") format("woff"),
-   url("fonts/ALSHauss-Regular.ttf") format("truetype");
+   url("/fonts/ALSHauss-Regular.woff2") format("woff2"),
+   url("/fonts/ALSHauss-Regular.woff") format("woff"),
+   url("/fonts/ALSHauss-Regular.ttf") format("truetype");
    font-weight: normal;
    font-style: normal;
 }
@@ -140,7 +140,7 @@ a, a:visited{
    margin: 0 auto;
    display: flex;
    height: 182px;
-   padding: 0px 32px 0px 0px;
+   padding: 0px 32px 0px 32px;
 }
 .header__row>a:first-child{
    flex: 1 1 auto;
@@ -166,7 +166,7 @@ a, a:visited{
    width: 10px;
    height: 52px;
    background-color: #11305D;
-   background: url("img/line.svg") center no-repeat;
+   background: url("/img/line.svg") center no-repeat;
 }
 .header__lk, .header__version{
    font-size: 14px;
@@ -345,6 +345,7 @@ a, a:visited{
    .header{
       min-height: 110px;
    }
+   
    .header__row{
       height: 110px;
       flex-direction: row-reverse;
@@ -356,7 +357,15 @@ a, a:visited{
       margin: 0 auto;
       display: flex;
       align-items: center;
-      background: url("img/logohm.svg") center no-repeat;
+      background: url("/img/logohm.svg") center no-repeat;
+   }
+   .header.toggle::after{
+      content: "";
+      display: block;
+      width: 90vw;
+      height: 1px;
+      margin: 0 auto;
+      background-color: #1b4a91;
    }
    .header__img{
       width: 108.3px;
@@ -472,7 +481,7 @@ a, a:visited{
       flex: 0 1 auto;
       display: flex;
       align-items: center;
-      background: url("img/logohm.svg") center no-repeat;
+      background: url("/img/logohm.svg") center no-repeat;
       padding: 0px 10px 0px 10px;
    }
    .header__img{
@@ -509,7 +518,6 @@ a, a:visited{
 
 .content{
    flex: 1 1 auto;
-   padding-bottom: 200px;
 }
 .content::before{
    content: "";
@@ -518,8 +526,46 @@ a, a:visited{
    height: 1px;
    background-color: #11305D;
 }
+h1{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   line-height: 48px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 57px 0px 52px 0px;
+}
 .columns{
    flex: 1 0 auto;
+}
+.columns__full{
+   max-width: 1400px;
+   margin: 0 auto;
+   line-height: 0;
+}
+.columns__image img{
+   object-fit: cover;
+   width: 100%;
+}
+.columns__news{
+   width: 100%;
+}
+.columns__documents, .columns__faq{
+   margin: 0px auto;
+   max-width: 1464px;
+}
+.columns__contacts{
+   text-align: center;
+}
+.columns__news h1, .columns__documents h1, .columns__provider h1, .columns__faq h1{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 35px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   padding: 65px 0px 62px 0px;
 }
 .columns__row{
    display: flex;
@@ -534,7 +580,7 @@ a, a:visited{
    width: 10px;
    height: 308px;
    background-color: #11305D;
-   background: url("img/cline.svg") center no-repeat;
+   background: url("/img/cline.svg") center no-repeat;
 }
 .columns__about{
    height: 100%;
@@ -576,27 +622,27 @@ a, a:visited{
    padding: 175px 0px 0px 0px;
 }
 .columns__about_1{
-   background: url("img/01_144.svg") top/auto no-repeat;
+   background: url("/img/01_144.svg") top/auto no-repeat;
    background-position-y:33px;
 }
 .columns__about_2{
-   background: url("img/02_144.svg") top/auto no-repeat;
+   background: url("/img/02_144.svg") top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_3{
-   background: url("img/03_144.svg") top/auto no-repeat;
+   background: url("/img/03_144.svg") top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_4{
-   background: url("img/04_144.svg") top/auto no-repeat;
+   background: url("/img/04_144.svg") top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_5{
-   background: url("img/05_144.svg") top/auto no-repeat;
+   background: url("/img/05_144.svg") top/auto no-repeat;
    background-position-y:33px;
 }
 .columns__about_6{
-   background: url("img/06_144.svg") top/auto no-repeat;
+   background: url("/img/06_144.svg") top/auto no-repeat;
    background-position-y:4px;
 }
 
@@ -660,7 +706,7 @@ a, a:visited{
    position: absolute;
    top: 10px;
    left: 695px;
-   background: url("img/close.svg") center no-repeat;
+   background: url("/img/close.svg") center no-repeat;
    padding: 20px 10px 20px 20px;
    }
 .close:hover {
@@ -668,7 +714,7 @@ a, a:visited{
    position: absolute;
    top: 10px;
    left: 695px;
-   background: url("img/closeh.svg") center no-repeat;
+   background: url("/img/closeh.svg") center no-repeat;
    padding: 20px 10px 20px 20px;
    transition: width 0.1s ease-in-out;
    }
@@ -709,13 +755,12 @@ a, a:visited{
 
 
 .columns__requisites{
-   height: 624px;
    padding: 0px 32px 0px 32px;
    margin: 99px 0px 100px 0px;
    margin: 0 auto;
    text-align: center;
 }
-.columns__requisites h2, h3, .columns__upload p{
+.columns__requisites h2, .columns__requisites h3, .columns__upload p{
    font-family: "PF Din Text Comp Pro";
    font-weight: normal;
    font-size: 35px;
@@ -731,12 +776,13 @@ a, a:visited{
    line-height: 33px;
 }
 .columns__upload p{
-   padding: 25px 50px 0px 0px;
+   padding: 0px 50px 0px 0px;
    font-size: 21px;
    line-height: 29px;
 }
 .columns__upload{
    display: flex;
+   align-items: center;
    padding: 35px 0px 0px 0px;
 }
 .columns__button p{
@@ -750,11 +796,11 @@ a, a:visited{
    display: flex;
    align-items: center;
    background: url(img/download.svg) left no-repeat;
-   padding: 30px 0px 30px 70px;
+   padding: 17px 0px 17px 70px;
 }
 .columns__add p:hover, .columns__add p:active{
    background: url(img/downloadh.svg) left no-repeat;
-   padding: 30px 0px 30px 70px;
+   padding: 17px 0px 17px 70px;
    transition: width 0.1s ease-in-out;
 }
 .columns__property, .columns__legal{
@@ -832,7 +878,7 @@ a, a:visited{
 .columns__application{
    display: flex;
    justify-content: space-between;
-   padding: 0px 0px 111px 0px;
+   padding: 111px 0px 111px 0px;
    color: #11305D;
 }
 .columns__load{
@@ -878,14 +924,18 @@ a, a:visited{
    padding: 4.8vw 8vw 0px 6vw;
 }
 @media (max-width: 768px) {
-   .content{
-      padding-bottom: 150px;
-   }
    .content:before{
       display: none;
    }
    .container{
       min-width: 320px;
+   }
+   .columns h1{
+      font-size: 23px;
+      padding: 20px 0px 26px 0px;
+   }
+   .columns__full{
+      display: none;
    }
    .columns__row{
       display: flex;
@@ -896,9 +946,6 @@ a, a:visited{
       opacity: 999;
       transition: width 0.1s ease-in-out;
    }
-   .columns__icons{
-      padding: 2px 0px 0px 0px;
-         }
    .columns__line{
       display: none;
    }
@@ -909,6 +956,9 @@ a, a:visited{
       height: 1px;
       margin: 0 auto;
       background-color: #1b4a91;
+   }
+   .columns__icons_1.toggle::before{
+      display: none;
    }
    .columns__about{
       height: 100%;
@@ -931,56 +981,56 @@ a, a:visited{
       background-position-y:0px;
    }
    .columns__about_1{
-      background: url("img/01_92.svg") top/auto no-repeat;
+      background: url("/img/01_92.svg") top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_1:hover, .columns__about_1:active{
-      background: url("img/01_92.svg") top/auto no-repeat;
+      background: url("/img/01_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_2{
-      background: url("img/02_92.svg") top/auto no-repeat;
+      background: url("/img/02_92.svg") top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_2:hover, .columns__about_2:active{
-      background: url("img/02_92.svg") top/auto no-repeat;
+      background: url("/img/02_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_3{
-      background: url("img/03_92.svg") top/auto no-repeat;
+      background: url("/img/03_92.svg") top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_3:hover, .columns__about_3:active{
-      background: url("img/03_92.svg") top/auto no-repeat;
+      background: url("/img/03_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_4{
-      background: url("img/04_92.svg") top/auto no-repeat;
+      background: url("/img/04_92.svg") top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_4:hover, .columns__about_4:active{
-      background: url("img/04_92.svg") top/auto no-repeat;
+      background: url("/img/04_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_5{
-      background: url("img/05_92.svg") top/auto no-repeat;
+      background: url("/img/05_92.svg") top/auto no-repeat;
       background-position-y:33px;   
    }
    .columns__about_5:hover, .columns__about_5:active{
-      background: url("img/05_92.svg") top/auto no-repeat;
+      background: url("/img/05_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_6{
-      background: url("img/06_92.svg") top/auto no-repeat;
+      background: url("/img/06_92.svg") top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_6:hover, .columns__about_6:active{
-      background: url("img/06_92.svg") top/auto no-repeat;
+      background: url("/img/06_92.svg") top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
@@ -1052,14 +1102,14 @@ a, a:visited{
       position: absolute;
       top: 5px;
       left: 240px;
-      background: url("img/closem.svg") center no-repeat;
+      background: url("/img/closem.svg") center no-repeat;
       padding: 20px 10px 20px 20px;
    }
    .close:hover {
       position: absolute;
       top: 5px;
       left: 240px;
-      background: url("img/closemh.svg") center no-repeat;
+      background: url("/img/closemh.svg") center no-repeat;
       padding: 20px 10px 20px 20px;
    }
    .columns__app{
@@ -1077,7 +1127,7 @@ a, a:visited{
       width: 100%;
    }
    .columns__info{
-      height: 279px;
+      height: auto;
       line-height: 31px;
       letter-spacing: 0.05em;
       padding: 40px 0px 40px 0px;
@@ -1135,7 +1185,7 @@ a, a:visited{
       font-weight: 500;
       font-size: 10px;
       letter-spacing: 0.5em;
-      padding: 18px 0px 18px 50px;
+      padding: 10px 0px 10px 50px;
       background: url(img/downloadm.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
@@ -1144,7 +1194,7 @@ a, a:visited{
       font-weight: 500;
       font-size: 10px;
       letter-spacing: 0.5em;
-      padding: 18px 0px 18px 50px;
+      padding: 10px 0px 10px 50px;
       background: url(img/downloadmh.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
@@ -1174,13 +1224,13 @@ a, a:visited{
    .columns__upload{
       display: flex;
       flex-direction: column;
-      text-align: left;
-      padding: 10px 0px 11px 0px;
+      align-items: flex-start;
+      padding: 10px 0px 0px 0px;
    }
    .columns__application{
       position: relative;
       padding: 0;
-      margin: 50px 16px 88px 20px;  
+      padding: 50px 20px 88px 20px;  
       justify-content: flex-start; 
    }
    .columns__professional{
@@ -1202,7 +1252,7 @@ a, a:visited{
       display: none;
    }
    .columns__mobile{
-      background: url("img/tel.png") top/auto 169px no-repeat;
+      background: url("/img/tel.png") top/auto 169px no-repeat;
       width: 96px;
       height: 169px;
    }
@@ -1241,6 +1291,9 @@ a, a:visited{
       position: absolute;
       bottom: 0px;
       right: 0px;
+   }
+   .columns__picture{
+      height: 142px;
    }
 }
 @media (max-width: 800px) and (min-width: 769px){
@@ -1318,7 +1371,7 @@ a, a:visited{
    padding: 0px 40px 0px 10px;
 }
 .footer__img{
-   background: url("img/logof.svg") center no-repeat;
+   background: url("/img/logof.svg") center no-repeat;
    padding: 200px 0px 0px 10px;
 }
 .footer__list{
@@ -1360,21 +1413,21 @@ a, a:visited{
 }
 .footer__fb{
    width: 200px;
-   background: url("img/fb.svg") left no-repeat;
+   background: url("/img/fb.svg") left no-repeat;
    padding: 1px 40px 90px 0px;
 }
 .footer__fb:hover, .footer__fb:active{
    height: 200px;
-   background: url("img/fbh.svg") left no-repeat;
+   background: url("/img/fbh.svg") left no-repeat;
    padding: 1px 40px 90px 0px;
    transition: width 0.1s ease-in-out;
 }
 .footer__in{
-   background: url("img/in.svg") right no-repeat;
+   background: url("/img/in.svg") right no-repeat;
    padding: 1px 0px 90px 40px;
 }
 .footer__in:hover, .footer__in:active{
-   background: url("img/inh.svg") right no-repeat;
+   background: url("/img/inh.svg") right no-repeat;
    padding: 1px 0px 90px 40px;
    transition: width 0.1s ease-in-out;
 }
@@ -1435,7 +1488,7 @@ a, a:visited{
       padding: 44px 0px 0px 0px;
    }
    .footer__img{
-      background: url("img/logofm.svg") top no-repeat;
+      background: url("/img/logofm.svg") top no-repeat;
       width: 108.3px;
       height: 94px;
       padding: 0;
@@ -1459,7 +1512,7 @@ a, a:visited{
       padding: 0px 20px 0px 20px;
    }
    .footer__img{
-      background: url("img/logofm.svg") center/auto no-repeat;
+      background: url("/img/logofm.svg") center/auto no-repeat;
       width: 108.3px;
       height: 94px;
    }
@@ -1483,7 +1536,7 @@ a, a:visited{
       padding: 0px 20px 0px 20px;
    }
    .footer__img{
-      background: url("img/logofm.svg") center/auto no-repeat;
+      background: url("/img/logofm.svg") center/auto no-repeat;
       width: 108.3px;
       height: 94px;
    }
