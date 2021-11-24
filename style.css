@@ -61,48 +61,48 @@ h1,h2,h3,h4,h5,h6{
 
 @font-face{
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/pfdintextcomppro-bold.eot");
-	src: local("☺"), url("fonts/pfdintextcomppro-bold.woff") format("woff"), url("fonts/pfdintextcomppro-bold.ttf") format("truetype"), url("fonts/pfdintextcomppro-bold.svg") format("svg");
+	src: url(fonts/pfdintextcomppro-bold.eot);
+	src: local("☺"), url(fonts/pfdintextcomppro-bold.woff) format("woff"), url(fonts/pfdintextcomppro-bold.ttf) format("truetype"), url(fonts/pfdintextcomppro-bold.svg) format("svg");
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/PFDinTextCompPro-Medium.eot");
-	src: local("☺"), url("fonts/PFDinTextCompPro-Medium.woff") format("woff"), url("fonts/PFDinTextCompPro-Medium.ttf") format("truetype"), url("fonts/PFDinTextCompPro-Medium.svg") format("svg");
+	src: url(fonts/PFDinTextCompPro-Medium.eot);
+	src: local("☺"), url(fonts/PFDinTextCompPro-Medium.woff) format("woff"), url(fonts/PFDinTextCompPro-Medium.ttf) format("truetype"), url(fonts/PFDinTextCompPro-Medium.svg) format("svg");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face{
 	font-family: "PF Din Text Comp Pro";
-	src: url("fonts/pfdintextcomppro-regular.eot");
-	src: local("☺"), url("fonts/pfdintextcomppro-regular.woff") format("woff"), url("fonts/pfdintextcomppro-regular.ttf") format("truetype"), url("fonts/pfdintextcomppro-regular.svg") format("svg");
+	src: url(fonts/pfdintextcomppro-regular.eot);
+	src: local("☺"), url(fonts/pfdintextcomppro-regular.woff) format("woff"), url(fonts/pfdintextcomppro-regular.ttf) format("truetype"), url(fonts/pfdintextcomppro-regular.svg) format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
    font-family: "ALS Hauss";
    src: local("ALS Hauss Bold"), local("ALS-Hauss-Bold"),
-   url("fonts/ALSHauss-Bold.woff2") format("woff2"),
-   url("fonts/ALSHauss-Bold.woff") format("woff"),
-   url("fonts/ALSHauss-Bold.ttf") format("truetype");
+   url(fonts/ALSHauss-Bold.woff2) format("woff2"),
+   url(fonts/ALSHauss-Bold.woff) format("woff"),
+   url(fonts/ALSHauss-Bold.ttf) format("truetype");
    font-weight: bold;
    font-style: normal;
 }
 @font-face {
 	font-family: "ALS Hauss";
    src: local("ALS Hauss Medium"), local("ALS-Hauss-Medium"),
-   url("fonts/ALSHauss-Medium.woff") format("woff"),
-   url("fonts/ALSHauss-Medium.ttf") format("truetype");
+   url(fonts/ALSHauss-Medium.woff) format("woff"),
+   url(fonts/ALSHauss-Medium.ttf) format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face{
    font-family: "ALS Hauss";
    src: local("ALS Hauss Regular"), local("ALS-Hauss-Regular"),
-   url("fonts/ALSHauss-Regular.woff2") format("woff2"),
-   url("fonts/ALSHauss-Regular.woff") format("woff"),
-   url("fonts/ALSHauss-Regular.ttf") format("truetype");
+   url(fonts/ALSHauss-Regular.woff2) format("woff2"),
+   url(fonts/ALSHauss-Regular.woff) format("woff"),
+   url(fonts/ALSHauss-Regular.ttf) format("truetype");
    font-weight: normal;
    font-style: normal;
 }
@@ -166,7 +166,7 @@ a, a:visited{
    width: 10px;
    height: 52px;
    background-color: #11305D;
-   background: url("img/line.svg") center no-repeat;
+   background: url(img/line.svg) center no-repeat;
 }
 .header__lk, .header__version{
    font-size: 14px;
@@ -357,7 +357,7 @@ a, a:visited{
       margin: 0 auto;
       display: flex;
       align-items: center;
-      background: url("img/logohm.svg") center no-repeat;
+      background: url(img/logohm.svg) center no-repeat;
    }
    .header.toggle::after{
       content: "";
@@ -481,7 +481,7 @@ a, a:visited{
       flex: 0 1 auto;
       display: flex;
       align-items: center;
-      background: url("img/logohm.svg") center no-repeat;
+      background: url(img/logohm.svg) center no-repeat;
       padding: 0px 10px 0px 10px;
    }
    .header__img{
@@ -580,7 +580,7 @@ h1{
    width: 10px;
    height: 308px;
    background-color: #11305D;
-   background: url("img/cline.svg") center no-repeat;
+   background: url(img/cline.svg) center no-repeat;
 }
 .columns__about{
    height: 100%;
@@ -622,27 +622,27 @@ h1{
    padding: 175px 0px 0px 0px;
 }
 .columns__about_1{
-   background: url("img/01_144.svg") top/auto no-repeat;
+   background: url(img/01_144.svg) top/auto no-repeat;
    background-position-y:33px;
 }
 .columns__about_2{
-   background: url("img/02_144.svg") top/auto no-repeat;
+   background: url(img/02_144.svg) top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_3{
-   background: url("img/03_144.svg") top/auto no-repeat;
+   background: url(img/03_144.svg) top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_4{
-   background: url("img/04_144.svg") top/auto no-repeat;
+   background: url(img/04_144.svg) top/auto no-repeat;
    background-position-y:4px;
 }
 .columns__about_5{
-   background: url("img/05_144.svg") top/auto no-repeat;
+   background: url(img/05_144.svg) top/auto no-repeat;
    background-position-y:33px;
 }
 .columns__about_6{
-   background: url("img/06_144.svg") top/auto no-repeat;
+   background: url(img/06_144.svg) top/auto no-repeat;
    background-position-y:4px;
 }
 
@@ -706,7 +706,7 @@ h1{
    position: absolute;
    top: 10px;
    left: 695px;
-   background: url("img/close.svg") center no-repeat;
+   background: url(img/close.svg) center no-repeat;
    padding: 20px 10px 20px 20px;
    }
 .close:hover {
@@ -714,7 +714,7 @@ h1{
    position: absolute;
    top: 10px;
    left: 695px;
-   background: url("img/closeh.svg") center no-repeat;
+   background: url(img/closeh.svg) center no-repeat;
    padding: 20px 10px 20px 20px;
    transition: width 0.1s ease-in-out;
    }
@@ -981,56 +981,56 @@ h1{
       background-position-y:0px;
    }
    .columns__about_1{
-      background: url("img/01_92.svg") top/auto no-repeat;
+      background: url(img/01_92.svg) top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_1:hover, .columns__about_1:active{
-      background: url("img/01_92.svg") top/auto no-repeat;
+      background: url(img/01_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_2{
-      background: url("img/02_92.svg") top/auto no-repeat;
+      background: url(img/02_92.svg) top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_2:hover, .columns__about_2:active{
-      background: url("img/02_92.svg") top/auto no-repeat;
+      background: url(img/02_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_3{
-      background: url("img/03_92.svg") top/auto no-repeat;
+      background: url(img/03_92.svg) top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_3:hover, .columns__about_3:active{
-      background: url("img/03_92.svg") top/auto no-repeat;
+      background: url(img/03_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_4{
-      background: url("img/04_92.svg") top/auto no-repeat;
+      background: url(img/04_92.svg) top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_4:hover, .columns__about_4:active{
-      background: url("img/04_92.svg") top/auto no-repeat;
+      background: url(img/04_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_5{
-      background: url("img/05_92.svg") top/auto no-repeat;
+      background: url(img/05_92.svg) top/auto no-repeat;
       background-position-y:33px;   
    }
    .columns__about_5:hover, .columns__about_5:active{
-      background: url("img/05_92.svg") top/auto no-repeat;
+      background: url(img/05_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
    .columns__about_6{
-      background: url("img/06_92.svg") top/auto no-repeat;
+      background: url(img/06_92.svg) top/auto no-repeat;
       background-position-y:33px;
    }
    .columns__about_6:hover, .columns__about_6:active{
-      background: url("img/06_92.svg") top/auto no-repeat;
+      background: url(img/06_92.svg) top/auto no-repeat;
       background-position-y:33px;
       transition: width 0.1s ease-in-out;
    }
@@ -1102,14 +1102,14 @@ h1{
       position: absolute;
       top: 5px;
       left: 240px;
-      background: url("img/closem.svg") center no-repeat;
+      background: url(img/closem.svg) center no-repeat;
       padding: 20px 10px 20px 20px;
    }
    .close:hover {
       position: absolute;
       top: 5px;
       left: 240px;
-      background: url("img/closemh.svg") center no-repeat;
+      background: url(img/closemh.svg) center no-repeat;
       padding: 20px 10px 20px 20px;
    }
    .columns__app{
@@ -1252,7 +1252,7 @@ h1{
       display: none;
    }
    .columns__mobile{
-      background: url("img/tel.png") top/auto 169px no-repeat;
+      background: url(img/tel.png) top/auto 169px no-repeat;
       width: 96px;
       height: 169px;
    }
@@ -1371,7 +1371,7 @@ h1{
    padding: 0px 40px 0px 10px;
 }
 .footer__img{
-   background: url("img/logof.svg") center no-repeat;
+   background: url(img/logof.svg) center no-repeat;
    padding: 200px 0px 0px 10px;
 }
 .footer__list{
@@ -1413,21 +1413,21 @@ h1{
 }
 .footer__fb{
    width: 200px;
-   background: url("img/fb.svg") left no-repeat;
+   background: url(img/fb.svg) left no-repeat;
    padding: 1px 40px 90px 0px;
 }
 .footer__fb:hover, .footer__fb:active{
    height: 200px;
-   background: url("img/fbh.svg") left no-repeat;
+   background: url(img/fbh.svg) left no-repeat;
    padding: 1px 40px 90px 0px;
    transition: width 0.1s ease-in-out;
 }
 .footer__in{
-   background: url("img/in.svg") right no-repeat;
+   background: url(img/in.svg) right no-repeat;
    padding: 1px 0px 90px 40px;
 }
 .footer__in:hover, .footer__in:active{
-   background: url("img/inh.svg") right no-repeat;
+   background: url(img/inh.svg) right no-repeat;
    padding: 1px 0px 90px 40px;
    transition: width 0.1s ease-in-out;
 }
@@ -1488,7 +1488,7 @@ h1{
       padding: 44px 0px 0px 0px;
    }
    .footer__img{
-      background: url("img/logofm.svg") top no-repeat;
+      background: url(img/logofm.svg) top no-repeat;
       width: 108.3px;
       height: 94px;
       padding: 0;
@@ -1512,7 +1512,7 @@ h1{
       padding: 0px 20px 0px 20px;
    }
    .footer__img{
-      background: url("img/logofm.svg") center/auto no-repeat;
+      background: url(img/logofm.svg) center/auto no-repeat;
       width: 108.3px;
       height: 94px;
    }
@@ -1536,7 +1536,7 @@ h1{
       padding: 0px 20px 0px 20px;
    }
    .footer__img{
-      background: url("img/logofm.svg") center/auto no-repeat;
+      background: url(img/logofm.svg) center/auto no-repeat;
       width: 108.3px;
       height: 94px;
    }

@@ -94,7 +94,7 @@
    background-color: #fff;
    display: flex;
    align-items: center;
-   background: url("../img/line__hide.svg") center no-repeat;
+   background: url(../img/line__hide.svg) center no-repeat;
 }
 .columns__all_hide{
    display: none;
@@ -260,38 +260,38 @@
    padding: 0px 0px 17px 0px;
 }
 .columns__abouts_1{
-   background: url("../img/icon1__provider.svg") center/auto no-repeat;
+   background: url(../img/icon1__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
    margin-bottom: 95px;
 }
 .columns__abouts_2{
-   background: url("../img/icon2__provider.svg") center/auto no-repeat;
+   background: url(../img/icon2__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
    margin-bottom: 95px;
 }
 .columns__abouts_3{
-   background: url("../img/icon3__provider.svg") center/auto no-repeat;
+   background: url(../img/icon3__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
    margin-bottom: 115px;
 }
 .columns__essential{
-   background: url("../img/load.svg") bottom/auto no-repeat;
+   background: url(../img/load.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
 .columns__essential:hover{
-   background: url("../img/loadh.svg") bottom/auto no-repeat;
+   background: url(../img/loadh.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
 .columns__personal{
-   background: url("../img/enter.svg") bottom/auto no-repeat;
+   background: url(../img/enter.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
 .columns__personal:hover{
-   background: url("../img/enterh.svg") bottom/auto no-repeat;
+   background: url(../img/enterh.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
 }
 .columns__pay{
-   background: url("../img/pay.png") bottom/auto no-repeat;
+   background: url(../img/pay.png) bottom/auto no-repeat;
    padding: 50px 100px 50px 100px;
 }
 .columns__line{
@@ -301,7 +301,7 @@
    background-color: #fff;
    display: flex;
    align-items: center;
-   background: url("../img/columns__line.svg") center no-repeat;
+   background: url(../img/columns__line.svg) center no-repeat;
 }
 .columns__penalty{
    max-width: 1464px;
@@ -373,7 +373,7 @@
    background-color: #fff;
    display: flex;
    align-items: center;
-   background: url("../img/line__penalty.svg") center no-repeat;
+   background: url(../img/line__penalty.svg) center no-repeat;
 }
 .columns__download, .columns__professional{
    font-family: "ALS Hauss";
@@ -660,39 +660,39 @@
       padding: 15px 0px 5px 0px;
    }
    .columns__abouts_1{
-      background: url("../img/icon1m__provider.svg") top/auto no-repeat;
+      background: url(../img/icon1m__provider.svg) top/auto no-repeat;
       background-position-y:30px;
       margin-bottom: 0px;
       
    }
    .columns__abouts_2{
-      background: url("../img/icon2m__provider.svg") top/auto no-repeat;
+      background: url(../img/icon2m__provider.svg) top/auto no-repeat;
       background-position-y:33px;
       margin-bottom: 0px;
    }
    .columns__abouts_3{
-      background: url("../img/icon3m__provider.svg") top/auto no-repeat;
+      background: url(../img/icon3m__provider.svg) top/auto no-repeat;
       background-position-y:33px;
       margin-bottom: 0px;
    }
    .columns__essential{
-      background: url("../img/loadm.svg") bottom/auto no-repeat;
+      background: url(../img/loadm.svg) bottom/auto no-repeat;
       padding: 25px 100px 25px 100px;
    }
    .columns__essential:hover{
-      background: url("../img/loadmh.svg") bottom/auto no-repeat;
+      background: url(../img/loadmh.svg) bottom/auto no-repeat;
       padding: 25px 100px 25px 100px;
    }
    .columns__personal{
-      background: url("../img/enterm.svg") bottom/auto no-repeat;
+      background: url(../img/enterm.svg) bottom/auto no-repeat;
       padding: 25px 100px 25px 100px;
    }
    .columns__personal:hover{
-      background: url("../img/entermh.svg") bottom/auto no-repeat;
+      background: url(../img/entermh.svg) bottom/auto no-repeat;
       padding: 25px 100px 25px 100px;
    }
    .columns__pay{
-      background: url("../img/paym.png") bottom/auto no-repeat;
+      background: url(../img/paym.png) bottom/auto no-repeat;
       padding: 50px 100px 50px 100px;
       margin-bottom: 35px;
    }
