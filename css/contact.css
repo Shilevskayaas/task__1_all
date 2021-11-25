@@ -9,13 +9,13 @@
 .columns__detailed{
    width: 310px;
    margin: 0 auto;
-   background: url(/img/button1__contacts.svg) center no-repeat;
+   background: url(../img/button1__contacts.svg) center no-repeat;
    padding: 0px 0px 111px 0px;
 }
 .columns__detailed:hover{
    width: 310px;
    margin: 0 auto;
-   background: url(/img/button1h__contacts.svg) center no-repeat;
+   background: url(../img/button1h__contacts.svg) center no-repeat;
    padding: 0px 0px 111px 0px;
 }
 .columns__contacts h5{
@@ -140,13 +140,13 @@
    padding: 0px 0px 0px 48px;
 }
 .columns__marker_1{
-   background: url(/img/marker_1.svg) left no-repeat;
+   background: url(../img/marker_1.svg) left no-repeat;
 }
 .columns__marker_2{
-   background: url(/img/marker_2.svg) left no-repeat;
+   background: url(../img/marker_2.svg) left no-repeat;
 }
 .columns__marker_3{
-   background: url(/img/marker_3.svg) left no-repeat;
+   background: url(../img/marker_3.svg) left no-repeat;
 }
 h2{
    font-family: PF Din Text Comp Pro;
@@ -234,13 +234,13 @@ h2{
    .columns__detailed{
       width: 310px;
       margin: 0 auto;
-      background: url(/img/button1m__contacts.svg) center no-repeat;
+      background: url(../img/button1m__contacts.svg) center no-repeat;
       padding: 0px 0px 76px 0px;
    }
    .columns__detailed:hover{
       width: 310px;
       margin: 0 auto;
-      background: url(/img/button1mh__contacts.svg) center no-repeat;
+      background: url(../img/button1mh__contacts.svg) center no-repeat;
       padding: 0px 0px 76px 0px;
    }
    .columns__contacts h5{
@@ -342,13 +342,13 @@ h2{
       display: block;
    }
    .columns__marker_1{
-      background: url(/img/marker_1m.svg) left no-repeat;
+      background: url(../img/marker_1m.svg) left no-repeat;
    }
    .columns__marker_2{
-      background: url(/img/marker_2m.svg) left no-repeat;
+      background: url(../img/marker_2m.svg) left no-repeat;
    }
    .columns__marker_3{
-      background: url(/img/marker_3m.svg) left no-repeat;
+      background: url(../img/marker_3m.svg) left no-repeat;
    }
    .columns__texts{
       height: 100%;

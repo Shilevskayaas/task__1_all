@@ -1,4 +1,3 @@
-
 .columns__provider h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
@@ -101,12 +100,12 @@
 }
 .columns__all_hide.hide{
    display: block;
-   background: url(/img/button1__provider.svg) left no-repeat;
+   background: url(../img/button1__provider.svg) left no-repeat;
    padding: 40px 45px 37px 70px;
    margin-left: 145px;
 }
 .columns__all_hide.hide:hover{
-   background: url(/img/button1h__provider.svg) left no-repeat;
+   background: url(../img/button1h__provider.svg) left no-repeat;
    padding: 40px 45px 37px 70px;
    margin-left: 145px;
 }
@@ -146,15 +145,15 @@
    display: none;
 }
 .columns__add{
-   background: url(/img/open_link.svg) left no-repeat;
+   background: url(../img/open_link.svg) left no-repeat;
    padding: 40px 0px 39px 45px;
 }
 .columns__add_hide{
-   background: url(/img/open_link.svg) left no-repeat;
+   background: url(../img/open_link.svg) left no-repeat;
    padding: 40px 0px 39px 45px;
 }
 .columns__add_hide.hide{
-   background: url(/img/close_link.svg) left no-repeat;
+   background: url(../img/close_link.svg) left no-repeat;
    padding: 40px 0px 39px 45px;
 }
 .columns__provider p .columns__uploads p{
@@ -186,7 +185,7 @@
 .columns__adds p{
    display: flex;
    align-items: center;
-   background: url(/img/download.svg) left no-repeat;
+   background: url(../img/download.svg) left no-repeat;
    padding: 13px 0px 14px 70px;
    font-family: ALS Hauss;
    font-weight: 500;
@@ -196,7 +195,7 @@
    text-transform: uppercase;
 }
 .columns__adds p:hover, .columns__adds p:active{
-   background: url(/img/downloadh.svg) left no-repeat;
+   background: url(../img/downloadh.svg) left no-repeat;
    padding: 13px 0px 14px 70px;
    transition: width 0.1s ease-in-out;
 }
@@ -315,11 +314,11 @@
    padding: 100px 0px 17px 0px;
 }
 .columns__all_penalty{
-      background: url(/img/button2__provider.svg) left no-repeat;
+      background: url(../img/button2__provider.svg) left no-repeat;
       padding: 17px 0px 17px 0px;
    }
 .columns__all_penalty:hover{
-      background: url(/img/button2h__provider.svg) left no-repeat;
+      background: url(../img/button2h__provider.svg) left no-repeat;
       padding: 17px 0px 17px 0px;
    }
 .columns__table{
@@ -475,15 +474,15 @@
       letter-spacing: 0.5em;
    }
    .columns__add{
-      background: url(/img/open_linkm.svg) left no-repeat;
+      background: url(../img/open_linkm.svg) left no-repeat;
       padding: 20px 0px 20px 30px;
    }
    .columns__add_hide{
-      background: url(/img/open_linkm.svg) left no-repeat;
+      background: url(../img/open_linkm.svg) left no-repeat;
       padding: 20px 0px 20px 30px;
    }
    .columns__add_hide.hide{
-      background: url(/img/close_linkm.svg) left no-repeat;
+      background: url(../img/close_linkm.svg) left no-repeat;
       padding: 67px 0px 20px 30px;
    }
    .columns__text_hide.hide .columns__hide{
@@ -541,7 +540,7 @@
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 20px 50px;
-      background: url(/img/downloadm.svg) left no-repeat;
+      background: url(../img/downloadm.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
    .columns__add p:hover{
@@ -550,13 +549,13 @@
       font-size: 10px;
       letter-spacing: 0.5em;
       padding: 18px 0px 20px 50px;
-      background: url(/img/downloadmh.svg) left no-repeat;
+      background: url(../img/downloadmh.svg) left no-repeat;
       transition: width 0.1s ease-in-out;
    }
    .columns__all_hide.hide{
       width: 90px;
       margin: 15px 0px 0px 0px;
-      background: url(/img/button1m__provider.svg) left no-repeat;
+      background: url(../img/button1m__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
       margin-top: 25px;
       margin-bottom: 18px;
@@ -564,7 +563,7 @@
    .columns__all_hide.hide:hover{
       width: 90px;
       margin: 15px 0px 0px 0px;
-      background: url(/img/button1mh__provider.svg) left no-repeat;
+      background: url(../img/button1mh__provider.svg) left no-repeat;
       padding: 25px 0px 1px 0px;
       margin-top: 25px;
       margin-bottom: 18px;
@@ -572,7 +571,7 @@
    .columns__adds p{
       display: flex;
       align-items: center;
-      background: url(/img/downloadm.svg) left no-repeat;
+      background: url(../img/downloadm.svg) left no-repeat;
       padding: 13px 0px 14px 45px;
       font-family: ALS Hauss;
       font-weight: 500;
@@ -582,7 +581,7 @@
       text-transform: uppercase;
    }
    .columns__adds p:hover{
-      background: url(/img/downloadmh.svg) left no-repeat;
+      background: url(../img/downloadmh.svg) left no-repeat;
       padding: 13px 0px 14px 45px;
       transition: width 0.1s ease-in-out;
    }
@@ -604,7 +603,7 @@
    line-height: 20px;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-}
+   }
    .columns__line_hide, .columns__line{
       display: none;
    }
@@ -715,14 +714,14 @@
       padding: 60px 0px 25px 0px;
    }
    .columns__all_penalty{
-         background: url(/img/button2m__provider.svg) left no-repeat;
-         padding: 10px 45px 10px 70px;
-         margin-top: 20px;
-      }
+      background: url(../img/button2m__provider.svg) left no-repeat;
+      padding: 10px 45px 10px 70px;
+      margin-top: 20px;
+   }
    .columns__all_penalty:hover{
-         background: url(/img/button2mh__provider.svg) left no-repeat;
-         padding: 10px 45px 10px 70px;
-      }
+      background: url(../img/button2mh__provider.svg) left no-repeat;
+      padding: 10px 45px 10px 70px;
+   }
    .columns__table{
       width: 80%;
       display: flex;
