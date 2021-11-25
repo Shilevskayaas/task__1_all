@@ -71,6 +71,9 @@
    font-size: 14px;
    line-height: 24px;
 }
+.columns__text_hide.hide h2{
+   margin-top: 1px;
+}
 .columns__text_hide.hide ol{
    padding: 0px 0px 0px 15px;
 }
@@ -160,6 +163,9 @@
       font-size: 12px;
       line-height: 19px;
       padding: 0px;
+   }
+   .columns__text_hide.hide h2{
+      margin-top: 0px;
    }
    .columns__upload{
       align-self: center;

@@ -127,6 +127,9 @@
    font-size: 14px;
    line-height: 24px;
 }
+.columns__text_hide.hide h2{
+   margin-top: 1px;
+}
 .columns__text_hide.hide ol{
    padding: 0px 0px 0px 15px;
 }
@@ -399,16 +402,6 @@
    .columns__provider br:after{
       content: "\00a0";
    }
-   .columns__text h2{
-      width: 95%;
-      font-family: ALS Hauss;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 19px;
-      letter-spacing: 0em;
-      padding: 25px 0px 24px 0px;
-      margin: 0;
-   }
    .columns__lines_mobile{
       display: block;
       content: "";
@@ -492,7 +485,8 @@
       display: flex;
       padding: 8px 0px 7px 0px;
    }
-   .columns__text h2 {
+   .columns__text h2{
+      width: 95%;
       font-family: ALS Hauss;
       font-weight: 500;
       font-size: 12px;
@@ -500,6 +494,9 @@
       letter-spacing: 0em;
       padding: 25px 0px 24px 0px;
       margin: 0;
+   }
+   .columns__text_hide.hide h2{
+      margin-top: 0px;
    }
    .columns__tables{
       height: 100%;
