@@ -406,7 +406,7 @@ a, a:visited{
    .header__list{
       display: none;
       position: absolute;
-      top: 141px;
+      top: 130px;
       left: 0;
       background: #fff;
       width: 100%;
@@ -564,12 +564,14 @@ h1{
 }
 .columns__row{
    display: flex;
+   justify-content: space-between;
    align-items: center;
    text-transform: uppercase;
    height: 454px;
 }
 .columns__icons{
-   flex: 0 1 16.6%;
+   align-self: flex-start;
+   margin-top: 110px;
 }
 .columns__line{
    width: 10px;
@@ -579,13 +581,21 @@ h1{
 }
 .columns__about{
    height: 100%;
-   margin: 40px 0px 69px 0px;
    font-weight: 500;
    font-size: 21px;
    line-height: 29px;
    text-align: center;
    letter-spacing: 0.05em;
    text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.columns__about img{
+   margin: 0 auto;
+   padding: 0px 0px 22px 0px;
+   height: 144px;
+   width: 144px;
 }
 .columns__icons:hover .columns__about p{
    opacity: 0;
@@ -613,10 +623,11 @@ h1{
 }
 .columns__about p{
    height: 100%;
+   width: 170px;
    display: block;
-   padding: 175px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
 }
-.columns__about_1{
+/*.columns__about_1{
    background: url(../img/01_144.svg) top/auto no-repeat;
    background-position-y:33px;
 }
@@ -640,6 +651,7 @@ h1{
    background: url(../img/06_144.svg) top/auto no-repeat;
    background-position-y:4px;
 }
+*/
 .columns__popup{
    top: 110%;
    left: 37.5%;
@@ -939,6 +951,10 @@ h1{
 .columns__line{
    display: none;
 }
+.columns__icons{
+   width: 100%;
+   margin-top: 0px;
+}
 .columns__icons_1:before, .columns__icons_2:before, .columns__icons_3:before, .columns__icons_4:before, .columns__icons_5:before, .columns__icons_6:before, .columns__icons_6:after{
    content: "";
    display: block;
@@ -953,8 +969,8 @@ h1{
 .columns__about{
    height: 100%;
    background-size: 140px 140px;
-   margin:8px 0px 30px 0px;
-   padding: 14px 0px 0px 0px;
+   margin: 0px 0px 00px 0px;
+   padding: 20px 0px 20px 0px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -969,6 +985,7 @@ h1{
 .columns__about_1, .columns__about_5{
    background-position-y:0px;
 }
+/*
 .columns__about_1{
    background: url(../img/01_92.svg) top/auto no-repeat;
    background-position-y:33px;
@@ -1023,18 +1040,13 @@ h1{
    background-position-y:33px;
    transition: width 0.1s ease-in-out;
 }
+*/
 .columns__about p{
+   
    font-size: 18px;
    font-weight: 500;
    letter-spacing: 0.05em;
-   padding: 123px 0px 4px 0px;
-   white-space: nowrap;
-}
-.columns__about p br {
-   content: ""
-}
-.columns__about p br:after {
-   content: "\00a0"
+   padding: 0px 0px 4px 0px;
 }
 .columns__popup .window {
    display:none;
