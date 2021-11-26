@@ -479,7 +479,7 @@
    }
    .columns__add_hide.hide{
       background: url(../img/close_linkm.svg) left no-repeat;
-      padding: 67px 0px 20px 30px;
+      padding: 48px 0px 20px 30px;
    }
    .columns__text_hide.hide .columns__hide{
       display: none;
