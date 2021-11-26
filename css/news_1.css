@@ -1,6 +1,9 @@
 .columns__picture{
    flex: 0 1 48%;
 }
+.columns__text{
+   flex: 0 1 48%;
+}
 .columns__picture img{
    width: 100%;
    height: 100%;
@@ -136,5 +139,13 @@
       margin: 0px 0px 0px 20px;
       background: url(../img/button2mh__news.svg) left no-repeat;
       padding: 20px 0px 1px 0px;
+   }
+}
+@media (max-width: 1135px) and (min-width: 769px){
+   .columns__instruction{
+      font-size: 16px;
+   }
+   .columns__text p{
+      font-size: 12px;
    }
 }
