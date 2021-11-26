@@ -1,3 +1,6 @@
+.content::before{
+   display: none;
+}
 .columns__links{
    padding: 0px 32px 0px 32px;
 }

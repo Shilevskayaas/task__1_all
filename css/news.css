@@ -1,3 +1,6 @@
+.content::before{
+   display: none;
+}
 .columns__news .columns__text{
    padding: 25px 0px 20px 0px;
    display: flex;

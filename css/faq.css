@@ -1,3 +1,6 @@
+.content::before{
+   display: none;
+}
 .columns__faq h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
