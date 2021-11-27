@@ -34,7 +34,16 @@ $(document).ready(function(){
       e.preventDefault();
       let $arr = $(this);
       $arr.toggleClass('hide'); 
-      $arr.parents('.columns__link').find('.columns__text, .columns__all_hide, .columns__upload_hide').toggleClass('hide')
+      $arr.parents('.columns__link').find('.columns__text, .columns__upload_hide').toggleClass('hide');
+   });				
+});
+
+$(document).ready(function(){
+   $('.columns__add_hide').click(function(e){
+      e.preventDefault();
+      let $arr = $(this);
+      $arr.toggleClass('hide'); 
+      $arr.parents('.columns__link').find('.columns__all_hide').toggleClass('hide');
    });				
 });
 

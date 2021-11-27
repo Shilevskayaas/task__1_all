@@ -406,20 +406,23 @@ a, a:visited{
    .header__list{
       display: none;
       position: absolute;
-      top: 130px;
+      top: 110px;
       left: 0;
       background: #fff;
       width: 100%;
       height: 100%;
       text-align: center;
    }
-   .header__list::after{
+   .header__list::before, .header__list::after{
       content: "";
       display: block;
       width: 90vw;
       height: 1px;
       margin: 0 auto;
       background-color: #1b4a91;
+   }
+   .header__list li:first-child{
+      margin-top: 24px;
    }
    .header__list li{
       display: block;
@@ -635,31 +638,6 @@ h1{
    display: block;
    padding: 25px 0px 0px 0px;
 }
-/*.columns__about_1{
-   background: url(../img/01_144.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_2{
-   background: url(../img/02_144.svg) top/auto no-repeat;
-   background-position-y:4px;
-}
-.columns__about_3{
-   background: url(../img/03_144.svg) top/auto no-repeat;
-   background-position-y:4px;
-}
-.columns__about_4{
-   background: url(../img/04_144.svg) top/auto no-repeat;
-   background-position-y:4px;
-}
-.columns__about_5{
-   background: url(../img/05_144.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_6{
-   background: url(../img/06_144.svg) top/auto no-repeat;
-   background-position-y:4px;
-}
-*/
 .columns__popup{
    top: 110%;
    left: 37.5%;
@@ -1011,65 +989,6 @@ h1{
 .columns__about_1, .columns__about_2, .columns__about_3, .column__about_4{
    border: none;
 }
-.columns__about_1, .columns__about_5{
-   background-position-y:0px;
-}
-/*
-.columns__about_1{
-   background: url(../img/01_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_1:hover, .columns__about_1:active{
-   background: url(../img/01_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__about_2{
-   background: url(../img/02_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_2:hover, .columns__about_2:active{
-   background: url(../img/02_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__about_3{
-   background: url(../img/03_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_3:hover, .columns__about_3:active{
-   background: url(../img/03_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__about_4{
-   background: url(../img/04_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_4:hover, .columns__about_4:active{
-   background: url(../img/04_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__about_5{
-   background: url(../img/05_92.svg) top/auto no-repeat;
-   background-position-y:33px;   
-}
-.columns__about_5:hover, .columns__about_5:active{
-   background: url(../img/05_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-.columns__about_6{
-   background: url(../img/06_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-}
-.columns__about_6:hover, .columns__about_6:active{
-   background: url(../img/06_92.svg) top/auto no-repeat;
-   background-position-y:33px;
-   transition: width 0.1s ease-in-out;
-}
-*/
 .columns__icons:hover .columns__about p{
    opacity: 1;
    transition: width 0.1s ease-in-out;
