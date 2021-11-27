@@ -118,7 +118,7 @@ body{
 }
 .container{
    margin: 0px auto;
-   max-width: 1464px;
+   max-width: 1400px;
 }
 .header__text, .header__info, .header__list{
    text-transform: uppercase;
@@ -539,6 +539,23 @@ h1{
    margin: 0 auto;
    line-height: 0;
 }
+
+.columns__all{
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 21px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   width: 98px;
+   border-bottom: 2px solid #11305D;
+   padding-bottom: 3px;
+   margin: 17px 0px 17px 32px;
+}
+.columns__all:hover, .columns__all:active, .columns__all.hide{
+   transition: width 0.1s ease-in-out;
+   color: #96A9C6;
+   margin: 17px 0px 17px 32px;
+}
 .columns__image img{
    object-fit: cover;
    width: 100%;
@@ -548,7 +565,7 @@ h1{
 }
 .columns__documents, .columns__faq{
    margin: 0px auto;
-   max-width: 1464px;
+   max-width: 1400px;
 }
 .columns__contacts{
    text-align: center;
@@ -929,6 +946,21 @@ h1{
 }
 .columns__full{
    display: none;
+}
+.columns__all{
+   width: 71px;
+   margin: 20px 0px 0px 20px;
+   font-family: PF Din Text Comp Pro;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
+.columns__all:hover, .columns__all:active, .columns__all.hide{
+   transition: width 0.1s ease-in-out;
+   color: #96A9C6;
+   margin: 20px 0px 0px 20px;
 }
 .columns__row{
    display: flex;
