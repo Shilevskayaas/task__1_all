@@ -1,0 +1,96 @@
+body.letsee-active {
+   margin-top: 50px;
+}
+
+#letsee-panel {
+   
+   display: none;
+   top: 15px;
+   height: 150px;
+   width: 100%;
+   margin: 0;
+   border-bottom: 1px solid #000;
+   font-size: 24px;
+   line-height: 1.6;
+   text-align: center;
+   text-transform: uppercase;
+}
+body.letsee-active #letsee-panel {
+   display: block;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+#letsee-panel * {
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   vertical-align: middle;
+}
+#letsee-panel dl, #letsee-panel dt, #letsee-panel dd {
+   display: inline-block;
+}
+#letsee-panel dl {
+   margin: 0;
+}
+#letsee-panel dt, span {
+   margin: 0px 0px 20px 0px;
+   color: #000;
+}
+#letsee-panel a {
+   display: inline-flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+#letsee-panel input[type="checkbox"] {
+   width: 50px;
+   height: 50px;
+   border: 2px solid #000;
+   border-radius: 10px;
+}
+.letsee-change-fontsize {
+   padding: 0px;
+   margin: 0 8px;
+   border: 2px solid transparent;
+   text-decoration: none !important;
+}
+.letsee-fontsize-small  { font-size: 28px !important; text-transform: lowercase; }
+.letsee-fontsize-medium { font-size: 30px !important; }
+.letsee-fontsize-large  { font-size: 40px !important; }
+.letsee-change-fontsize {
+   display: block;
+   width: 50px;
+   height: 50px;
+   border: 2px solid #000;
+   border-radius: 10px;
+}
+.letsee-guard a, .letsee-guard a:visited {
+   color: #000;
+}
+.letsee-colors span {
+   padding: 0 5px;
+   margin: 0 2px;
+   font-size: 120%;
+   border-radius: 4px;
+}
+.letsee-colors-bonw { color: #000 !important; background-color: #fff; margin-right: 10px;}
+.letsee-colors-wonb { color: #fff !important; background-color: #000; margin-left: 10px;}
+.letsee-colors {
+   text-decoration: none !important;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   border: 2px solid #000;
+   border-radius: 10px;
+}
+.letsee-colors-active {
+}
+label{
+   display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+}
+.letsee-turn-off {
+   margin-left: 60px;
+}
