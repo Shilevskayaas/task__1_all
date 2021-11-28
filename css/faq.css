@@ -11,7 +11,7 @@
    padding: 65px 0px 30px 0px;
 }
 .columns__faq p{
-   width: 80%;
+   max-width: 1009px;
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
    font-size: 24px;
@@ -23,18 +23,19 @@
    padding: 0px 0px 60px 0px;
 }
 .columns__links{
-   padding: 0px 32px 0px 32px;
+   max-width: 989px;
+   margin: 0 auto;
+   padding: 0px 20px 0px 20px;
 }
 .columns__link{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 90%;
+   width: 100%;
 }
 .columns__text{
-   width: 75%;
+   width: 100%;
    height: 100%;
-   margin-left: 145px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -43,7 +44,15 @@
    font-size: 14px;
    line-height: 24px;
 }
+.columns__blocks{
+   height: 90px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 .columns__text h2{
+   width: 80%;
    font-family: ALS Hauss;
    font-weight: 500;
    font-size: 17px;
@@ -52,10 +61,9 @@
    letter-spacing: 0;
    text-transform: none;
    padding: 0px;
-   align-self: flex-start;
 }
 .columns__text h3{
-   padding: 20px 0px 20px 0px;
+   padding: 0px 0px 20px 0px;
 }
 .columns__text li{
    padding: 0px 0px 5px 0px;
@@ -94,18 +102,18 @@
 }
 .columns__text_hide.hide .columns__hide{
    display: block;
+   width: 100%;
    height: 100%;
+   padding: 0px 45px 0px 0px;
 }
 .columns__lines{
    content: "";
-   width: 70.5%;
+   width: 92%;
    height: 1px;
    background-color: #C4C4C4;
-   margin-left: 145px;
 }
 .columns__upload{
    padding: 0px;
-   align-self: center;
 }
 .columns__upload.columns__upload_hide{
    display: flex;
@@ -142,10 +150,6 @@
    .columns__links {
       padding: 0px 20px 0px 20px;
    }
-   .columns__lines{
-      width: 84%;
-      margin: 0;
-   }
    .columns__link {
       display: flex;
       justify-content: space-between;
@@ -153,26 +157,26 @@
       width: 100%;
    }
    .columns__text{
-      width: 80%;
-      padding: 20px 0px 19px 0px;
+      padding: 0px;
       margin: 0;
-   }
-   .columns__text{
-      padding: 20px 0px 19px 0px;
       font-family: ALS Hauss;
       font-style: normal;
       font-weight: normal;
       font-size: 10px;
       line-height: 15px;
    }
+   .columns__blocks{
+      height: 70px;
+   }
    .columns__text_hide.hide{
-      padding: 20px 0px 19px 0px;
+      padding: 0px 0px 20px 0px;
       font-family: ALS Hauss;
       font-weight: normal;
       font-size: 10px;
       line-height: 15px;
    }
    .columns__text h2{
+      width: 80%;
       font-family: ALS Hauss;
       font-style: normal;
       font-weight: 500;
@@ -189,17 +193,6 @@
       font-size: 10px;
       line-height: 15px;
    }
-   .columns__upload{
-      align-self: center;
-   }
-   .columns__upload.columns__upload_hide{
-      display: flex;
-      align-items: flex-start;
-   }
-   .columns__upload.columns__upload_hide.hide{
-      display: flex;
-      align-self: flex-start;
-   }
    .columns__add{
       background: url(../img/open_linkm.svg) right no-repeat;
       padding: 20px 0px 20px 30px;
@@ -212,23 +205,9 @@
       display: none;
    }
 }
-@media (max-width: 800px) and (min-width: 769px){
+@media (max-width: 450px) and (min-width: 320px){
    .columns__lines{
-      width: 59%;
-   }
-}
-@media (max-width: 888px) and (min-width: 801px){
-   .columns__lines{
-      width: 63%;
-   }
-}
-@media (max-width: 960px) and (min-width: 889px){
-   .columns__lines{
-      width: 65%;
-   }
-}
-@media (max-width: 1150px) and (min-width: 961px){
-   .columns__lines{
-      width: 70%;
+      width: 85%;
+      margin: 0;
    }
 }

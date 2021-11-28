@@ -38,6 +38,7 @@ $(document).ready(function() {
          $arr.toggleClass('hide'); 
          $arr.parents('.columns__link').find('.columns__text').toggleClass('hide');
          $arr.parents('.columns__link').find('.columns__all_hide').toggleClass('hide');
+         $arr.parents('.columns__link').find('.columns__lines_short').toggleClass('hide');
       });				
    });
 
