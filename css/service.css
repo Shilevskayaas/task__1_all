@@ -76,7 +76,7 @@
    display: none;
 }
 .columns__tables{
-   height: 375px;
+   height: auto;
    display: flex;
    flex-direction: column;
 }
@@ -96,12 +96,10 @@
    flex: 0 0 30px;
 }
 .columns__line_hide{
-   width: 10px;
-   height: 388px;
-   background-color: #fff;
-   display: flex;
-   align-items: center;
-   background: url(../img/line__hide.svg) center no-repeat;
+   content: '';
+   width: 1px;
+   height: auto;
+   background-color: #C4C4C4;
 }
 .columns__all_hide{
    display: none;
