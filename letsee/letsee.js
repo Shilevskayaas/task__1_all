@@ -70,7 +70,7 @@
             '<dl id="letsee-panel">'
          +     '<dt>Размер шрифта</dt>'
          +     '<dd>'
-         +         '<a href="#" class="letsee-change-fontsize letsee-fontsize-small letsee-fontsize-active" data-letsee-fontsize="17">a</a>'
+         +         '<a href="#" class="letsee-change-fontsize letsee-fontsize-small letsee-fontsize-active">a</a>'
          +         '<a href="#" class="letsee-change-fontsize letsee-fontsize-medium" data-letsee-fontsize="21">A</a>'
          +         '<a href="#" class="letsee-change-fontsize letsee-fontsize-large"  data-letsee-fontsize="25">A</a>'
          +     '</dd>'
@@ -119,7 +119,7 @@
             return false;
          })
       
-         .prependTo('body');
+         .prependTo('.content');
    
    function panel2options() {
       return {

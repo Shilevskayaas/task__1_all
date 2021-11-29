@@ -1,7 +1,6 @@
-body.letsee-active {
-   margin-top: 50px;
+body.letsee-active{
+   filter: grayscale(1);
 }
-
 #letsee-panel {
    
    display: none;
