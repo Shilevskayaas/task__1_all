@@ -1,5 +1,6 @@
 body.letsee-active{
-   filter: grayscale(1);
+   -webkit-filter: grayscale(1) contrast(100%) brightness(100%);  /* Safari */
+    filter: grayscale(1) contrast(100%) brightness(100%);
 }
 #letsee-panel {
    
@@ -83,7 +84,12 @@ body.letsee-active #letsee-panel {
    border: 2px solid #000;
    border-radius: 10px;
 }
-.letsee-colors-active {
+.letsee-colors-bonw.letsee-colors-active {
+   background: url(../img/check_black.svg) center no-repeat;
+}
+.letsee-colors-wonb.letsee-colors-active {
+   background: url(../img/check_white.svg) center no-repeat;
+   border: 2px solid #fff;
 }
 label{
    display: inline-flex;
