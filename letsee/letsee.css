@@ -6,7 +6,7 @@ body.letsee-active{
    
    display: none;
    top: 15px;
-   height: 150px;
+   height: 230px;
    width: 100%;
    margin: 0;
    border-bottom: 1px solid #000;
@@ -18,8 +18,8 @@ body.letsee-active{
 body.letsee-active #letsee-panel {
    display: block;
    display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
 }
 #letsee-panel * {
    user-select: none;
@@ -27,27 +27,18 @@ body.letsee-active #letsee-panel {
    -moz-user-select: none;
    vertical-align: middle;
 }
-#letsee-panel dl, #letsee-panel dt, #letsee-panel dd {
-   display: inline-block;
+.letsee-block{
+   flex: 0 0 200px;
 }
-#letsee-panel dl {
-   margin: 0;
-}
-#letsee-panel dt, span {
-   margin: 0px 0px 20px 0px;
-   color: #000;
+.title{
+   font-style: 30px;
+   margin: 0px 0px 30px 0px;
 }
 #letsee-panel a {
    display: inline-flex;
    flex-direction: row;
    align-items: center;
    justify-content: center;
-}
-#letsee-panel input[type="checkbox"] {
-   width: 50px;
-   height: 50px;
-   border: 2px solid #000;
-   border-radius: 10px;
 }
 .letsee-change-fontsize {
    padding: 0px;
@@ -65,8 +56,9 @@ body.letsee-active #letsee-panel {
    border: 2px solid #000;
    border-radius: 10px;
 }
-.letsee-guard a, .letsee-guard a:visited {
-   color: #000;
+.letsee-change-fontsize.letsee-fontsize-active {
+   background: #000;
+   color: #fff;
 }
 .letsee-colors span {
    padding: 0 5px;
@@ -96,6 +88,33 @@ label{
    flex-direction: column;
    align-items: center;
 }
+input#letsee-hide-images{
+   display: none;
+}
+.letsee-off, .letsee-on{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 50px;
+   border: 2px solid #000;
+   border-radius: 10px
+}
+.letsee-off {
+   display: none;
+}
+input:checked ~ .letsee-on {
+   display: none;
+   
+}
+input:checked + .letsee-off {
+   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
 .letsee-turn-off {
    margin-left: 60px;
 }
