@@ -2,6 +2,9 @@
    max-width: 1400px;
    margin: 0 auto;
 }
+.columns__new ul li{
+   list-style: disc;
+}
 .columns__picture{
    flex: 0 1 48%;
 }
@@ -44,11 +47,13 @@
    display: flex;
    flex-direction: column;
 }
-.columns__text p{
+.columns__category{
    width: 100%;
    font-family: "ALS Hauss";
    font-size: 14px;
    line-height: 24px;
+}
+.columns__category p{
    padding: 0px 0px 25px 0px;
 }
 .columns__container{
@@ -120,7 +125,7 @@
    .columns__instruction{
       font-size: 16px;
    }
-   .columns__text p{
+   .columns__category{
       font-size: 12px;
    }
 }
