@@ -1,3 +1,15 @@
+body.bonw .columns__fix,
+body.bonw .columns__fix div,
+body.bonw .columns__fix a{
+   background-color: #fff !important;
+   color: #000 !important;
+}
+body.wonb .columns__fix,
+body.wonb .columns__fix div,
+body.wonb .columns__fix a{
+   background-color: #000 !important;
+   color: #fff !important;
+}
 .columns__news {
   max-width: 1400px;
   margin: 0 auto;

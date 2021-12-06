@@ -11,7 +11,6 @@
   function gen_base_css() {
     return (
       '*:not(.letsee-guard) {' +
-      '   line-height: 1.3 !important;' +
       '   text-shadow: none !important;' +
       '}'
     )

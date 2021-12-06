@@ -420,6 +420,12 @@
      align-items: center;
      background: url(../img/logohm.svg) center no-repeat;
    }
+   .letsee-active.wonb .header__row > a:first-child {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      background: url(../img/logohm-wonb.svg) center no-repeat;
+    }
    .header.toggle::after {
      content: "";
      display: block;
@@ -1353,6 +1359,16 @@
      line-height: 25px;
      padding: 0;
    }
+   body.letsee-active .header__toggle_icon.active .header__burger {
+      background: rgba(0, 0, 0, 0) !important;
+  }
+   .letsee-active.wonb .columns__icons:hover {
+      background: none;
+    }
+    
+    .letsee-active .columns__icons:hover .columns__about p {
+      opacity: 1;
+    }
  }
  @media (max-width: 375px) {
    .columns__about p {
