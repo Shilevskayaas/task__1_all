@@ -1595,6 +1595,11 @@
    background: url(../img/logof.svg) center no-repeat;
    padding: 200px 0px 0px 10px;
  }
+ 
+ body.letsee-active.wonb .footer__img {
+   background: url(../img/logof_wonb.svg) center no-repeat;
+   padding: 200px 0px 0px 10px;
+ }
  .footer__list {
    font-family: "ALS Hauss";
    font-weight: bold;
