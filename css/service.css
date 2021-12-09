@@ -145,6 +145,9 @@
    height: auto;
    background-color: #c4c4c4;
  }
+ .columns__all:not(.letsee-guard){
+    border-bottom: 2px solid #000 !important;
+ }
  .columns__all_hide {
    display: none;
    font-family: PF Din Text Comp Pro;
@@ -331,6 +334,22 @@
    background-position-y: 65px;
    margin-bottom: 68px;
  }
+ 
+ body.letsee-active.wonb .columns__abouts_1 {
+   background: url(../img/icon1__provider_wonb.svg) center/auto no-repeat;
+   background-position-y: 65px;
+   margin-bottom: 45px;
+ }
+ body.letsee-active.wonb .columns__abouts_2 {
+   background: url(../img/icon2__provider_wonb.svg) center/auto no-repeat;
+   background-position-y: 65px;
+   margin-bottom: 45px;
+ }
+ body.letsee-active.wonb .columns__abouts_3 {
+   background: url(../img/icon3__provider_wonb.svg) center/auto no-repeat;
+   background-position-y: 65px;
+   margin-bottom: 68px;
+ }
  .columns__essential {
    background: url(../img/load.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
@@ -345,6 +364,22 @@
  }
  .columns__personal:hover {
    background: url(../img/enterh.svg) bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+ }
+ body.letsee-active.wonb .columns__essential {
+   background: url(../img/load_wonb.svg) bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+ }
+ body.letsee-active.wonb  .columns__essential:hover {
+   background: url(../img/loadh_wonb.svg) bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+ }
+ body.letsee-active.wonb .columns__personal {
+   background: url(../img/enter_wonb.svg) bottom/auto no-repeat;
+   padding: 25px 100px 25px 100px;
+ }
+ body.letsee-active.wonb .columns__personal:hover {
+   background: url(../img/enterh_wonb.svg) bottom/auto no-repeat;
    padding: 25px 100px 25px 100px;
  }
  .columns__pay {
@@ -431,10 +466,15 @@
    font-weight: normal;
  }
  @media (max-width: 768px) {
-   body.letsee-active .columns__info a,
-   body.letsee-active .columns__info p br{
+   body.letsee-active.bonw .columns__info a,
+   body.letsee-active.bonw .columns__info p br{
       background-color: #000 !important;
       color: #fff !important;
+   }
+   body.letsee-active.wonb .columns__info a,
+   body.letsee-active.wonb .columns__info p br{
+      background-color: #fff !important;
+      color: #000 !important;
    }
    .columns__lines_none_mobile {
      display: none;
@@ -735,6 +775,22 @@
      background-position-y: 33px;
      margin-bottom: 0px;
    }
+   
+   body.letsee-active.wonb .columns__abouts_1 {
+      background: url(../img/icon1m__provider_wonb.svg) top/auto no-repeat;
+      background-position-y: 30px;
+      margin-bottom: 0px;
+    }
+    body.letsee-active.wonb .columns__abouts_2 {
+      background: url(../img/icon2m__provider_wonb.svg) top/auto no-repeat;
+      background-position-y: 33px;
+      margin-bottom: 0px;
+    }
+    body.letsee-active.wonb .columns__abouts_3 {
+      background: url(../img/icon3m__provider_wonb.svg) top/auto no-repeat;
+      background-position-y: 33px;
+      margin-bottom: 0px;
+    }
    .columns__essential {
      background: url(../img/loadm.svg) bottom/auto no-repeat;
      padding: 25px 100px 25px 100px;
@@ -749,6 +805,22 @@
    }
    .columns__personal:hover {
      background: url(../img/entermh.svg) bottom/auto no-repeat;
+     padding: 25px 100px 25px 100px;
+   }
+   body.letsee-active.wonb .columns__essential {
+     background: url(../img/loadm_wonb.svg) bottom/auto no-repeat;
+     padding: 25px 100px 25px 100px;
+   }
+   body.letsee-active.wonb .columns__essential:hover {
+     background: url(../img/loadmh_wonb.svg) bottom/auto no-repeat;
+     padding: 25px 100px 25px 100px;
+   }
+   body.letsee-active.wonb .columns__personal {
+     background: url(../img/enterm_wonb.svg) bottom/auto no-repeat;
+     padding: 25px 100px 25px 100px;
+   }
+   body.letsee-active.wonb .columns__personal:hover {
+     background: url(../img/entermh_wonb.svg) bottom/auto no-repeat;
      padding: 25px 100px 25px 100px;
    }
    .columns__pay {

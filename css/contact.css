@@ -1,24 +1,24 @@
-body.bonw .columns__info,
-body.bonw .columns__info div,
-body.bonw .columns__info h1,
-body.bonw .columns__info h2,
-body.bonw .columns__info h5,
-body.bonw .columns__info p,
-body.bonw .columns__fix,
-body.bonw .columns__fix div,
-body.bonw .columns__fix a{
+body.letsee-active.bonw .columns__info,
+body.letsee-active.bonw .columns__info div,
+body.letsee-active.bonw .columns__info h1,
+body.letsee-active.bonw .columns__info h2,
+body.letsee-active.bonw .columns__info h5,
+body.letsee-active.bonw .columns__info p,
+body.letsee-active.bonw .columns__fix,
+body.letsee-active.bonw .columns__fix div,
+body.letsee-active.bonw .columns__fix a{
    background-color: #fff !important;
    color: #000 !important;
 }
-body.wonb .columns__info,
-body.wonb .columns__info div,
-body.wonb .columns__info h1,
-body.wonb .columns__info h2,
-body.wonb .columns__info h5,
-body.wonb .columns__info p,
-body.wonb .columns__fix,
-body.wonb .columns__fix div,
-body.wonb .columns__fix a{
+body.letsee-active.wonb .columns__info,
+body.letsee-active.wonb .columns__info div,
+body.letsee-active.wonb .columns__info h1,
+body.letsee-active.wonb .columns__info h2,
+body.letsee-active.wonb .columns__info h5,
+body.letsee-active.wonb .columns__info p,
+body.letsee-active.wonb .columns__fix,
+body.letsee-active.wonb .columns__fix div,
+body.letsee-active.wonb .columns__fix a{
    background-color: #000 !important;
    color: #fff !important;
 }

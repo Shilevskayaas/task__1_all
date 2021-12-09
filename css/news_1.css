@@ -1,12 +1,12 @@
-body.bonw .columns__fix,
-body.bonw .columns__fix div,
-body.bonw .columns__fix a{
+body.letsee-active.bonw .columns__fix,
+body.letsee-active.bonw .columns__fix div,
+body.letsee-active.bonw .columns__fix a{
    background-color: #fff !important;
    color: #000 !important;
 }
-body.wonb .columns__fix,
-body.wonb .columns__fix div,
-body.wonb .columns__fix a{
+body.letsee-active.wonb .columns__fix,
+body.letsee-active.wonb .columns__fix div,
+body.letsee-active.wonb .columns__fix a{
    background-color: #000 !important;
    color: #fff !important;
 }

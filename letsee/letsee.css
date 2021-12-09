@@ -8,24 +8,7 @@ body.letsee-active .content::before{
 body.letsee-active .header__blind p{
    background: url(../img/versionh.svg) left no-repeat;
 }
-body.letsee-active .columns__info,
-body.letsee-active .columns__info div,
-body.letsee-active .columns__info h1,
-body.letsee-active .columns__info h2,
-body.letsee-active .columns__info h5,
-body.letsee-active .columns__info p,
-body.letsee-active .container__footer,
-body.letsee-active .container__footer div,
-body.letsee-active .container__footer li,
-body.letsee-active .container__footer a,
-body.letsee-active .container__footer span,
-body.letsee-active .footer__copy,
-body.letsee-active .columns__fix,
-body.letsee-active .columns__fix div,
-body.letsee-active .columns__fix a{
-   background-color: #000 !important;
-   color: #fff !important;
-}
+
 #letsee-panel {
    
    display: none;
@@ -80,14 +63,6 @@ body.letsee-active #letsee-panel {
    height: 50px;
    border: 2px solid #000;
    border-radius: 10px;
-}
-.letsee-active.bonw .letsee-fontsize-active {
-   background: #000;
-   color: #fff;
-}
-.letsee-active.wonb .letsee-fontsize-active{
-   background: #fff;
-   color: #000;
 }
 .letsee-colors span {
    padding: 0 5px;

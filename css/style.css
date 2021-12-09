@@ -306,6 +306,52 @@
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
  }
+ 
+ body.letsee-active.bonw .header__name_1 {
+   background: url(../img/telegram_bonw.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.bonw .header__name_1:hover,
+ body.letsee-active.bonw .header__name_1:active {
+   background: url(../img/telegramh_bonw.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.bonw .header__name_2 {
+   background: url(../img/whatsapp_bonw.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.bonw .header__name_2:hover,
+ body.letsee-active.bonw .header__name_2:active {
+   background: url(../img/whatsapph_bonw.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ 
+ body.letsee-active.wonb .header__name_1 {
+   background: url(../img/telegram_wonb.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.wonb .header__name_1:hover,
+ body.letsee-active.wonb .header__name_1:active {
+   background: url(../img/telegramh_wonb.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.wonb .header__name_2 {
+   background: url(../img/whatsapp_wonb.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.wonb .header__name_2:hover,
+ body.letsee-active.wonb .header__name_2:active {
+   background: url(../img/whatsapph_wonb.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
  .header__nav {
    width: 88%;
    color: #11305d;
@@ -473,6 +519,26 @@
      padding: 0px 42px 0px 0px;
      transition: width 0.1s ease-in-out;
    }
+   
+   body.letsee-active.wonb .header__call {
+      position: absolute;
+      top: 7px;
+      right: 23px;
+      height: 50px;
+      background: url(../img/app_wonb.svg) right no-repeat;
+      padding: 0px 42px 0px 0px;
+      font-size: 19px;
+    }
+    body.letsee-active.wonb .header__call:hover,
+    body.letsee-active.wonb .header__call:active {
+      position: absolute;
+      top: 7px;
+      right: 23px;
+      height: 50px;
+      background: url(../img/apph_wonb.svg) right no-repeat;
+      padding: 0px 42px 0px 0px;
+      transition: width 0.1s ease-in-out;
+    }
    .header__toggle {
      display: block;
      padding: 0;
@@ -840,6 +906,51 @@
  .columns__name_2:hover,
  .columns__name_2:active {
    background: url(../img/whatsapph.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ 
+ body.letsee-active.bonw .columns__name_1 {
+   background: url(../img/telegram_bonw.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.bonw .columns__name_1:hover,
+ body.letsee-active.bonw .columns__name_1:active {
+   background: url(../img/telegramh_bonw.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.bonw .columns__name_2 {
+   background: url(../img/whatsapp_bonw.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.bonw .columns__name_2:hover,
+ body.letsee-active.bonw .columns__name_2:active {
+   background: url(../img/whatsapph_bonw.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.wonb .columns__name_1 {
+   background: url(../img/telegram_wonb.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.wonb .columns__name_1:hover,
+ body.letsee-active.wonb .columns__name_1:active {
+   background: url(../img/telegramh_wonb.svg) right no-repeat;
+   margin: 0px 15px 0px 0px;
+   padding: 0px 0px 0px 50px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.wonb .columns__name_2 {
+   background: url(../img/whatsapp_wonb.svg) right no-repeat;
+   padding: 0px 0px 0px 50px;
+ }
+ body.letsee-active.wonb .columns__name_2:hover,
+ body.letsee-active.wonb .columns__name_2:active {
+   background: url(../img/whatsapph_wonb.svg) right no-repeat;
    padding: 0px 0px 0px 50px;
    transition: width 0.1s ease-in-out;
  }
@@ -1545,6 +1656,28 @@
    padding: 1px 0px 90px 40px;
    transition: width 0.1s ease-in-out;
  }
+ body.letsee-active.wonb .footer__fb {
+   width: 200px;
+   background: url(../img/fb_wonb.svg) left no-repeat;
+   padding: 1px 40px 90px 0px;
+ }
+ body.letsee-active.wonb .footer__fb:hover,
+ body.letsee-active.wonb .footer__fb:active {
+   height: 200px;
+   background: url(../img/fbh_wonb.svg) left no-repeat;
+   padding: 1px 40px 90px 0px;
+   transition: width 0.1s ease-in-out;
+ }
+ body.letsee-active.wonb .footer__in {
+   background: url(../img/in_wonb.svg) right no-repeat;
+   padding: 1px 0px 90px 40px;
+ }
+ body.letsee-active.wonb .footer__in:hover,
+ body.letsee-active.wonb .footer__in:active {
+   background: url(../img/inh_wonb.svg) right no-repeat;
+   padding: 1px 0px 90px 40px;
+   transition: width 0.1s ease-in-out;
+ }
  .footer__info {
    font-size: 17px;
    line-height: 23px;
@@ -1608,6 +1741,34 @@
      height: 94px;
      padding: 0;
    }
+   body.letsee-active.wonb .footer__img {
+      background: url(../img/logofm_wonb.svg) top no-repeat;
+      width: 108.3px;
+      height: 94px;
+      padding: 0;
+    }
+    .footer__fb {
+      width: 200px;
+      background: url(../img/fb.svg) left no-repeat;
+      padding: 1px 40px 90px 0px;
+    }
+    .footer__fb:hover,
+    .footer__fb:active {
+      height: 200px;
+      background: url(../img/fbh.svg) left no-repeat;
+      padding: 1px 40px 90px 0px;
+      transition: width 0.1s ease-in-out;
+    }
+    .footer__in {
+      background: url(../img/in.svg) right no-repeat;
+      padding: 1px 0px 90px 40px;
+    }
+    .footer__in:hover,
+    .footer__in:active {
+      background: url(../img/inh.svg) right no-repeat;
+      padding: 1px 0px 90px 40px;
+      transition: width 0.1s ease-in-out;
+    }
    .footer__phone {
      font-size: 22px;
      padding: 38px 0px 7px 0px;
@@ -1666,6 +1827,50 @@
     border-color: white;
   }
   
+.letsee-active.bonw .letsee-fontsize-active {
+   background: #000;
+   color: #fff;
+}
+.letsee-active.wonb .letsee-fontsize-active{
+   background: #fff;
+   color: #000;
+}
+body.letsee-active.bonw .columns__info,
+body.letsee-active.bonw .columns__info div,
+body.letsee-active.bonw .columns__info h1,
+body.letsee-active.bonw .columns__info h2,
+body.letsee-active.bonw .columns__info h5,
+body.letsee-active.bonw .columns__info p,
+body.letsee-active.bonw .container__footer,
+body.letsee-active.bonw .container__footer div,
+body.letsee-active.bonw .container__footer li,
+body.letsee-active.bonw .container__footer a,
+body.letsee-active.bonw .container__footer span,
+body.letsee-active.bonw .footer__copy,
+body.letsee-active.bonw .columns__fix,
+body.letsee-active.bonw .columns__fix div,
+body.letsee-active.bonw .columns__fix a{
+   background-color: #000 !important;
+   color: #fff !important;
+}
+body.letsee-active.wonb .columns__info,
+body.letsee-active.wonb .columns__info div,
+body.letsee-active.wonb .columns__info h1,
+body.letsee-active.wonb .columns__info h2,
+body.letsee-active.wonb .columns__info h5,
+body.letsee-active.wonb .columns__info p,
+body.letsee-active.wonb .container__footer,
+body.letsee-active.wonb .container__footer div,
+body.letsee-active.wonb .container__footer li,
+body.letsee-active.wonb .container__footer a,
+body.letsee-active.wonb .container__footer span,
+body.letsee-active.wonb .footer__copy,
+body.letsee-active.wonb .columns__fix,
+body.letsee-active.wonb .columns__fix div,
+body.letsee-active.wonb .columns__fix a{
+   background-color: #fff !important;
+   color: #000 !important;
+}
   [data-color='wonb'] {
     display: none;
   }
