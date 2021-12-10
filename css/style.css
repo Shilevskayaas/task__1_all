@@ -176,9 +176,13 @@
    align-items: center;
    background: url(../img/logo.svg) center no-repeat;
  }
- .letsee-active.wonb .header__row > a:first-child {
-    background: url(../img/logof.svg) center no-repeat;
-  }
+ 
+ body.letsee-active.bonw .header__row > a:first-child {
+   background: url(../img/logof_wonb.svg) center no-repeat;
+ }
+ body.letsee-active.wonb .header__row > a:first-child {
+   background: url(../img/logof.svg) center no-repeat;
+ }
  .header__bar {
    flex: 1 0 70%;
    display: flex;
@@ -212,10 +216,10 @@
    background: url(../img/lk.svg) left no-repeat;
    padding: 0px 0px 0px 60px;
  }
- .letsee-active.wonb .header__profile p {
+ body.letsee-active.wonb .header__profile p {
     background: url(../img/lk-wonb.svg) left no-repeat;
   }
-  .letsee-active.wonb .header__profile p:hover {
+  body.letsee-active.wonb .header__profile p:hover {
     background: url(../img/lkh-wonb.svg) left no-repeat;
   }
  .header__profile p:hover,
@@ -266,8 +270,8 @@
    padding-bottom: 3px;
    transition: width 0.1s ease-in-out;
  }
- .letsee-active.wonb .header__mail:hover,
-  .letsee-active.wonb .header__mail:active {
+ body.letsee-active.wonb .header__mail:hover,
+ body.letsee-active.wonb .header__mail:active {
     border-color: white;
   }
  .header__app {
@@ -430,14 +434,14 @@
    background: #11305d;
    transition: 0.5s;
  }
- .letsee-active.wonb .header__burger,
-  .letsee-active.wonb .header__burger:before,
-  .letsee-active.wonb .header__burger:after {
+ body.letsee-active.wonb .header__burger,
+ body.letsee-active.wonb .header__burger:before,
+ body.letsee-active.wonb .header__burger:after {
     background-color: #fff !important;
   }
-  .letsee-active.bonw .header__burger,
-  .letsee-active.bonw .header__burger:before,
-  .letsee-active.bonw .header__burger:after {
+  body.letsee-active.bonw .header__burger,
+  body.letsee-active.bonw .header__burger:before,
+  body.letsee-active.bonw .header__burger:after {
     background-color: black !important;
   }
  .header__burger:before {
@@ -466,7 +470,7 @@
      align-items: center;
      background: url(../img/logohm.svg) center no-repeat;
    }
-   .letsee-active.wonb .header__row > a:first-child {
+   body.letsee-active.wonb .header__row > a:first-child {
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -624,11 +628,16 @@
      background: url(../img/logohm.svg) center no-repeat;
      padding: 0px 10px 0px 10px;
    }
-   .letsee-active.wonb .header__logo {
+   body.letsee-active.bonw .header__logo {
       opacity: 0;
     }
-  
-    .letsee-active.wonb .header__row > a:first-child {
+   body.letsee-active.wonb .header__logo {
+      opacity: 0;
+    }
+    body.letsee-active.bonw .header__row > a:first-child {
+      background: url(../img/logohm-bonw.svg) center no-repeat;
+    }
+    body.letsee-active.wonb .header__row > a:first-child {
       background: url(../img/logohm-wonb.svg) center no-repeat;
     }
    .header__img {
@@ -793,11 +802,11 @@
    background: url(../img/orderh.svg) 50% 176px no-repeat;
    transition: width 0.1s ease-in-out;
  }
- .letsee-active.wonb .columns__icons:hover {
+ body.letsee-active.wonb .columns__icons:hover {
     background: url(../img/order-wonb.svg) 50% 176px no-repeat;
   }
   
-  .letsee-active .columns__icons:hover .columns__about p {
+  body.letsee-active .columns__icons:hover .columns__about p {
     opacity: 0;
   }
  .columns__about p {
@@ -1473,11 +1482,11 @@
    body.letsee-active .header__toggle_icon.active .header__burger {
       background: rgba(0, 0, 0, 0) !important;
   }
-   .letsee-active.wonb .columns__icons:hover {
+  body.letsee-active.wonb .columns__icons:hover {
       background: none;
     }
     
-    .letsee-active .columns__icons:hover .columns__about p {
+    body.letsee-active .columns__icons:hover .columns__about p {
       opacity: 1;
     }
  }
@@ -1595,7 +1604,10 @@
    background: url(../img/logof.svg) center no-repeat;
    padding: 200px 0px 0px 10px;
  }
- 
+ body.letsee-active.bonw .footer__img {
+   background: url(../img/logof.svg) center no-repeat;
+   padding: 200px 0px 0px 10px;
+ }
  body.letsee-active.wonb .footer__img {
    background: url(../img/logof_wonb.svg) center no-repeat;
    padding: 200px 0px 0px 10px;
@@ -1746,6 +1758,12 @@
      height: 94px;
      padding: 0;
    }
+   body.letsee-active.bonw .footer__img {
+      background: url(../img/logohm-wonb.svg) top no-repeat;
+      width: 108.3px;
+      height: 94px;
+      padding: 0;
+    }
    body.letsee-active.wonb .footer__img {
       background: url(../img/logofm_wonb.svg) top no-repeat;
       width: 108.3px;
@@ -1811,7 +1829,7 @@
      padding: 0px 10px 0px 10px;
    }
  }
- @media (max-width: 960px) and (min-width: 889px) {
+ @media (max-width: 960px) and (min-width: 769px) {
    .footer__logo {
      flex: 0 1 auto;
      padding: 0px 20px 0px 20px;
@@ -1821,22 +1839,32 @@
      width: 108.3px;
      height: 94px;
    }
+   body.letsee-active.bonw .footer__img {
+      background: url(../img/logohm-wonb.svg) center/auto no-repeat;
+      width: 108.3px;
+      height: 94px;
+    }
+    body.letsee-active.wonb .footer__img {
+      background: url(../img/logohm-bonw.svg) center/auto no-repeat;
+      width: 108.3px;
+      height: 94px;
+    }
  }
- .letsee-active.wonb .letsee-change-fontsize {
+ body.letsee-active.wonb .letsee-change-fontsize {
     color: white;
     border-color: white;
   }
   
-  .letsee-active.wonb .letsee-off,
-  .letsee-active.wonb .letsee-on {
+  body.letsee-active.wonb .letsee-off,
+  body.letsee-active.wonb .letsee-on {
     border-color: white;
   }
   
-.letsee-active.bonw .letsee-fontsize-active {
+  body.letsee-active.bonw .letsee-fontsize-active {
    background: #000;
    color: #fff;
 }
-.letsee-active.wonb .letsee-fontsize-active{
+body.letsee-active.wonb .letsee-fontsize-active{
    background: #fff;
    color: #000;
 }
@@ -1880,16 +1908,16 @@ body.letsee-active.wonb .columns__fix a{
     display: none;
   }
   
-  .letsee-active.wonb [data-color='wonb'] {
+  body.letsee-active.wonb [data-color='wonb'] {
     display: block;
   }
   
-  .letsee-active.wonb [data-color='bonw'] {
+  body.letsee-active.wonb [data-color='bonw'] {
     display: none;
   }
   
-  .letsee-active.wonb .header__list_hover:after,
-  .letsee-active.wonb .header__list_active:after {
+  body.letsee-active.wonb .header__list_hover:after,
+  body.letsee-active.wonb .header__list_active:after {
     background-color: white;
   }
  
