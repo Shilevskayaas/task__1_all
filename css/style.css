@@ -470,6 +470,12 @@
      align-items: center;
      background: url(../img/logohm.svg) center no-repeat;
    }
+   body.letsee-active.bonw .header__row > a:first-child {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      background: url(../img/logohm-bonw.svg) center no-repeat;
+    }
    body.letsee-active.wonb .header__row > a:first-child {
       margin: 0 auto;
       display: flex;
