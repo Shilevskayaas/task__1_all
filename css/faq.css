@@ -103,6 +103,12 @@
    border-bottom: 1px solid #11305D;
    padding-bottom: 1px;
 }
+body.letsee-active.bonw .columns__hide a{
+   border-bottom: 1px solid #000;
+   }
+body.letsee-active.wonb .columns__hide a{
+   border-bottom: 1px solid #fff;
+}
 .columns__text_hide.hide .columns__hide{
    display: block;
    width: 100%;

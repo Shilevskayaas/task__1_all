@@ -719,11 +719,17 @@
    font-size: 21px;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   width: 98px;
    border-bottom: 2px solid #11305d;
    padding-bottom: 3px;
    margin: 17px 0px 17px 32px;
+   display: inline-block;
  }
+ body.letsee-active.bonw .columns__all{
+   border-bottom: 2px solid #000;
+   }
+body.letsee-active.wonb .columns__all{
+   border-bottom: 2px solid #fff;
+}
  .columns__all:hover,
  .columns__all:active,
  .columns__all.hide {

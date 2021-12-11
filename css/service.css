@@ -145,9 +145,6 @@
    height: auto;
    background-color: #c4c4c4;
  }
- .columns__all:not(.letsee-guard){
-    border-bottom: 2px solid #000 !important;
- }
  .columns__all_hide {
    display: none;
    font-family: PF Din Text Comp Pro;
@@ -159,6 +156,12 @@
    border-bottom: 2px solid #11305d;
    padding-bottom: 3px;
  }
+ body.letsee-active.bonw .columns__all_hide{
+   border-bottom: 2px solid #000;
+   }
+body.letsee-active.wonb .columns__all_hide{
+   border-bottom: 2px solid #fff;
+}
  .columns__all_hide.hide {
    display: block;
    transition: width 0.1s ease-in-out;
