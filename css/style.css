@@ -908,7 +908,7 @@ body.letsee-active.wonb .columns__line:not(.letsee-guard) {
    padding: 35px 0px 0px 0px;
    text-transform: none;
  }
- .close {
+ .close, body.letsee-active.wonb .close:hover  {
    display: block;
    position: absolute;
    top: 10px;
@@ -919,7 +919,7 @@ body.letsee-active.wonb .columns__line:not(.letsee-guard) {
  body.letsee-active.wonb .close{
    background: url(../img/close_wonb.svg) center no-repeat;
  }
- .close:hover {
+ .close:hover{
    display: block;
    position: absolute;
    top: 10px;
@@ -1360,7 +1360,7 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      padding: 35px 0px 0px 0px;
      text-transform: none;
    }
-   .close {
+   .close, body.letsee-active.wonb .close:hover {
      position: absolute;
      top: 5px;
      left: 240px;
