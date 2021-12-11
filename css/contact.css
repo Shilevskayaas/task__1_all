@@ -78,6 +78,24 @@ h5 {
   background: url(../img/in_white.svg) right no-repeat;
   padding: 1px 0px 90px 40px;
 }
+body.letsee-active.wonb .columns__fb {
+   background: url(../img/fb.svg) right no-repeat;
+   padding: 1px 40px 90px 0px;
+   margin-right: 6px;
+ }
+ body.letsee-active.wonb .columns__fb:hover {
+   background: url(../img/fbh.svg) right no-repeat;
+   padding: 1px 40px 90px 0px;
+   margin-right: 6px;
+ }
+ body.letsee-active.wonb .columns__in {
+   background: url(../img/in.svg) right no-repeat;
+   padding: 1px 0px 90px 40px;
+ }
+ body.letsee-active.wonb .columns__in:hover {
+   background: url(../img/inh.svg) right no-repeat;
+   padding: 1px 0px 90px 40px;
+ }
 .columns__road {
   width: 100%;
   margin: 0 auto;

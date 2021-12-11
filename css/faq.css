@@ -121,6 +121,12 @@ body.letsee-active.wonb .columns__hide a{
    height: 1px;
    background-color: #C4C4C4;
 }
+body.letsee-active.bonw .columns__lines:not(.letsee-guard) {
+   background-color: #000 !important;
+}
+body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
+   background-color: #fff !important;
+}
 .columns__upload{
    padding: 0px;
 }
