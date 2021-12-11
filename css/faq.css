@@ -1,6 +1,14 @@
 .content::before{
    display: none;
 }
+body.letsee-active.bonw #letsee-panel {
+   border-top: 1px solid #000;
+   border-bottom: none;
+}
+body.letsee-active.wonb #letsee-panel {
+   border-top: 1px solid #fff;
+   border-bottom: none;
+}
 .columns__faq h2{
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
@@ -150,6 +158,15 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    background: url(../img/close_link.svg) left no-repeat;
    padding: 0px 0px 45px 45px;
 }
+body.letsee-active.wonb .columns__add {
+   background: url(../img/open_link_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__add_hide{
+   background: url(../img/open_link_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__add_hide.hide {
+   background: url(../img/close_link_wonb.svg) left no-repeat;
+ }
 .columns__container{
    opacity: 1;
 }

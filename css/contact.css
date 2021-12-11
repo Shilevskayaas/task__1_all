@@ -37,11 +37,17 @@ h5 {
   background: url(../img/button1__contacts.svg) center no-repeat;
   padding: 0px 0px 111px 0px;
 }
+body.letsee-active.wonb .columns__detailed{
+   background: url(../img/button1__contacts_wonb.svg) center no-repeat;
+}
 .columns__detailed:hover {
   width: 310px;
   margin: 0 auto;
   background: url(../img/button1h__contacts.svg) center no-repeat;
   padding: 0px 0px 111px 0px;
+}
+body.letsee-active.wonb .columns__detailed:hover{
+   background: url(../img/button1__contacts.svg) center no-repeat;
 }
 .columns__contacts h5 {
   padding: 30px 0px 0px 0px;
@@ -222,6 +228,15 @@ body.letsee-active.bonw .columns__list_hover:hover{
 .columns__marker_9 {
   background: url(../img/marker_9.svg) top left no-repeat;
 }
+body.letsee-active.wonb .columns__marker_1 {
+   background: url(../img/marker_1_wonb.svg) top left no-repeat;
+ }
+ body.letsee-active.wonb .columns__marker_2 {
+   background: url(../img/marker_2_wonb.svg) top left no-repeat;
+ }
+ body.letsee-active.wonb .columns__marker_3 {
+   background: url(../img/marker_3_wonb.svg) top left no-repeat;
+ }
 h2 {
   font-family: PF Din Text Comp Pro;
   font-weight: normal;
@@ -283,7 +298,7 @@ body.letsee-active.bonw .columns__service a{
 body.letsee-active.wonb .columns__service a{
    border-bottom: 1px solid #fff;
    }
-.columns__service a:hover {
+.columns__service a:hover, body.letsee-active.bonw .columns__service a:hover, body.letsee-active.wonb .columns__service a:hover {
   border-bottom: none;
 }
 .columns__service:last-child {

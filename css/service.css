@@ -1,6 +1,14 @@
 .content::before {
    display: none;
  }
+ body.letsee-active.bonw #letsee-panel {
+   border-top: 1px solid #000;
+   border-bottom: none;
+}
+body.letsee-active.wonb #letsee-panel {
+   border-top: 1px solid #fff;
+   border-bottom: none;
+}
  .columns__provider h2 {
    font-family: PF Din Text Comp Pro;
    font-weight: normal;
@@ -141,7 +149,7 @@
  }
  .columns__line_hide {
    content: "";
-   width: 1px;
+   width: 2px;
    height: auto;
    background-color: #c4c4c4;
  }
@@ -179,6 +187,9 @@ body.letsee-active.wonb .columns__all_hide{
    color: #96a9c6;
    margin: 30px 0px 10px 0px;
  }
+ body.letsee-active.bonw .columns__all_hide.hide:hover, body.letsee-active.wonb .columns__all_hide.hide:hover{
+   opacity: 0.7;
+   }
  .columns__hide {
    display: none;
  }
@@ -231,6 +242,15 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    background: url(../img/close_link.svg) left no-repeat;
    padding: 0px 0px 45px 45px;
  }
+ body.letsee-active.wonb .columns__add {
+   background: url(../img/open_link_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__add_hide{
+   background: url(../img/open_link_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__add_hide.hide {
+   background: url(../img/close_link_wonb.svg) left no-repeat;
+ }
  .columns__provider p .columns__uploads p {
    padding: 25px 50px 0px 0px;
    font-size: 21px;
@@ -269,12 +289,18 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    letter-spacing: 0.5em;
    text-transform: uppercase;
  }
+ body.letsee-active.wonb .columns__adds p{
+   background: url(../img/download_wonb.svg) left no-repeat;
+}
  .columns__adds p:hover,
  .columns__adds p:active {
    background: url(../img/downloadh.svg) left no-repeat;
    padding: 13px 0px 14px 70px;
    transition: width 0.1s ease-in-out;
  }
+ body.letsee-active.wonb .columns__adds p:hover, body.letsee-active.wonb .columns__adds p:active{
+   background: url(../img/download.svg) left no-repeat;
+}
  .columns__rows {
    max-width: 1400px;
    width: 80%;

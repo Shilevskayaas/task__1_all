@@ -1,6 +1,14 @@
 .content::before{
    display: none;
 }
+body.letsee-active.bonw #letsee-panel {
+   border-top: 1px solid #000;
+   border-bottom: none;
+}
+body.letsee-active.wonb #letsee-panel {
+   border-top: 1px solid #fff;
+   border-bottom: none;
+}
 .columns__news{
    max-width: 1400px;
    margin: 0 auto;
@@ -51,7 +59,10 @@
    background: url(../img/button1__news.svg) left no-repeat;
    padding: 50px 0px 0px 0px;
 }
-.columns__detailed:hover{
+body.letsee-active.wonb .columns__detailed{
+   background: url(../img/button1__news_wonb.svg) left no-repeat;
+}
+.columns__detailed:hover, body.letsee-active.wonb .columns__detailed:hover{
    width: 160px;
    background: url(../img/button1h__news.svg) left no-repeat;
    padding: 50px 0px 0px 0px;

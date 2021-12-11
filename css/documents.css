@@ -1,6 +1,14 @@
 .content::before{
    display: none;
 }
+body.letsee-active.bonw #letsee-panel {
+   border-top: 1px solid #000;
+   border-bottom: none;
+}
+body.letsee-active.wonb #letsee-panel {
+   border-top: 1px solid #fff;
+   border-bottom: none;
+}
 .columns__links{
    padding: 0px 32px 60px 32px;
 }
@@ -60,6 +68,9 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    align-items: center;
    background: url(../img/download.svg) left no-repeat;
    padding: 15px 125px 15px 70px;
+}
+body.letsee-active.wonb .columns__add p{
+   background: url(../img/download_wonb.svg) left no-repeat;
 }
 .columns__add p:hover, .columns__add p:active{
    width: 100px;
