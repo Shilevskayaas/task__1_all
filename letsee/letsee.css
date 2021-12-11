@@ -132,7 +132,12 @@ input:checked + .letsee-off {
       display: flex;
       flex-direction: column;
       height: auto;
+      justify-content: space-around;
+      height: 500px
    }
+   .letsee-block {
+      flex: 0 0 auto;
+  }
    body.letsee-active .header__img{
       width: auto;
       height: auto;

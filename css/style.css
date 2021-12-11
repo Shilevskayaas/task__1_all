@@ -394,6 +394,10 @@ body.letsee-active.wonb .header__line:not(.letsee-guard) {
    background-color: #11305d;
    transition: width 0.2s ease-in-out;
  }
+ body.letsee-active.wonb .header__list_hover:after,
+ body.letsee-active.wonb .header__list_active:after {
+   background-color: #fff;
+ }
  .header__list_hover:hover:after,
  .header__list_hover:focus:after,
  .header__list_hover:active:after,
@@ -2001,4 +2005,8 @@ body.letsee-active.wonb .columns__fix a{
   body.letsee-active.wonb .header__list::after {
      background-color: #fff;
    }
+   body.letsee-active .header__toggle:not(.letsee-guard) {
+    font-size: 10px !important;
+}
+
  

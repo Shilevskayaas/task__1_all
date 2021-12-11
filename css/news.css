@@ -133,7 +133,10 @@ body.letsee-active.wonb .columns__detailed{
       background: url(../img/button1m__news.svg) left no-repeat;
       padding: 50px 0px 0px 0px;
    }
-   .columns__detailed:hover{
+   body.letsee-active.wonb .columns__detailed{
+      background: url(../img/button1m__news_wonb.svg) left no-repeat;
+   }
+   .columns__detailed:hover, body.letsee-active.wonb .columns__detailed:hover{
       width: 160px;
       background: url(../img/button1mh__news.svg) left no-repeat;
       padding: 50px 0px 0px 0px;

@@ -630,6 +630,15 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      background: url(../img/close_linkm.svg) left no-repeat;
      padding: 48px 0px 20px 30px;
    }
+   body.letsee-active.wonb .columns__add {
+      background: url(../img/open_linkm_wonb.svg) left no-repeat;
+    }
+    body.letsee-active.wonb .columns__add_hide{
+      background: url(../img/open_linkm_wonb.svg) left no-repeat;
+    }
+    body.letsee-active.wonb .columns__add_hide.hide {
+      background: url(../img/close_linkm_wonb.svg) left no-repeat;
+    }
    .columns__text_hide.hide .columns__hide {
      display: none;
    }
@@ -682,24 +691,6 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      flex: 1 1 auto;
      padding: 0px 0px 0px 0px;
    }
-   .columns__add p {
-     font-family: "ALS Hauss";
-     font-weight: 500;
-     font-size: 10px;
-     letter-spacing: 0.5em;
-     padding: 18px 0px 20px 50px;
-     background: url(../img/downloadm.svg) left no-repeat;
-     transition: width 0.1s ease-in-out;
-   }
-   .columns__add p:hover {
-     font-family: "ALS Hauss";
-     font-weight: 500;
-     font-size: 10px;
-     letter-spacing: 0.5em;
-     padding: 18px 0px 20px 50px;
-     background: url(../img/downloadmh.svg) left no-repeat;
-     transition: width 0.1s ease-in-out;
-   }
    .columns__all_hide.hide {
      width: 80px;
      margin: 25px 0px 0px 0px;
@@ -728,7 +719,10 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      letter-spacing: 0.5em;
      text-transform: uppercase;
    }
-   .columns__adds p:hover {
+   body.letsee-active.wonb .columns__adds p{
+      background: url(../img/downloadm_wonb.svg) left no-repeat;
+   }
+   .columns__adds p:hover, body.letsee-active.wonb .columns__adds p:hover {
      background: url(../img/downloadmh.svg) left no-repeat;
      padding: 13px 0px 14px 45px;
      transition: width 0.1s ease-in-out;
