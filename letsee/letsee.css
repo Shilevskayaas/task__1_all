@@ -137,4 +137,24 @@ input:checked + .letsee-off {
       width: auto;
       height: auto;
    }
+   body.letsee-active.bonw #letsee-panel, body.letsee-active.wonb #letsee-panel {
+      border: none;
+    
+   }
+   body.letsee-active.bonw .content::before{
+     content: "";
+     display: block;
+     width: 90vw;
+     height: 1px;
+     margin: 0 auto;
+     background-color: #000;
+   }
+   body.letsee-active.wonb .content::before{
+      content: "";
+      display: block;
+      width: 90vw;
+      height: 1px;
+      margin: 0 auto;
+      background-color: #fff;
+    }
 }

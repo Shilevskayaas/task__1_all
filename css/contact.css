@@ -134,14 +134,13 @@ body.letsee-active.wonb .columns__fb {
 .columns__list_hover:hover {
   border-bottom: 2px solid #11305d;
 }
-body.letsee-active.bonw .columns__list li.active,
-body.letsee-active.bonw .columns__list_hover:hover{
+
+body.letsee-active.bonw .columns__list_hover:hover, body.letsee-active.bonw .columns__list li.active{
    border-bottom: 2px solid #000;
    }
-   body.letsee-active.wonb .columns__list li.active,
-   body.letsee-active.wonb .columns__list_hover:hover{
-      border-bottom: 2px solid #fff;
-      }
+body.letsee-active.wonb .columns__list_hover:hover, body.letsee-active.wonb .columns__list li.active{
+   border-bottom: 2px solid #fff;
+   }
 .columns__list li:not(.active):hover {
   border-bottom: none;
 }
@@ -316,6 +315,18 @@ body.letsee-active.wonb .columns__service a{
   font-weight: normal;
 }
 @media (max-width: 768px) {
+   body.letsee-active.bonw .columns__list li.active{
+      border: none;
+      }
+      body.letsee-active.wonb .columns__list li.active{
+      border: none;
+      }
+      body.letsee-active.bonw .columns__list_hover:hover{
+         border-bottom: 1px solid #000;
+         }
+      body.letsee-active.wonb .columns__list_hover:hover{
+         border-bottom: 1px solid #fff;
+         }
   .columns {
     display: block;
   }
@@ -334,7 +345,10 @@ body.letsee-active.wonb .columns__service a{
     background: url(../img/button1m__contacts.svg) center no-repeat;
     padding: 0px 0px 76px 0px;
   }
-  .columns__detailed:hover {
+  body.letsee-active.wonb .columns__detailed{
+   background: url(../img/button1m__contacts_wonb.svg) center no-repeat;
+  }
+  .columns__detailed:hover, body.letsee-active.wonb .columns__detailed:hover {
     width: 310px;
     margin: 0 auto;
     background: url(../img/button1mh__contacts.svg) center no-repeat;
@@ -406,6 +420,10 @@ body.letsee-active.wonb .columns__service a{
   .columns__list_hover:hover {
     border-bottom: 1px solid #11305d;
   }
+  body.letsee-active.wonb .columns__list li.active span,
+  body.letsee-active.wonb .columns__list_hover:hover {
+    border-bottom: 1px solid #fff;
+  }
   .columns__list li:not(.active):hover {
     border-bottom: none;
   }
@@ -449,6 +467,15 @@ body.letsee-active.wonb .columns__service a{
   .columns__marker_3 {
     background: url(../img/marker_3m.svg) left no-repeat;
   }
+  body.letsee-active.wonb .columns__marker_1 {
+   background: url(../img/marker_1m_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__marker_2 {
+   background: url(../img/marker_2m_wonb.svg) left no-repeat;
+ }
+ body.letsee-active.wonb .columns__marker_3 {
+   background: url(../img/marker_3m_wonb.svg) left no-repeat;
+ }
   .columns__texts {
     height: 100%;
     padding: 18px 0px 0px 0px;

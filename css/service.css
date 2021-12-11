@@ -516,6 +516,9 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    font-weight: normal;
  }
  @media (max-width: 768px) {
+   body.letsee-active.bonw #letsee-panel, body.letsee-active.wonb #letsee-panel {
+      border: none;
+   }
    body.letsee-active.bonw .columns__info a,
    body.letsee-active.bonw .columns__info p br{
       background-color: #000 !important;
@@ -737,7 +740,12 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    .hide .columns__hide_mobile {
      border-bottom: 1px solid #c4c4c4;
    }
- 
+   body.letsee-active.bonw .hide .columns__hide_mobile {
+      border-bottom: 1px solid #000;
+    }
+    body.letsee-active.wonb .hide .columns__hide_mobile {
+      border-bottom: 1px solid #fff;
+    }
    .columns__lines_short.hide {
      /* display: block; */
      display: none;

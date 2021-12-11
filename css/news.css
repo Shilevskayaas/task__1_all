@@ -105,6 +105,9 @@ body.letsee-active.wonb .columns__detailed{
    font-weight: normal;
 }
 @media (max-width: 768px) {
+   body.letsee-active.bonw #letsee-panel, body.letsee-active.wonb #letsee-panel {
+      border: none;
+   }
    .columns__fix{
       padding: 0px 0px 0px 0px;
       flex-direction: column-reverse;

@@ -604,6 +604,9 @@ body.letsee-active.wonb .header__line:not(.letsee-guard) {
      color: #96a9c6;
      transition: width 0.1s ease-in-out;
    }
+   body.letsee-active .header__list a:hover{
+      opacity: 0.7;
+   }
    .header__popup {
      display: none;
      position: absolute;
@@ -1256,6 +1259,15 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      margin: 0 auto;
      background-color: #1b4a91;
    }
+   body.letsee-active.wonb .columns__icons_1:before,
+   body.letsee-active.wonb .columns__icons_2:before,
+   body.letsee-active.wonb .columns__icons_3:before,
+   body.letsee-active.wonb .columns__icons_4:before,
+   body.letsee-active.wonb .columns__icons_5:before,
+   body.letsee-active.wonb .columns__icons_6:before,
+   body.letsee-active.wonb .columns__icons_6:after{
+      background-color: #fff;
+   }
    .columns__icons_1.toggle::before {
      display: none;
    }
@@ -1437,7 +1449,10 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      background: url(../img/downloadm.svg) left no-repeat;
      transition: width 0.1s ease-in-out;
    }
-   .columns__add p:hover {
+   body.letsee-active.wonb .columns__add p{
+      background: url(../img/downloadm_wonb.svg) left no-repeat;
+   }
+   .columns__add p:hover, body.letsee-active.wonb .columns__add p:hover {
      font-family: "ALS Hauss";
      font-weight: 500;
      font-size: 10px;
@@ -1809,6 +1824,9 @@ body.letsee-active.wonb .footer__contact:not(.letsee-guard) {
      align-items: center;
      padding: 0;
    }
+   body.letsee-active.bonw .footer__contact:not(.letsee-guard), body.letsee-active.wonb .footer__contact:not(.letsee-guard) {
+      border: none;
+   }
    .footer__row {
      display: flex;
      flex-direction: column;
@@ -1979,8 +1997,8 @@ body.letsee-active.wonb .columns__fix a{
     display: none;
   }
   
-  body.letsee-active.wonb .header__list_hover:after,
-  body.letsee-active.wonb .header__list_active:after {
-    background-color: white;
-  }
+  body.letsee-active.wonb .header__list::before,
+  body.letsee-active.wonb .header__list::after {
+     background-color: #fff;
+   }
  

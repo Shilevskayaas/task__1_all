@@ -179,6 +179,9 @@ body.letsee-active.wonb .columns__add {
    font-weight: normal;
 }
 @media (max-width: 768px) {
+   body.letsee-active.bonw #letsee-panel, body.letsee-active.wonb #letsee-panel {
+      border: none;
+   }
    .columns__links {
       padding: 0px 20px 0px 20px;
    }
@@ -233,6 +236,15 @@ body.letsee-active.wonb .columns__add {
       background: url(../img/close_linkm.svg) right no-repeat;
       padding: 37px 0px 20px 30px;
    }
+   body.letsee-active.wonb .columns__add {
+      background: url(../img/open_linkm_wonb.svg) left no-repeat;
+    }
+    body.letsee-active.wonb .columns__add_hide{
+      background: url(../img/open_linkm_wonb.svg) left no-repeat;
+    }
+    body.letsee-active.wonb .columns__add_hide.hide {
+      background: url(../img/close_linkm_wonb.svg) left no-repeat;
+    }
    .columns__link_5, .columns__link_6, .columns__link_7, .columns__link_8, .columns__lines_none{
       display: none;
    }
