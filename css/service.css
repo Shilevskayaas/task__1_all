@@ -363,33 +363,29 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
  .columns__abouts_1 {
    background: url(../img/icon1__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 45px;
  }
  .columns__abouts_2 {
    background: url(../img/icon2__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 45px;
  }
  .columns__abouts_3 {
    background: url(../img/icon3__provider.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 68px;
+   margin-bottom: 20px;
  }
  
  body.letsee-active.wonb .columns__abouts_1 {
    background: url(../img/icon1__provider_wonb.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 45px;
  }
  body.letsee-active.wonb .columns__abouts_2 {
    background: url(../img/icon2__provider_wonb.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 45px;
  }
  body.letsee-active.wonb .columns__abouts_3 {
    background: url(../img/icon3__provider_wonb.svg) center/auto no-repeat;
    background-position-y: 65px;
-   margin-bottom: 68px;
+   margin-bottom: 20px;
  }
  .columns__essential {
    background: url(../img/load.svg) bottom/auto no-repeat;
@@ -534,7 +530,7 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    }
    .columns__provider p {
      width: 100%;
-     padding: 0px 20px 21px 20px;
+     padding: 0px 20px 0px 20px;
      font-family: PF Din Text Comp Pro;
      font-weight: normal;
      font-size: 17px;
@@ -810,7 +806,10 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      text-align: center;
      letter-spacing: 0.5em;
      text-transform: uppercase;
-     padding: 15px 0px 5px 0px;
+     padding: 20px 0px 5px 0px;
+   }
+   .columns__info p{
+      min-height: auto;
    }
    .columns__abouts_1 {
      background: url(../img/icon1m__provider.svg) top/auto no-repeat;
@@ -845,35 +844,35 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
     }
    .columns__essential {
      background: url(../img/loadm.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    .columns__essential:hover {
      background: url(../img/loadmh.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    .columns__personal {
      background: url(../img/enterm.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    .columns__personal:hover {
      background: url(../img/entermh.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    body.letsee-active.wonb .columns__essential {
      background: url(../img/loadm_wonb.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    body.letsee-active.wonb .columns__essential:hover {
      background: url(../img/loadmh_wonb.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    body.letsee-active.wonb .columns__personal {
      background: url(../img/enterm_wonb.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    body.letsee-active.wonb .columns__personal:hover {
      background: url(../img/entermh_wonb.svg) bottom/auto no-repeat;
-     padding: 25px 100px 25px 100px;
+     padding: 30px 100px 25px 100px;
    }
    .columns__pay {
      background: url(../img/paym.png) bottom/auto no-repeat;
