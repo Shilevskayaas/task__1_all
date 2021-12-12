@@ -13,7 +13,7 @@ body.letsee-active.wonb #letsee-panel {
    padding: 0px 32px 60px 32px;
 }
 .columns__link{
-   height: 90px;
+   min-height: 90px;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -73,7 +73,7 @@ body.letsee-active.wonb .columns__add p{
    background: url(../img/download_wonb.svg) left no-repeat;
 }
 body.letsee-active.bonw .columns__all, body.letsee-active.wonb .columns__all{
-   width: 89px;
+   min-width: 89px;
 }
 .columns__add p:hover, .columns__add p:active{
    width: 100px;

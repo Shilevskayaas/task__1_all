@@ -458,13 +458,13 @@ body.letsee-active.wonb .columns__service a{
   .columns__picture_mobile {
     display: block;
   }
-  .columns__marker_1 {
+  .columns__marker_1, body.letsee-active.bonw .columns__marker_1 {
     background: url(../img/marker_1m.svg) left no-repeat;
   }
-  .columns__marker_2 {
+  .columns__marker_2, body.letsee-active.bonw .columns__marker_2 {
     background: url(../img/marker_2m.svg) left no-repeat;
   }
-  .columns__marker_3 {
+  .columns__marker_3, body.letsee-active.bonw .columns__marker_3 {
     background: url(../img/marker_3m.svg) left no-repeat;
   }
   body.letsee-active.wonb .columns__marker_1 {

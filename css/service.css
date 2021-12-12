@@ -90,7 +90,7 @@ body.letsee-active.wonb #letsee-panel {
    height: auto;
    display: flex;
    flex-direction: column;
-   padding: 0 20px;
+   padding: 0 5px;
  }
  .columns__tables_3 h5,
  .columns__tables_4 h5,
@@ -167,14 +167,14 @@ body.letsee-active.wonb .columns__line_hide:not(.letsee-guard) {
    letter-spacing: 0.05em;
    text-transform: uppercase;
    width: 112px;
-   border-bottom: 2px solid #11305d;
+   border-bottom: 1px solid #11305d;
    padding-bottom: 3px;
  }
  body.letsee-active.bonw .columns__all_hide{
-   border-bottom: 2px solid #000;
+   border-bottom: 1px solid #000;
    }
 body.letsee-active.wonb .columns__all_hide{
-   border-bottom: 2px solid #fff;
+   border-bottom: 1px solid #fff;
 }
  .columns__all_hide.hide {
    display: block;
