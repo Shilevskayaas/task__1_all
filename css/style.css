@@ -742,7 +742,7 @@ body.letsee-active.wonb .header__line:not(.letsee-guard) {
    display: inline-block;
  }
  body.letsee-active.bonw .columns__all{
-   border-bottom: 1px solid #000;
+   border-bottom: 2px solid #000;
    }
    body.letsee-active.bonw .columns__all:hover, body.letsee-active.wonb .columns__all:hover{
       opacity: 0.7;
@@ -1202,6 +1202,12 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    }
    .container {
      min-width: 320px;
+   }
+   body.letsee-active.bonw .columns__all{
+      border-bottom: 1px solid #000;
+      }
+   body.letsee-active.wonb .columns__all{
+      border-bottom: 1px solid #fff;
    }
    .columns h1 {
      font-size: 23px;
