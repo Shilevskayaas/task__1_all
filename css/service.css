@@ -166,7 +166,6 @@ body.letsee-active.wonb .columns__line_hide:not(.letsee-guard) {
    font-size: 21px;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   width: 112px;
    border-bottom: 1px solid #11305d;
    padding-bottom: 3px;
  }

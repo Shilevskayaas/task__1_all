@@ -68,33 +68,35 @@
   }
 
   var panel = $(
-    '<dl id="letsee-panel">' +
-      '<div class="letsee-block">' +
-      '<dt class="title">Размер шрифта</dt>' +
-      '<dd>' +
-      '<a href="#" class="letsee-change-fontsize letsee-fontsize-small letsee-fontsize-active">a</a>' +
-      '<a href="#" class="letsee-change-fontsize letsee-fontsize-medium" data-letsee-fontsize="21">A</a>' +
-      '<a href="#" class="letsee-change-fontsize letsee-fontsize-large"  data-letsee-fontsize="25">A</a>' +
-      '</dd>' +
+    '<dl id="letsee-container">'
+   + '<div class="letsee-panel">' +
+         '<div class="letsee-block">' +
+         '<dt class="title">Размер шрифта</dt>' +
+         '<dd>' +
+         '<a href="#" class="letsee-change-fontsize letsee-fontsize-small letsee-fontsize-active">a</a>' +
+         '<a href="#" class="letsee-change-fontsize letsee-fontsize-medium" data-letsee-fontsize="20">A</a>' +
+         '<a href="#" class="letsee-change-fontsize letsee-fontsize-large"  data-letsee-fontsize="24">A</a>' +
+         '</dd>' +
+         '</div>' +
+         '<div class="letsee-block">' +
+         '<dt class="title">Цвет сайта</dt>' +
+         '<dd>' +
+         '<a href="#" class="letsee-colors letsee-colors-bonw letsee-colors-active" data-letsee-colors="bonw"></a>' +
+         '<a href="#" class="letsee-colors letsee-colors-wonb" data-letsee-colors="wonb"></a>' +
+         '</dd>' +
+         '</div>' +
+         '<div class="letsee-block">' +
+         '<dt>' +
+         '<label for="letsee-hide-images" data-on-label="выкл" data-off-label="вкл">' +
+         '<span class="title">Изображения</span>' +
+         '<input type="checkbox" id="letsee-hide-images" class="letsee-hide-images"/>' +
+         '<div class="letsee-off">Вкл</div>' +
+         '<div class="letsee-on">Выкл</div>' +
+         '</label>' +
+         '</dt>' +
+         '</div>' +
       '</div>' +
-      '<div class="letsee-block">' +
-      '<dt class="title">Цвет сайта</dt>' +
-      '<dd>' +
-      '<a href="#" class="letsee-colors letsee-colors-bonw letsee-colors-active" data-letsee-colors="bonw"></a>' +
-      '<a href="#" class="letsee-colors letsee-colors-wonb" data-letsee-colors="wonb"></a>' +
-      '</dd>' +
-      '</div>' +
-      '<div class="letsee-block">' +
-      '<dt>' +
-      '<label for="letsee-hide-images" data-on-label="выкл" data-off-label="вкл">' +
-      '<span class="title">Изображения</span>' +
-      '<input type="checkbox" id="letsee-hide-images" class="letsee-hide-images"/>' +
-      '<div class="letsee-off">Вкл</div>' +
-      '<div class="letsee-on">Выкл</div>' +
-      '</label>' +
-      '</dt>' +
-      '</div>' +
-      '</dl>'
+   '</dl>'
   )
     .addClass('letsee-guard')
     .find('*')

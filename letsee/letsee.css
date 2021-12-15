@@ -9,34 +9,37 @@ body.letsee-active .header__blind p{
    background: url(../img/versionh.svg) left no-repeat;
 }
 
-#letsee-panel {
+.letsee-panel {
    display: none;
    top: 15px;
    height: 230px;
    width: 100%;
    margin: 0;
-   border-top: 1px solid #000;
-   border-bottom: 1px solid #000;
    font-size: 24px;
    line-height: 1.6;
    text-align: center;
    text-transform: uppercase;
 }
-body.letsee-active.bonw #letsee-panel {
+body.letsee-active.bonw #letsee-container {
    border-top: 1px solid #000;
    border-bottom: 1px solid #000;
 }
-body.letsee-active.wonb #letsee-panel {
+body.letsee-active.wonb #letsee-container {
    border-top: 1px solid #fff;
    border-bottom: 1px solid #fff;
 }
-body.letsee-active #letsee-panel {
+body.letsee-active #letsee-container {
+   width: 100%;
+}
+body.letsee-active .letsee-panel {
+   max-width: 1400px;
+   margin: 0 auto;
    display: block;
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
-#letsee-panel * {
+.letsee-panel * {
    user-select: none;
    -webkit-user-select: none;
    -moz-user-select: none;
@@ -49,7 +52,7 @@ body.letsee-active #letsee-panel {
    font-style: 30px;
    margin: 0px 0px 30px 0px;
 }
-#letsee-panel a {
+.letsee-panel a {
    display: inline-flex;
    flex-direction: row;
    align-items: center;
@@ -128,7 +131,7 @@ input:checked + .letsee-off {
    margin-left: 60px;
 }
 @media (max-width: 768px){
-   body.letsee-active #letsee-panel{
+   body.letsee-active .letsee-panel{
       display: flex;
       flex-direction: column;
       height: auto;
@@ -142,9 +145,8 @@ input:checked + .letsee-off {
       width: auto;
       height: auto;
    }
-   body.letsee-active.bonw #letsee-panel, body.letsee-active.wonb #letsee-panel {
+   body.letsee-active.bonw #letsee-container,body.letsee-active.wonb #letsee-container {
       border: none;
-    
    }
    body.letsee-active.bonw .content::before{
      content: "";

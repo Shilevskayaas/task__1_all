@@ -1694,7 +1694,6 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    flex-direction: column;
    justify-content: space-between;
    font-size: 14px;
-   line-height: 22px;
    letter-spacing: 0.1em;
    text-transform: uppercase;
  }
