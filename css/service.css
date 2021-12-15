@@ -686,8 +686,10 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      flex: 1 1 auto;
      padding: 0px 0px 0px 0px;
    }
+   body.letsee-active .columns__tables li{
+      line-height: 16px;
+   }
    .columns__all_hide.hide {
-     width: 80px;
      margin: 25px 0px 0px 0px;
      font-family: PF Din Text Comp Pro;
      font-weight: normal;
@@ -945,6 +947,9 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    }
    .columns__lines_margin {
      margin-bottom: 20px;
+   }
+   body.letsee-active .columns__table{
+      min-height: 300px;
    }
  }
  @media (max-width: 1096px) and (min-width: 769px) {

@@ -210,6 +210,9 @@ body.letsee-active.wonb .columns__add {
       font-size: 10px;
       line-height: 15px;
    }
+   body.letsee-active .columns__text_hide.hide{
+      line-height: 25px;
+   }
    .columns__text h2{
       width: 80%;
       font-family: ALS Hauss;
@@ -227,6 +230,9 @@ body.letsee-active.wonb .columns__add {
       font-weight: normal;
       font-size: 10px;
       line-height: 15px;
+   }
+   body.letsee-active .columns__block, .columns__block p{
+      line-height: 25px;
    }
    .columns__add{
       background: url(../img/open_linkm.svg) right no-repeat;

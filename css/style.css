@@ -1217,7 +1217,6 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
      display: none;
    }
    .columns__all {
-     width: 71px;
      margin: 20px 0px 0px 20px;
      font-family: PF Din Text Comp Pro;
      font-weight: normal;
@@ -1696,6 +1695,7 @@ body.letsee-active.wonb .columns__lines:not(.letsee-guard) {
    font-size: 14px;
    letter-spacing: 0.1em;
    text-transform: uppercase;
+   min-height: 130px;
  }
  .footer a,
  .footer a:visited,
